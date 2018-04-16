@@ -22,11 +22,15 @@
 library(blogdown)
 #install_hugo()
 
-# Create new site in our recently cloned blogdown repository (same as wd, unless specified)
+# At site creation, I ran the below lines to generate the site in Blogdown.
+# Running this again would overwrite the site with a new blank site. Left as an example.
+
 # Can use different themes (https://themes.gohugo.io/) by specifying the github repo theme=''
-# For this step the directory needs to be completely empty
-new_site(theme = 'saey55/hugo-elate-theme',
-         format = 'toml')
+# The URL comes from the end of the theme's GitHub account and repo.
+# Here, using the theme https://github.com/gcushen/hugo-academic
+# For this step the directory needs to be completely empty (I just temporarily move the existing files out and back in)
+#new_site(theme = 'gcushen/hugo-academic',
+#         format = 'toml', theme_example = TRUE)
 
 # Create a new post
 # new_post(title = 'hello-world.Rmd', ext = ".Rmd")
@@ -40,8 +44,10 @@ serve_site()
 # because of publishDir = "../raklein.github.io" in config.toml
 build_site()
 
-# To commit to github pages, open a terminal, navigate to the raklein.github.io folder
-# and type these three lines:
+# To commit to github pages, open the terminal in Rstudio (should be next to Console)
+# Type the three commands:
 #git add --all
 #git commit -m "Commit message here"
 #git push -u origin master
+# Note: You may run into authentication issues when pushing changes here. You can either login your computer
+# to the co-relab github account, or have your username added as a collaborator (preferable).
