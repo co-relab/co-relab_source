@@ -58,3 +58,7 @@ build_site()
 #git push -u origin master
 # Note: You may run into authentication issues when pushing changes here. You can either login your computer
 # to the co-relab github account, or have your username added as a collaborator (preferable).
+
+# Next, you have to manually copy the files under /public/ into the GitHub Pages repo
+# In this case, copy the files from co-relab_source/public to /co-relab.github.io/
+# Then, commit that repo as well.
