@@ -29,10 +29,16 @@ library(blogdown)
 # The URL comes from the end of the theme's GitHub account and repo.
 # Here, using the theme https://github.com/gcushen/hugo-academic
 # For this step the directory needs to be completely empty (I just temporarily move the existing files out and back in)
-#new_site(theme = 'gcushen/hugo-academic',
-#         format = 'toml', theme_example = TRUE)
+#new_site(theme = 'gcushen/hugo-academic', format = 'toml', theme_example = TRUE)
 
-# Create a new post
+# Trying Elate theme, had to change install call for it to work
+#new_site(theme='saey55/hugo-elate-theme')
+
+# Now, there are many files in the directory. As far as I know, these must be edited manually to add/change content.
+# The main file for this theme is config.toml
+# Images under /public/images
+
+# Here's an example to create a new post, if this is a blog.
 # new_post(title = 'hello-world.Rmd', ext = ".Rmd")
 
 # Serve site to generate the webpage.
@@ -40,11 +46,12 @@ library(blogdown)
 serve_site()
 
 # To deploy to web:
-# Below command renders the site into "public" folder, and also raklein.github.io folder
-# because of publishDir = "../raklein.github.io" in config.toml
+# Below command renders the site into "public" folder (some themes allow you to output elsewhere)
+# Public needs copied to the actual github pages repo.
 build_site()
 
 # To commit to github pages, open the terminal in Rstudio (should be next to Console)
+# Navigate to the local repo you want to commit with "cd"
 # Type the three commands:
 #git add --all
 #git commit -m "Commit message here"
