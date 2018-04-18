@@ -46,8 +46,9 @@ library(blogdown)
 serve_site()
 
 # To deploy to web:
-# Below command renders the site into "public" folder (some themes allow you to output elsewhere)
-# Public needs copied to the actual github pages repo.
+# Below command by default renders the site into a new subfolder in the directory called "public".
+# At the top of confid.toml you can specify a different directory with e.g. publishDir = ""
+# In this case I added publishDir = "../co-relab.github.io" which generates these files in the github pages repo folder.
 build_site()
 
 # To commit to github pages, open the terminal in Rstudio (should be next to Console)
@@ -59,6 +60,4 @@ build_site()
 # Note: You may run into authentication issues when pushing changes here. You can either login your computer
 # to the co-relab github account, or have your username added as a collaborator (preferable).
 
-# Next, you have to manually copy the files under /public/ into the GitHub Pages repo
-# In this case, copy the files from co-relab_source/public to /co-relab.github.io/
-# Then, commit that repo as well.
+# Remember to commit both the source repo and the github pages repo e.g. co-relab_source and co-relab.github.io

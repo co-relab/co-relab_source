@@ -3,6 +3,7 @@ baseurl = "corelab.io"
 title = "CORE Lab"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+publishDir = "../co-relab.github.io"
 
 [params]
   
@@ -256,7 +257,7 @@ theme = "hugo-elate-theme"
   [params.contact]
     enable = true
     map = true
-    form = true
+    form = false
     title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     
