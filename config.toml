@@ -80,7 +80,7 @@ publishDir = "../co-relab.github.io"
 
   # Work section
   [params.work]
-    enable = true
+    enable = false
     title = "Projects"
     description = "At any given time the lab is working on many projects. Here's a sample."
     footertext = ''
@@ -150,7 +150,7 @@ publishDir = "../co-relab.github.io"
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -186,9 +186,10 @@ publishDir = "../co-relab.github.io"
       img = "hans_twitter.jpeg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-globe", "http://www.hansijzerman.org/"],
+        ["icon-folder", "https://osf.io/3hsfj/"],
+        ["icon-google", "https://scholar.google.com/citations?user=KC7FG9QAAAAJ"],        
+        ["icon-twitter", "https://twitter.com/hansijzerman"]
       ]
 
     [[params.about.item]]
@@ -198,9 +199,10 @@ publishDir = "../co-relab.github.io"
       img = "klein.cos.photo.jpg"
       alt = "RichardKlein"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-globe", "https://raklein.github.io/"],
+        ["icon-folder", "https://osf.io/tmwry/"],
+        ["icon-google", "https://scholar.google.com/citations?user=wxW6e0sAAAAJ"],
+        ["icon-github", "https://github.com/raklein"]
       ]
 
     [[params.about.item]]
@@ -210,9 +212,7 @@ publishDir = "../co-relab.github.io"
       img = "person3.jpg"
       alt = "Person3"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+      ["icon-folder", "https://osf.io/n75jp/"]
       ]      
 
   # Counters section
