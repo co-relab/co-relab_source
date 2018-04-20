@@ -1,0 +1,43 @@
+# Load blogdown package and install Hugo
+library(blogdown)
+git add --all
+# Load blogdown package and install Hugo
+library(blogdown)
+# Serve site to generate the webpage.
+# Click the button next to the broom in the viewer to open in a browser.
+serve_site()
+# To deploy to web:
+# Below command renders the site into "public" folder (some themes allow you to output elsewhere)
+# Public needs copied to the actual github pages repo.
+build_site()
+# To deploy to web:
+# Below command renders the site into "public" folder (some themes allow you to output elsewhere)
+# Public needs copied to the actual github pages repo.
+build_site()
+# To deploy to web:
+# Below command renders the site into "public" folder (some themes allow you to output elsewhere)
+# Public needs copied to the actual github pages repo.
+build_site()
+cd ..
+cd co-relab.github.io
+cd core-lab.github.io
+cd co-relab.github.io
+# Serve site to generate the webpage.
+# Click the button next to the broom in the viewer to open in a browser.
+serve_site()
+# Load blogdown package and install Hugo
+library(blogdown)
+# Serve site to generate the webpage.
+# Click the button next to the broom in the viewer to open in a browser.
+serve_site()
+# To deploy to web:
+# Below command by default renders the site into a new subfolder in the directory called "public".
+# At the top of confid.toml you can specify a different directory with e.g. publishDir = ""
+# In this case I added publishDir = "../co-relab.github.io" which generates these files in the github pages repo folder.
+build_site()
+# Serve site to generate a preview of the webpage.
+# Click the button next to the broom in the viewer to open in a browser.
+serve_site()
+# Serve site to generate a preview of the webpage.
+# Click the button next to the broom in the viewer to open in a browser.
+serve_site()

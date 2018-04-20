@@ -17,7 +17,7 @@ publishDir = "../co-relab.github.io"
   [params.navigation]
     brand = "CORE Lab"
     home = "Home"
-    work = "Work"
+    work = "Projects"
     testimonials = "Testimonials"
     services = "Services"
     about = "Lab Members"
@@ -48,42 +48,42 @@ publishDir = "../co-relab.github.io"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Papers"
+    description = "Check out publications and/or preprints from the lab. We try to ensure all our work is available to the public, so if you can't find a paper let us know!"
     url = "#"
-    button = "Get In Touch"
+    button = "Access Papers"
+    icon = "icon-docs"
+    img = "papers.png"
+
+  [[params.intro.item]]
+    title = "Open Data/Materials"
+    description = "To the extent possible we make materials, data, and analysis scripts publicly available on the Open Science Framework. These may be used for re-analysis or for novel hypotheses."
+    url = 'https://osf.io/search/?q=tags:("CORE Lab")&page=1' #This links to a search on OSF for projects tagged "CORE Lab". So, if we stick with this, we should add that tag to all our osf projects.
+    button = "Find our datasets"
+    icon = "icon-folder"
+    img = "COS-Logo-small-1.png"
+
+  [[params.intro.item]]
+    title = "Popular Science"
+    description = "Are you a non-scientist, interested in solid, well-written psychological science? Check out the Open Access In-Mind Magazine (available in English, Dutch, Italian, and German)."
+    url = "http://www.in-mind.org/"
+    button = "Go to In-Mind"
     icon = "icon-bulb"
-    img = "img_7.jpg"
+    img = "inmind.png"
 
-  [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
-
-#  [params.intro.video]
-#    enable = true
-#    title = "Watch the video"
-#    icon = "icon-play2"
-#    url = "https://vimeo.com/channels/staffpicks/93951774"
+  [params.intro.video]
+    enable = false
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
 
 
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Projects"
+    description = "At any given time the lab is working on many projects. Here's a sample."
+    footertext = ''
 
     [[params.work.row]]
       img = "work_1.jpg"
@@ -123,7 +123,7 @@ publishDir = "../co-relab.github.io"
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -217,7 +217,7 @@ publishDir = "../co-relab.github.io"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -255,32 +255,32 @@ publishDir = "../co-relab.github.io"
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     map = true
-    form = false
+    form = true
     title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
+#        ["icon-phone", "(123) 465-6789"],
         ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+#        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
     name = "Name"
     email = "Email"
-    phone = "Phone"
+#    phone = "Phone"
     message = "Message"
     button = "Send message"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
-    links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
-      ]
+    copyright = '&copy; CORE Lab 2018. All Rights Reserved. <br>Powered by the <a href="https://github.com/saey55/hugo-elate-theme">Elate Hugo port</a>.'
+#    links = [
+#        ["icon-twitter", "#twitter"],
+#        ["icon-facebook", "#facebook"],
+#        ["icon-youtube", "#youtube"]
+#      ]

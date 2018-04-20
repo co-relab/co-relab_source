@@ -29,25 +29,27 @@ library(blogdown)
 # The URL comes from the end of the theme's GitHub account and repo.
 # Here, using the theme https://github.com/gcushen/hugo-academic
 # For this step the directory needs to be completely empty (I just temporarily move the existing files out and back in)
-#new_site(theme = 'gcushen/hugo-academic', format = 'toml', theme_example = TRUE)
-
-# Trying Elate theme, had to change install call for it to work
+# Trying Elate theme
 #new_site(theme='saey55/hugo-elate-theme')
 
 # Now, there are many files in the directory. As far as I know, these must be edited manually to add/change content.
 # The main file for this theme is config.toml
-# Images under /public/images
+# Most images are under /themes/static/images
+
+# This theme comes with 4 different CSS styles. I couldn't find a setting to change them, so to use style4 I manually renamed:
+# themes/hugo-elate-theme/static/css/style4.css to style.css
+# themes/hugo-elate-theme/static/css/style4.css.map to style.css.map
 
 # Here's an example to create a new post, if this is a blog.
 # new_post(title = 'hello-world.Rmd', ext = ".Rmd")
 
-# Serve site to generate the webpage.
+# Serve site to generate a preview of the webpage.
 # Click the button next to the broom in the viewer to open in a browser.
 serve_site()
 
 # To deploy to web:
 # Below command by default renders the site into a new subfolder in the directory called "public".
-# At the top of confid.toml you can specify a different directory with e.g. publishDir = ""
+# At the top of config.toml you can specify a different directory with: publishDir = ""
 # In this case I added publishDir = "../co-relab.github.io" which generates these files in the github pages repo folder.
 build_site()
 
