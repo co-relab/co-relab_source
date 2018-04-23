@@ -8,7 +8,7 @@ then "publish" the finished files to that repo.
 Basic steps to install/use/make changes:  
 1. [Install Git](https://help.github.com/articles/set-up-git/) (if necessary -- comes on Mac by default)  
 2. [Clone](https://help.github.com/articles/cloning-a-repository/) (e.g., download the files and create a Git repository on your local hard disk) these two repos locally. Open a [Terminal](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) (or [cmd prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/)), navigate to where you want the files to be stored (use the 'cd' command in Terminal), and run these two commands:  
-`"git clone https://github.com/co-relab/co-relab_source.git"`
+`"git clone https://github.com/co-relab/co-relab_source.git"`  
 `"git clone https://github.com/co-relab/co-relab.github.io.git"`
 
 This will create two new subdirectories/Git repos: co-relab_source and co-relab.github.io
