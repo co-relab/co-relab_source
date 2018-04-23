@@ -50,7 +50,7 @@ publishDir = "../co-relab.github.io"
   [[params.intro.item]]
     title = "Papers"
     description = "Check out publications and/or preprints from the lab. We try to ensure all our work is available to the public, so if you can't find a paper let us know!"
-    url = "#"
+    url = "http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1923044" #This just links to Hans' SSRN for now, thinking of better solutions.
     button = "Access Papers"
     icon = "icon-docs"
     img = "papers.png"
