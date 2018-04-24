@@ -17,4 +17,4 @@ You will also need R and R Studio installed.
 
 Then, navigate on your computer to the source files repo, and open the .rproj file (co-relab_source.rproj) in R Studio. Then open the r script (co-relab_source_rscript.R). Using R Projects eliminates the need to set a working directory each time (it's automatically set to the folder containing the .rproj file)
 
-Then, follow the instructions in the R script for more instructions.
+Then, follow the instructions in the R script for more info.

@@ -80,50 +80,39 @@ publishDir = "../co-relab.github.io"
 
   # Work section
   [params.work]
-    enable = false
+    enable = true
     title = "Projects"
     description = "At any given time the lab is working on many projects. Here's a sample."
     footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "penguins-429128_1920.jpg"
+      alt = "Penguins Image"
+      title = "Human Penguin Project"
+      subtitle = "Relationships between social environment and core body temperature."
+      url = "https://osf.io/2rm5b/" 
+
+# To enable external URLs here, I had to edit layouts/partials/work.html.
+# Line 16 from: <a href="images/{{ .img }}" class="fh5co-project-item image-popup to-animate">
+# to: <a href="{{ .url }}" class="fh5co-project-item to-animate">
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "cup-939479_1920.jpg"
+      alt = "Cold Glass Image"
+      title = "Socially Thermoregulated Thinking"
+      subtitle = "How past experiences matter in thinking about our loved ones."
+      url = "https://psyarxiv.com/25dmj"
 
     [[params.work.row]]
-      img = "work_3.jpg"
+      img = "stroopml.png"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      title = "Machine Learning and the Stroop Effect"
+      subtitle = "Revisiting what predicts performance on a classic effect using new statistics."
+      url = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2805205"
 
   # Testimonials section
   [params.testimonials]
-    enable = false
+    enable = true
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -144,13 +133,12 @@ publishDir = "../co-relab.github.io"
       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person3.jpg"
       alt = "Person3"
-    
 
 
 
   # Services section
   [params.services]
-    enable = false
+    enable = true
     title = "Services"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -255,7 +243,7 @@ publishDir = "../co-relab.github.io"
 
   # Contact section
   [params.contact]
-    enable = false
+    enable = true
     map = true
     form = true
     title = "Get in touch"
@@ -278,7 +266,7 @@ publishDir = "../co-relab.github.io"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; CORE Lab 2018. All Rights Reserved. <br>Powered by the <a href="https://github.com/saey55/hugo-elate-theme">Elate Hugo port</a>.'
+    copyright = 'Powered by the <a href="https://github.com/saey55/hugo-elate-theme">Elate Hugo port</a>.'
 #    links = [
 #        ["icon-twitter", "#twitter"],
 #        ["icon-facebook", "#facebook"],

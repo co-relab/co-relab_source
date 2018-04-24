@@ -12,6 +12,9 @@
 # and "git clone https://github.com/co-relab/co-relab.github.io.git" (github pages repo)
 # Note: you need git installed on your computer or this won't work (comes with MacOS, needs installed on Windows)
 
+# Subsequent times, run this line in Terminal if you want to pull any updates from the master branch
+#git pull origin master
+
 # Many lines below commented out because they are only run once to download files, which are
 # then manually edited. 
 #### WARNING: Uncommenting and running from the start will overwrite everything to defaults.
