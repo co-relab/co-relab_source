@@ -13,6 +13,7 @@
 # Note: you need git installed on your computer or this won't work (comes with MacOS, needs installed on Windows)
 
 # Subsequent times, run this line in Terminal if you want to pull any updates from the master branch
+# (generally good practice to run this before any new session, unless you have local changes you want to keep)
 #git pull origin master
 
 # Many lines below commented out because they are only run once to download files, which are

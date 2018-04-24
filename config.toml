@@ -12,15 +12,15 @@ publishDir = "../co-relab.github.io"
   # Meta
   author = "Richard A Klein"
   description = "CORE Lab Homepage"
-  email = "raklein22@gmail.com"
+  email = "h.ijzerman@gmail.com"
   # Navigation
   [params.navigation]
     brand = "CORE Lab"
     home = "Home"
     work = "Projects"
     testimonials = "Testimonials"
-    services = "Services"
-    about = "Lab Members"
+    services = "Opportunities"
+    about = "Lab Members" #Order of this one changed in layouts/partials/nav.html 
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -37,10 +37,12 @@ publishDir = "../co-relab.github.io"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
+
+# Can edit the order of components in layouts/index.html, and menu order in layouts/partials/nav.html  
   
   # Hero section
   [params.hero]
-    title = 'PAGE UNDER CONSTRUCTION<br>Co-Regulation (CORE) Lab.'
+    title = 'Co-Regulation (CORE) Lab.'
     subtitle = 'We study co-regulation in romantic relationships while utilizing open science ideals. We collaborate around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
  
   # Intro section
@@ -82,14 +84,14 @@ publishDir = "../co-relab.github.io"
   [params.work]
     enable = true
     title = "Projects"
-    description = "At any given time the lab is working on many projects. Here's a sample."
+    description = "Here's a sample of the work we do."
     footertext = ''
 
     [[params.work.row]]
       img = "penguins-429128_1920.jpg"
       alt = "Penguins Image"
       title = "Human Penguin Project"
-      subtitle = "Relationships between social environment and core body temperature."
+      subtitle = "International collaboration investigating the link between social environment and core body temperature."
       url = "https://osf.io/2rm5b/" 
 
 # To enable external URLs here, I had to edit layouts/partials/work.html.
@@ -100,19 +102,19 @@ publishDir = "../co-relab.github.io"
       img = "cup-939479_1920.jpg"
       alt = "Cold Glass Image"
       title = "Socially Thermoregulated Thinking"
-      subtitle = "How past experiences matter in thinking about our loved ones."
+      subtitle = "Past experiences, and a current manipulation of physical temperature, affect thinking about our loved ones."
       url = "https://psyarxiv.com/25dmj"
 
     [[params.work.row]]
       img = "stroopml.png"
       alt = "Image3"
       title = "Machine Learning and the Stroop Effect"
-      subtitle = "Revisiting what predicts performance on a classic effect using new statistics."
+      subtitle = "Revisiting what predicts performance on a classic effect using new statistics (conditional random forests)."
       url = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2805205"
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -137,29 +139,31 @@ publishDir = "../co-relab.github.io"
 
 
   # Services section
+  # Note: The description lengths below need to be roughly equal or the formatting will get messed up.
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Opportunities/Openings"
+    description = "We usually have various opportunities to work with/in the lab. Read about those below, and get in touch if you want to learn more. We work in English, but we also invite French (or other) speakers who want to improve their English."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Internships"
+      description = "We welcome interns from fields like psychology, computer science, statistics, or others. We currently have several students scheduled for 8-week visits."
+      icon = "icon-graduation"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      title = '<a href = "">PhD/Masters Grant 1</a>'
+      description = "Placeholder for now. Grant will be described here. Just be aware that for some reason the length of this description sometimes messes up the formatting. I think it has more problems with very short descriptions."
+      icon = "icon-graduation"
+      
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = '<a href = "">Post-Doc Grant 1</a>'
+      description = "Placeholder for now. Grant will be described here. Just be aware that for some reason the length of this description sometimes messes up the formatting. I think it has more problems with very short descriptions."
+      icon = "icon-graduation"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+      title = '<a href = "">Post-Doc Grant 2</a>'
+      description = "Placeholder for now. Grant will be described here. Just be aware that for some reason the length of this description sometimes messes up the formatting. I think it has more problems with very short descriptions."
+      icon = "icon-graduation"
 
   # About section
   [params.about]
@@ -247,14 +251,14 @@ publishDir = "../co-relab.github.io"
     map = true
     form = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Always open to questions/comments/collaborations. If you're interested in a position in the lab, please include: <br><li>The grant/opportunity you're interested in.</li><li>Current academic/professional status.</li><li>A brief comment about open science.</li>"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-home", "Université Grenoble Alpes <br> BP 47 - 38040 GRENOBLE Cedex 9 <br> FRANCE"],
 #        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-#        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-envelope", "h.ijzerman@gmail.com"],
+        ["icon-globe", '<a href="https://corelab.io" target="_blank">Corelab.io</a>']
       ]
 
     name = "Name"
