@@ -1,7 +1,7 @@
-# Adapted from https://tclavelle.github.io/blog/blogdown_github/
+# Originally I followed this to get started: https://tclavelle.github.io/blog/blogdown_github/
 # Builds webpage in blogdown and publishes to GitHub Pages
 
-# First, two repositories were created on GitHub.com. One for the actual page (follow https://pages.github.com/)
+# First, two repositories were created on GitHub.com. One for the actual page (following https://pages.github.com/)
 # A second is created to store the raw files/blogdown files because the first repo can only store the "ready-for-web" files.
 # or it won't render
 
@@ -38,11 +38,14 @@ library(blogdown)
 
 # Now, there are many files in the directory. As far as I know, these must be edited manually to add/change content.
 # The main file for this theme is config.toml, which is where you will make most of your changes.
-# Most images are under /themes/static/images
+# Most images are under /themes/hugo-elate-theme/static/images
+# To add content (pdfs etc.) you can put them under /content/ and call them with just their filename (no directory).
 
 # This theme comes with 4 different CSS styles. I couldn't find a setting to change them, so to use style4 I manually renamed:
 # themes/hugo-elate-theme/static/css/style4.css to style.css
 # themes/hugo-elate-theme/static/css/style4.css.map to style.css.map
+
+# Most changes to the theme can be made under /themes/hugo-elate-theme/layouts/partials
 
 # Here's an example to create a new post, if this is a blog. I don't think this has a function with Elate.
 # new_post(title = 'hello-world.Rmd', ext = ".Rmd")

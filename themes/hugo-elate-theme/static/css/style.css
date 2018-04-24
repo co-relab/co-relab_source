@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 2;
-  opacity: .9;
+  opacity: .0;
   -webkit-backface-visibility: hidden;
   background-color: #A4D792;
   /* IE9, iOS 3.2+ */

@@ -14,9 +14,7 @@
 			{{ range .Site.Params.testimonials.item }}
 				<div class="col-md-4">
 					<div class="box-testimony">
-						<blockquote class="to-animate-2">
-							<p>{{ .quote | markdownify}}</p>
-						</blockquote>
+
 						<div class="author to-animate">
 							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
 							<p>{{ .person | markdownify }}</p>

@@ -5,6 +5,9 @@ languageCode = "en-us"
 theme = "hugo-elate-theme"
 publishDir = "../co-relab.github.io"
 
+# Can add background image in themes/hugo-elate-theme/layouts/partials/hero.html or replace full_image_2.jpg
+# Adjust transparency in style.css (search 'opacity:')
+
 [params]
   
   custom_css = ["css/custom1.css", "css/custom2.css"]
@@ -18,7 +21,7 @@ publishDir = "../co-relab.github.io"
     brand = "CORE Lab"
     home = "Home"
     work = "Projects"
-    testimonials = "Testimonials"
+    testimonials = "Lab Friends" # I commented out this tab in partials/nav.html so it isn't displayed
     services = "Opportunities"
     about = "Lab Members" #Order of this one changed in layouts/partials/nav.html 
     contact = "Contact"
@@ -42,7 +45,7 @@ publishDir = "../co-relab.github.io"
   
   # Hero section
   [params.hero]
-    title = 'Co-Regulation (CORE) Lab.'
+    title = 'UNDER CONSTRUCTION - Please excuse the placeholders!<br><br>Co-Regulation (CORE) Lab.'
     subtitle = 'We study co-regulation in romantic relationships while utilizing open science ideals. We collaborate around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
  
   # Intro section
@@ -66,16 +69,22 @@ publishDir = "../co-relab.github.io"
     img = "COS-Logo-small-1.png"
 
   [[params.intro.item]]
-    title = "Popular Science"
-    description = "Are you a non-scientist, interested in solid, well-written psychological science? Check out the Open Access In-Mind Magazine (available in English, Dutch, Italian, and German)."
-    url = "http://www.in-mind.org/"
-    button = "Go to In-Mind"
+    title = "Lab Philosophy"
+    description = "Doing science is really hard. Here, we document the workflow of the lab and expectations for lab members. Includes templates for OSF projects to make open science easier."
+    url = "lab_philosophy.docx" #the file is under /content/
+    button = "Download"
     icon = "icon-bulb"
-    img = "inmind.png"
+    img = "doors.jpg"
+
+  [params.intro.news] #did some heavy editing of params/intro.html to add this section
+    enable = true
+    title = "Announcements"
+    description = "&bull; Justin Mah will be joining the lab in May<br>&bull; Newly submitted manuscript: Title title title link"
+# Above description is less tidy than the rest because I hacked it in to the intro. Will try to tidy it later.
 
   [params.intro.video]
     enable = false
-    title = "Watch the video"
+    title = "Watch the video."
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
 
@@ -107,37 +116,60 @@ publishDir = "../co-relab.github.io"
 
     [[params.work.row]]
       img = "stroopml.png"
-      alt = "Image3"
+      alt = "Stroop figure"
       title = "Machine Learning and the Stroop Effect"
       subtitle = "Revisiting what predicts performance on a classic effect using new statistics (conditional random forests)."
       url = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2805205"
 
+    [[params.work.row]]
+      img = "ml1.png"
+      alt = "Many Labs 1 figure"
+      title = "Many Labs 1"
+      subtitle = "36 labs replicated 13 classic psychology studies to investigate cultural and contextual predictors of replicability."
+      url = "https://osf.io/wx7ck/"
+
   # Testimonials section
+  # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
   [params.testimonials]
-    enable = false
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    enable = true
+    title = "Friends of the lab"
+#    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
       img = "person3.jpg"
       alt = "Person3"
 
+    [[params.testimonials.item]]
+      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+      
+    [[params.testimonials.item]]
+      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
+      img = "person3.jpg"
+      alt = "Person3"
 
+    [[params.testimonials.item]]
+      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
+      img = "person3.jpg"
+      alt = "Person3"
 
+    [[params.testimonials.item]]
+      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+      
   # Services section
   # Note: The description lengths below need to be roughly equal or the formatting will get messed up.
   [params.services]
