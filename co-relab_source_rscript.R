@@ -1,5 +1,5 @@
 # Originally I followed this to get started: https://tclavelle.github.io/blog/blogdown_github/
-# Builds webpage in blogdown and publishes to GitHub Pages
+# Builds webpage (corelab.io) in blogdown and publishes to GitHub Pages
 
 # First, two repositories were created on GitHub.com. One for the actual page (following https://pages.github.com/)
 # A second is created to store the raw files/blogdown files because the first repo can only store the "ready-for-web" files.
@@ -13,13 +13,12 @@
 # Note: you need git installed on your computer or this won't work (comes with MacOS, needs installed on Windows)
 
 # Subsequent times, run this line in Terminal if you want to pull any updates from the master branch
-# (generally good practice to run this before any new session, unless you have local changes you want to keep)
+# (generally good practice to run this before any new session, and run the commit/push commands -- end of this file -- at the end of each session)
 #git pull origin master
 
-# Many lines below commented out because they are only run once to download files, which are
-# then manually edited. 
+# Many lines below commented out because they are only run once to download files, which are then manually edited. 
 #### WARNING: Uncommenting and running from the start will overwrite everything to defaults.
-#### So, pick and choose the lines you need. Mostly this file is just a tutorial.
+#### So, pick and choose the lines you need. Mostly this file is just describing the set-up process.
 
 # We use an .rproj file so we can skip setwd()
 
@@ -36,8 +35,20 @@ library(blogdown)
 # (I just temporarily move the existing files out and back in manually)
 #new_site(theme='saey55/hugo-elate-theme')
 
-# Now, there are many files in the directory. As far as I know, these must be edited manually to add/change content.
-# The main file for this theme is config.toml, which is where you will make most of your changes.
+# Now, there are many files in the directory. These must be edited manually to add/change content.
+
+# The serve site function generates a preview of the webpage.
+# Click the button next to the broom in the viewer to open in a browser.
+serve_site()
+
+
+### THE MAIN FILE TO EDIT TO ADD/CHANGE CONTENT:
+# config.toml
+# you can run the line below to edit this file in rstudio
+file.edit("config.toml")
+
+
+# Other information:
 # Most images are under /themes/hugo-elate-theme/static/images
 # To add content (pdfs etc.) you can put them under /content/ and call them with just their filename (no directory).
 
@@ -46,13 +57,6 @@ library(blogdown)
 # themes/hugo-elate-theme/static/css/style4.css.map to style.css.map
 
 # Most changes to the theme can be made under /themes/hugo-elate-theme/layouts/partials
-
-# Here's an example to create a new post, if this is a blog. I don't think this has a function with Elate.
-# new_post(title = 'hello-world.Rmd', ext = ".Rmd")
-
-# The serve site function generates a preview of the webpage.
-# Click the button next to the broom in the viewer to open in a browser.
-serve_site()
 
 # To deploy to web:
 # Below command by default renders the site into a new subfolder in the directory called "public".

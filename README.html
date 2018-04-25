@@ -121,19 +121,34 @@ $(document).ready(function () {
 </div>
 
 
-<div id="repository-for-corelab.io-website" class="section level1">
-<h1>Repository for corelab.io website</h1>
-<p>The corelab.io webpage is a GitHub Pages webpage (co-relab.github.io), using the custom domain of corelab.io. It is built for the CORE Lab at the Universite Grenoble Alpes.</p>
-<p>This repo contains the code to generate the site. It is built in the <a href="https://bookdown.org/yihui/blogdown/">Blogdown R Package</a>. The actual site itself is in the <a href="https://github.com/co-relab/co-relab.github.io">co-relab.github.io</a> repo. This is because GitHub Pages can only contain the “published” files for the site to render. So, we build the site in this repo, then “publish” the finished files to that repo.</p>
-<p>Basic steps to install/use/make changes:<br />
-1. <a href="https://help.github.com/articles/set-up-git/">Install Git</a> (if necessary – comes on Mac by default)<br />
-2. <a href="https://help.github.com/articles/cloning-a-repository/">Clone</a> (e.g., download the files and create a Git repository on your local hard disk) these two repos locally. Open a <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line">Terminal</a> (or <a href="https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/">cmd prompt</a>), navigate to where you want the files to be stored (use the ‘cd’ command in Terminal), and run these two commands:<br />
+<div id="source-blogdown-files-for-the-corelab.io-website" class="section level1">
+<h1>Source Blogdown files for the corelab.io website</h1>
+<p>This repository contains the source files for the CORE Lab webpage (corelab.io), which is just a GitHub Pages page (co-relab.github.io) with a custom domain.</p>
+<p>The site is built in the <a href="https://bookdown.org/yihui/blogdown/">Blogdown R Package</a> and this repository stores the source Blogdown files. Blogdown then “knits” the files into .html and other web-compatible files that are published to a Github Pages page (co-relab.github.io – which is also corelab.io). These html and other “published” files, which we never edit directly, reside in the <a href="https://github.com/co-relab/co-relab.github.io">co-relab.github.io</a> repo. This is because GitHub Pages can only contain the “published” files for the site to render. So, we build the site in this repo, then “publish” the finished files to that repo.</p>
+<p>The workflow to edit the page is to clone the files locally, make any edits, then commit the changes back to this repository.</p>
+<p>Basic steps for CORE lab members to edit the webpage:</p>
+<ol style="list-style-type: decimal">
+<li>Ensure you have R and R Studio installed.<br />
+</li>
+<li>Create a GitHub account. Ask Rick or Hans to add you as a collaborator to the webpage repos so you have commit permissions.<br />
+</li>
+<li>If necessary, <a href="https://help.github.com/articles/set-up-git/">Install Git</a> (comes with MacOS by default)<br />
+</li>
+<li><a href="https://help.github.com/articles/cloning-a-repository/">Clone</a> (e.g., download the files and create a Git repository on your local hard disk) the two website repos locally. To do this, open a <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line">Terminal</a> (or <a href="https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/">cmd prompt</a>), navigate to where you want the files to be stored on your hard disk (use the ‘cd’ command in Terminal, which changes your directory), and run these two commands:<br />
 <code>&quot;git clone https://github.com/co-relab/co-relab_source.git&quot;</code><br />
-<code>&quot;git clone https://github.com/co-relab/co-relab.github.io.git&quot;</code></p>
+<code>&quot;git clone https://github.com/co-relab/co-relab.github.io.git&quot;</code></li>
+</ol>
 <p>This will create two new subdirectories/Git repos: co-relab_source and co-relab.github.io</p>
-<p>You will also need R and R Studio installed.</p>
-<p>Then, navigate on your computer to the source files repo, and open the .rproj file (co-relab_source.rproj) in R Studio. Then open the r script (co-relab_source_rscript.R). Using R Projects eliminates the need to set a working directory each time (it’s automatically set to the folder containing the .rproj file)</p>
-<p>Then, follow the instructions in the R script for more instructions.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Navigate on your computer to the new <em>co-relab_source</em> folder and open <em>co-relab_source.rproj</em> in R Studio.</li>
+<li>Also open <em>co-relab_source_rscript.R</em> (the R script). Using R Projects eliminates the need to set a working directory each time (it’s automatically set to the folder containing the .rproj file).</li>
+<li>At this point, just follow instructions in the R script to edit the page. Once you’re done, you’ll “commit” those changes back to this repo. Go to the Terminal (in R studio, or on your computer), if necessary navigate to the repository you want to commit (e.g., “cd C:/Users/Username/Projects/co-relab_source”). Then, run these commands:<br />
+<code>#git add --all</code><br />
+<code>#git commit -m &quot;Enter commit message detailing changes here&quot;</code><br />
+<code>#git push -u origin master</code><br />
+Repeat for the co-relab.github.io folder<br />
+(These instructions are also in the R script)</li>
+</ol>
 </div>
 
 
