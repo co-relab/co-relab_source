@@ -68,10 +68,12 @@ build_site()
 # To commit to github pages, open the terminal (or use the "Terminal" window in R Studio -- NOT the console)
 # Navigate to the local repo you want to commit with "cd"
 # Type the three commands:
+
 #git add --all
 #git commit -m "Commit message here"
 #git push -u origin master
-# Note: You may run into authentication issues when pushing changes here. You can either login your computer
-# to the co-relab github account, or have your username added as a collaborator (preferable).
 
-# Remember to commit both the source repo and the github pages repo e.g. co-relab_source and co-relab.github.io
+# Repeat these steps for the /co-relab.github.io repo.
+
+# Note: You need to be authenticated to your GitHub account on your pc, and that account needs to be
+# added as a collaborator to the website repos or you will encounter an authentication error here.
