@@ -69,9 +69,9 @@ build_site()
 # Navigate to the local repo you want to commit with "cd"
 # Type the three commands:
 
-#git add --all
-#git commit -m "Commit message here"
-#git push -u origin master
+# git add --all
+# git commit -m "did a test"
+# git push -u origin master
 
 # Repeat these steps for the /co-relab.github.io repo.
 

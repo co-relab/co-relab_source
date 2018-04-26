@@ -45,8 +45,8 @@ publishDir = "../co-relab.github.io"
   
   # Hero section
   [params.hero]
-    title = 'UNDER CONST - Please excuse the placeholders!<br><br>Co-Regulation (CORE) Lab.'
-    subtitle = 'We study co-regulation in romantic relationships while utilizing open science ideals. We collaborate around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
+    title = '<br><br>Co-Regulation (CORE) Lab.'
+    subtitle = 'We study co-regulation in romantic relationships. We rely on open science ideals. We collaborate with researchers around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -55,7 +55,7 @@ publishDir = "../co-relab.github.io"
   [[params.intro.item]]
     title = "Papers"
     description = "Check out publications and/or preprints from the lab. We try to ensure all our work is available to the public, so if you can't find a paper let us know!"
-    url = "http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1923044" #This just links to Hans' SSRN for now, thinking of better solutions.
+    url = "http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1923044" #Can we make a separate page where we merge our papers from psyarxiv?
     button = "Access Papers"
     icon = "icon-docs"
     img = "papers.png"
@@ -79,7 +79,7 @@ publishDir = "../co-relab.github.io"
   [params.intro.news] #did some heavy editing of params/intro.html to add this section
     enable = true
     title = "Announcements"
-    description = "&bull; Justin Mah will be joining the lab in May<br>&bull; Newly submitted manuscript: Title title title link"
+    description = "&bull; Justin Mah will be joining the lab in May<br>&bull; Last submitted manuscript that we participated in was for the Psych Science Accelerator: https://psyarxiv.com/785qu/"
 # Above description is less tidy than the rest because I hacked it in to the intro. Will try to tidy it later.
 
   [params.intro.video]
@@ -130,45 +130,94 @@ publishDir = "../co-relab.github.io"
 
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
+  # TO RICK: Can you edit this so that the urls work?
   [params.testimonials]
     enable = true
     title = "Friends of the lab"
-#    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
-      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
-      img = "person1.jpg"
+      person = '<a href="">Jim Coan</a><br> University of Virginia'
+      img = "jimcoan.jpeg"
       alt = "Person1"
-
-    [[params.testimonials.item]]
-      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
-      img = "person3.jpg"
-      alt = "Person3"
-
-    [[params.testimonials.item]]
-      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+      url = "https://jamescoan.com/"
       
     [[params.testimonials.item]]
-      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+      person = '<a href="">Emily Butler</a><br> University of Arizona'
+      img = "butler.jpeg"
+      alt = "Person2"
+      url = "https://cals.arizona.edu/fcs/faculty/emily_butler"
 
     [[params.testimonials.item]]
-      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
-      img = "person3.jpg"
+      person = '<a href="">Maria Koptjesvakaja-Tamm</a><br> Stockholm University'
+      img = "tamm.jpeg"
+      alt = "Person2"
+      url = "https://www.su.se/english/profiles/tamm-1.182300"
+      
+    [[params.testimonials.item]]
+      person = '<a href="">Brian Nosek</a><br> University of Virginia<br>Center for Open Science'
+      img = "nosek.jpeg"
       alt = "Person3"
+      url = "https://www.projectimplicit.net/nosek/"
 
     [[params.testimonials.item]]
-      person = '<a href="">Jean Doe</a>, University of XX<span class="subtext">Former member</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+      person = '<a href="">Julianne Holt-Lunstad</a><br> Brigham Young University'
+      img = "holtlunstad.jpeg"
+      alt = "Person4"
+      url = "http://julianneholtlunstad.byu.edu/"
+      
+    [[params.testimonials.item]]
+      person = '<a href="">Fred Hasselman</a><br>Radboud University Nijmegen'
+      img = "hasselman.jpg"
+      alt = "Person5"
+      link = "http://www.ru.nl/english/people/hasselman-f/"
+
+    [[params.testimonials.item]]
+      person = '<a href="">Kate Ratliff</a><br>University of Florida'
+      img = "ratliff.jpeg"
+      alt = "Person6"
+      link = "http://www.kateratliff.com/"
+
+    [[params.testimonials.item]]
+      person = '<a href="">The Psychological Science Accelerator</a><br>Worldwide Collaboration'
+      img = "psa.png"
+      alt = "Person7"
+      link = "https://psysciacc.org/"
+    
+    [[params.testimonials.item]]
+      person = '<a href="">Charlie Ebersole</a><br>University of Virginia'
+      img = "ebersole.jpg"
+      alt = "Person8"
+      link = "https://psychology.as.virginia.edu/people/profile/cre2am"
+      
+    [[params.testimonials.item]]
+      person = '<a href="">Jaap Denissen</a><br>Tilburg University'
+      img = "denissen.jpg"
+      alt = "Person9"
+      link = "https://www.tilburguniversity.edu/webwijs/show/j.j.a.denissen.htm"
+
+    [[params.testimonials.item]]
+      person = '<a href="">Sigi Lindenberg</a><br>Rijksuniversiteit Groningen'
+      img = "lindenberg.jpeg"
+      alt = "Person10"
+      link = "http://lindenberg.academiaworks.com/"
+      
+    [[params.testimonials.item]]
+      person = '<a href="">Michelangelo Vianello</a><br>University of Padova'
+      img = "vianello.jpeg"
+      alt = "Person11"
+      link = "https://sites.google.com/site/michelangelovianello/"
+      
+    [[params.testimonials.item]]
+      person = '<a href="">Alan Fiske</a><br>University of California, Los Angeles'
+      img = "fiske.jpg"
+      alt = "Person12"
+      link = "https://www.anthro.ucla.edu/faculty/alan-page-fiske"
+      
+    [[params.testimonials.item]]
+      person = '<a href="">Ivan Ropovik</a><br>University of Presov'
+      img = "ropovik.jpg"
+      alt = "Person13"
+      link = "http://www.unipo.sk/pedagogicka-fakulta/katedry/kpepp/ropovik"
       
   # Services section
   # Note: The description lengths below need to be roughly equal or the formatting will get messed up.
