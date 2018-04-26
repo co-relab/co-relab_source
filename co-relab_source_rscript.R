@@ -24,7 +24,7 @@
 
 # Load blogdown package and install Hugo (if needed)
 library(blogdown)
-install_hugo()
+#install_hugo()
 
 # At site creation, I ran the below lines to generate the site in Blogdown.
 # Running this again would overwrite the site with a new blank site. I leave the code as an example.
@@ -70,7 +70,7 @@ build_site()
 # Type the three commands:
 
 # git add --all
-# git commit -m "did a test"
+# git commit -m "Enter your own message here detailing any changes"
 # git push -u origin master
 
 # Repeat these steps for the /co-relab.github.io repo.
