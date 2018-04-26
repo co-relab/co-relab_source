@@ -70,7 +70,7 @@ build_site()
 # Type the three commands:
 
 # git add --all
-# git commit -m "did a test"
+# git commit -m "add collabs"
 # git push -u origin master
 
 # Repeat these steps for the /co-relab.github.io repo.
