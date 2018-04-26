@@ -70,10 +70,10 @@ build_site()
 # Type the three commands:
 
 # git add --all
-# git commit -m "add collabs"
+# git commit -m "add grants, papers, and announcements"
 # git push -u origin master
 
-# Repeat these steps for the /co-relab.github.io repo.
+# First for the co-relab_source. Repeat these steps for the /co-relab.github.io repo.
 
 # Note: You need to be authenticated to your GitHub account on your pc, and that account needs to be
 # added as a collaborator to the website repos or you will encounter an authentication error here.
