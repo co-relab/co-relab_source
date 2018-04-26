@@ -45,7 +45,7 @@ publishDir = "../co-relab.github.io"
   
   # Hero section
   [params.hero]
-    title = 'UNDER CONSTRUCTION - Please excuse the placeholders!<br><br>Co-Regulation (CORE) Lab.'
+    title = 'UNDER CONST - Please excuse the placeholders!<br><br>Co-Regulation (CORE) Lab.'
     subtitle = 'We study co-regulation in romantic relationships while utilizing open science ideals. We collaborate around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
  
   # Intro section
