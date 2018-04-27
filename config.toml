@@ -275,10 +275,51 @@ publishDir = "../co-relab.github.io"
 
     [[params.services.item]]
       title = '<a href = "">Postdoc Grant - Marie Curie</a>'
-      description = "The Marie Curie grant is an excellent opportunity for scholars outside of France wanting to come to France. Deadline for this call is September 12, 2018"
+      description = "The Marie Curie grant is an excellent opportunity for scholars outside of France wanting to come to France. Topic is flexible. Deadline for this call is September 12, 2018"
       icon = "icon-graduation"
       link = "https://ec.europa.eu/research/mariecurieactions/actions/get-funding_en"
       
+      [[params.services.item]]
+      title = '<a href = "">Postdoc Grant - Prestige</a>'
+      description = "The Prestige grant is an excellent opportunity, but needs cofinancing from another source. Deadlines throughout the year"
+      icon = "icon-graduation"
+      link = "https://www.campusfrance.org/en/PRESTIGE-programme-postdoc"
+      
+      [[params.services.item]]
+      title = '<a href = "">Postdoc Grant - International Agency for Research on Cancer</a>'
+      description = "In our papers, we have written about links between cancer and thermoregulation. There are good reasons to suppose a link. This grant could support such research. Currently closed, but may reopen"
+      icon = "icon-graduation"
+      link = "http://training.iarc.fr/en/fellowships/postdoc.php"
+      
+      [[params.services.item]]
+      title = '<a href = "">Postdoc Grant - Fondation Fyssen</a>'
+      description = "The Prestige grant is an excellent opportunity, but needs cofinancing from another source. Only open to researchers outside of France. Deadline closed for this year"
+      icon = "icon-graduation"
+      link = "http://www.fondationfyssen.fr/en/study-grants/aim-award/"
+      
+      [[params.services.item]]
+      title = '<a href = "">Make Our Planet Great Again</a>'
+      description = "Want to study thermoregulation and climate change? The French government has heavily invested in research countering climate change. Different grants available"
+      icon = "icon-graduation"
+      link = "https://www.campusfrance.org/en/make-our-planet-great-again-en"
+      
+      [params.services.item]]
+      title = '<a href = "">China Scholarship Council</a>'
+      description = "From China and want to come work with us in France? The CSC has various grants available for Chinese scholars"
+      icon = "icon-graduation"
+      link = "http://www.fundit.fr/en/institutions/china-scholarship-council-csc"
+      
+      [params.services.item]]
+      title = '<a href = "">Fullbright Scholarships</a>'
+      description = "US Scholar and want to come work with us in France (if only for a few months)? Fullbright has various opportunities at various level of your career"
+      icon = "icon-graduation"
+      link = "http://fulbright-france.org/en"
+      
+      [[params.services.item]]
+      title = '<a href = "">National Cancer Institute Exploratory Grant</a>'
+      description = "In our papers, we have written about links between cancer and thermoregulation. There are good reasons to suppose a link. This grant could support such research."
+      icon = "icon-graduation"
+      link = "https://grants.nih.gov/grants/guide/pa-files/PAR-13-146.html"
 
   # About section
   [params.about]
@@ -366,7 +407,7 @@ publishDir = "../co-relab.github.io"
     map = true
     form = true
     title = "Get in touch"
-    description = "If you're interested in a position in the lab, contact us! In your contact request, please include why you are interested in working on concepts related to thermoregulation/co-regulation. Please also include: </li><li>Which opportunity (e.g., grant) you're interested in.</li><li>Current academic/professional status.</li><li>A brief statement about your commitment to open science.</li>"
+    description = "If you're interested in a position in the lab, contact us! You can work on co-regulation or social thermoregulation in combination with your own topic (e.g., computational modelling, motivation, et cetera). In your contact request, please include why you are interested in working on concepts related to thermoregulation/co-regulation. Please also include: </li><li>Which opportunity (e.g., grant) you're interested in.</li><li>Current academic/professional status.</li><li>A brief statement about your commitment to open science.</li>"
     
     # Available icons: http://simplelineicons.com/
     details = [

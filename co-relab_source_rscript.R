@@ -71,7 +71,7 @@ build_site()
 
 # git add --all
 <<<<<<< HEAD
-# git commit -m "add grants, papers, and announcements"
+# git commit -m "added collabs"
 =======
 # git commit -m "Enter your own message here detailing any changes"
 >>>>>>> 67ab47656113541e443f0b59e5b0864fa77821ea
