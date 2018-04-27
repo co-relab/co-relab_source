@@ -25,3 +25,5 @@ This will create two new subdirectories/Git repos: co-relab_source and co-relab.
 `#git push -u origin master`  
 Repeat for the co-relab.github.io folder  
 (These instructions are also in the R script)
+
+Rick's edit
