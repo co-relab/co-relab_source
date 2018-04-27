@@ -46,7 +46,7 @@ publishDir = "../co-relab.github.io"
   # Hero section
   [params.hero]
     title = '<br><br>Co-Regulation (CORE) Lab.'
-    subtitle = 'We study co-regulation in romantic relationships. We rely on open science ideals. We collaborate with researchers around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
+    subtitle = 'We study co-regulation in romantic relationships. We study social thermoregulation. We rely on open science ideals. We collaborate with researchers around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -79,7 +79,7 @@ publishDir = "../co-relab.github.io"
   [params.intro.news] #did some heavy editing of params/intro.html to add this section
     enable = true
     title = "Announcements"
-    description = "&bull; Justin Mah will be joining the lab as intern in May<br>&bull; Last submitted manuscript that we participated in was for the Psych Science Accelerator: https://psyarxiv.com/785qu/<br>&bull; Armel Soubeiga will be joining the lab as an intern in May"
+    description = "&bull; Justin Mah (University of Alberta) will be joining the lab as intern in May<br>&bull; Last submitted manuscript that we participated in was for the Psych Science Accelerator: https://psyarxiv.com/785qu/<br>&bull; Armel Soubeiga (Université Grenoble Alpes) will be joining the lab as an intern in May; Nazanin Kafaee (Western Ontario University) will be joining the lab as intern in 2019!<br>&bull"
 # Above description is less tidy than the rest because I hacked it in to the intro. Will try to tidy it later.
 
   [params.intro.video]
@@ -151,94 +151,116 @@ publishDir = "../co-relab.github.io"
 
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
+<<<<<<< HEAD
+=======
+  # Due to this, we add urls with html code (<a href=""></a>). See Below
+  # All images need to be square (e.g. 400 x 400) or the spacing of the page will be messed up
+  # Also, seems finicky to the length of text. May need to use abbreviations for names/affiliations.
+>>>>>>> 67ab47656113541e443f0b59e5b0864fa77821ea
   [params.testimonials]
     enable = true
     title = "Friends of the lab"
 
     [[params.testimonials.item]]
-      person = '<a href="">Jim Coan</a><br> University of Virginia'
-      img = "jimcoan.jpeg"
-      alt = "Person1"
-      url = "https://jamescoan.com/"
-      
+      person = '<a href="https://jamescoan.com/">Jim Coan</a><br> University of Virginia'
+      img = "jimcoan.jpeg" 
+      alt = "jimcoan" # This is just text that gets displayed if the img file fails to load
+
     [[params.testimonials.item]]
-      person = '<a href="">Emily Butler</a><br> University of Arizona'
+      person = '<a href="https://cals.arizona.edu/fcs/faculty/emily_butler">Emily Butler</a><br> University of Arizona'
       img = "butler.jpeg"
-      alt = "Person2"
-      url = "https://cals.arizona.edu/fcs/faculty/emily_butler"
+      alt = "butler"
 
     [[params.testimonials.item]]
-      person = '<a href="">Maria Koptjesvakaja-Tamm</a><br> Stockholm University'
+      person = '<a href="https://www.su.se/english/profiles/tamm-1.182300">Maria Koptjesvakaja-Tamm</a><br> Stockholm University'
       img = "tamm.jpeg"
-      alt = "Person2"
-      url = "https://www.su.se/english/profiles/tamm-1.182300"
-      
-    [[params.testimonials.item]]
-      person = '<a href="">Brian Nosek</a><br> University of Virginia<br>Center for Open Science'
-      img = "nosek.jpeg"
-      alt = "Person3"
-      url = "https://www.projectimplicit.net/nosek/"
+      alt = "tamm"
 
     [[params.testimonials.item]]
-      person = '<a href="">Julianne Holt-Lunstad</a><br> Brigham Young University'
+      person = '<a href="http://julianneholtlunstad.byu.edu/">Julianne Holt-Lunstad</a><br> Brigham Young University'
       img = "holtlunstad.jpeg"
-      alt = "Person4"
-      url = "http://julianneholtlunstad.byu.edu/"
-      
+      alt = "holtlunstad"
+
     [[params.testimonials.item]]
-      person = '<a href="">Fred Hasselman</a><br>Radboud University Nijmegen'
+      person = '<a href="http://www.ru.nl/english/people/hasselman-f/">Fred Hasselman</a><br>Radboud University Nijmegen'
       img = "hasselman.jpg"
-      alt = "Person5"
-      link = "http://www.ru.nl/english/people/hasselman-f/"
+      alt = "hasselman"
 
     [[params.testimonials.item]]
-      person = '<a href="">Kate Ratliff</a><br>University of Florida'
+      person = '<a href="http://www.kateratliff.com/">Kate Ratliff</a><br>University of Florida'
       img = "ratliff.jpeg"
-      alt = "Person6"
-      link = "http://www.kateratliff.com/"
+      alt = "ratliff"
 
     [[params.testimonials.item]]
-      person = '<a href="">The Psychological Science Accelerator</a><br>Worldwide Collaboration'
+      person = '<a href="https://psysciacc.org/">Psych Science Accelerator</a><br>Worldwide Collaboration'
       img = "psa.png"
-      alt = "Person7"
-      link = "https://psysciacc.org/"
-    
-    [[params.testimonials.item]]
-      person = '<a href="">Charlie Ebersole</a><br>University of Virginia'
-      img = "ebersole.jpg"
-      alt = "Person8"
-      link = "https://psychology.as.virginia.edu/people/profile/cre2am"
-      
-    [[params.testimonials.item]]
-      person = '<a href="">Jaap Denissen</a><br>Tilburg University'
-      img = "denissen.jpg"
-      alt = "Person9"
-      link = "https://www.tilburguniversity.edu/webwijs/show/j.j.a.denissen.htm"
+      alt = "psa"
 
     [[params.testimonials.item]]
-      person = '<a href="">Sigi Lindenberg</a><br>Rijksuniversiteit Groningen'
+      person = '<a href="https://psychology.as.virginia.edu/people/profile/cre2am">Charlie Ebersole</a><br>University of Virginia'
+      img = "ebersole.jpg"
+      alt = "ebersole"
+
+    [[params.testimonials.item]]
+      person = '<a href="https://www.tilburguniversity.edu/webwijs/show/j.j.a.denissen.htm">Jaap Denissen</a><br>Tilburg University'
+      img = "denissen.jpg"
+      alt = "denissen"
+
+    [[params.testimonials.item]]
+      person = '<a href="http://lindenberg.academiaworks.com/">Sigi Lindenberg</a><br>Rijksuniversiteit Groningen'
       img = "lindenberg.jpeg"
-      alt = "Person10"
-      link = "http://lindenberg.academiaworks.com/"
-      
+      alt = "lindenberg"
+
     [[params.testimonials.item]]
-      person = '<a href="">Michelangelo Vianello</a><br>University of Padova'
+      person = '<a href="https://sites.google.com/site/michelangelovianello/">Michelangelo Vianello</a><br>University of Padova'
       img = "vianello.jpeg"
-      alt = "Person11"
-      link = "https://sites.google.com/site/michelangelovianello/"
-      
+      alt = "vianello"
+
     [[params.testimonials.item]]
-      person = '<a href="">Alan Fiske</a><br>University of California, Los Angeles'
+      person = '<a href="https://www.anthro.ucla.edu/faculty/alan-page-fiske">Alan Fiske</a><br>University of California, LA'
       img = "fiske.jpg"
-      alt = "Person12"
-      link = "https://www.anthro.ucla.edu/faculty/alan-page-fiske"
-      
+      alt = "fiske"
+
     [[params.testimonials.item]]
-      person = '<a href="">Ivan Ropovik</a><br>University of Presov'
+      person = '<a href="http://www.unipo.sk/pedagogicka-fakulta/katedry/kpepp/ropovik">Ivan Ropovik</a><br>University of Presov'
       img = "ropovik.jpg"
-      alt = "Person13"
-      link = "http://www.unipo.sk/pedagogicka-fakulta/katedry/kpepp/ropovik"
+      alt = "ropovik"
       
+      [[params.testimonials.item]] 
+      person = '<a href="http://www.in-mind.org">In-Mind Foundation</a><br>One of our researchers is the founder of In-Mind'
+      img = "inmind.png"
+      alt = "inmind"
+      
+      [[params.testimonials.item]] 
+      person = '<a href="https://research.vu.nl/en/persons/paula-sterkenburg">Paula Sterkenburg</a><br>Vrije Universiteit Amsterdam'
+      img = "sterkenburg.jpg"
+      alt = "sterkenburg"
+      
+      [[params.testimonials.item]] 
+      person = '<a href="http://www.tilapronk.nl/">Tila Pronk</a><br>Tilburg University'
+      img = "pronk.jpg"
+      alt = "pronk"
+      
+      [[params.testimonials.item]] 
+      person = '<a href="http://www.tilapronk.nl/">Tila Pronk</a><br>Tilburg University'
+      img = "pronk.jpg"
+      alt = "pronk"
+      
+      [[params.testimonials.item]] 
+      person = '<a href="http://english.telhai.ac.il/content/prof-yizhar-lavner">Yizhar Lavner</a><br>Tel Hai College'
+      img = "Lavner.jpg"
+      alt = "lavner"
+      
+      [[params.testimonials.item]] 
+      person = '<a href="http://emotionregulationlab.com/?page_id=41">Mattie Tops</a><br>Vrije Universiteit Amsterdam'
+      img = "tops.jpeg"
+      alt = "tops"
+      
+    [[params.testimonials.item]] #Layout doesn't like the second line of affiliiations, so Brian has to come last.
+      person = '<a href="https://www.projectimplicit.net/nosek/">Brian Nosek</a><br>University of Virginia<br>Center for Open Science'
+      img = "nosek.jpeg"
+      alt = "nosek"
+
   # Services section
   # Note: The description lengths below need to be roughly equal or the formatting will get messed up.
   [params.services]
