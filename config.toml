@@ -46,7 +46,7 @@ publishDir = "../co-relab.github.io"
   # Hero section
   [params.hero]
     title = '<br><br>Co-Regulation (CORE) Lab.'
-    subtitle = 'We study co-regulation in romantic relationships. We rely on open science ideals. We collaborate with researchers around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
+    subtitle = 'We study co-regulation in romantic relationships. We study social thermoregulation. We rely on open science ideals. We collaborate with researchers around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -79,7 +79,7 @@ publishDir = "../co-relab.github.io"
   [params.intro.news] #did some heavy editing of params/intro.html to add this section
     enable = true
     title = "Announcements"
-    description = "&bull; Justin Mah will be joining the lab as intern in May<br>&bull; Last submitted manuscript that we participated in was for the Psych Science Accelerator: https://psyarxiv.com/785qu/<br>&bull; Armel Soubeiga will be joining the lab as an intern in May"
+    description = "&bull; Justin Mah (University of Alberta) will be joining the lab as intern in May<br>&bull; Last submitted manuscript that we participated in was for the Psych Science Accelerator: https://psyarxiv.com/785qu/<br>&bull; Armel Soubeiga (Université Grenoble Alpes) will be joining the lab as an intern in May; Nazanin Kafaee (Western Ontario University) will be joining the lab as intern in 2019!"
 # Above description is less tidy than the rest because I hacked it in to the intro. Will try to tidy it later.
 
   [params.intro.video]
@@ -149,85 +149,111 @@ publishDir = "../co-relab.github.io"
       subtitle = "One of our researchers conducted a (failed) replication of a famous finding in the literature (showing a relation between attachment security and Social Value Orientation)."
       url = "https://psyarxiv.com/rtygm"
 
-# Testimonials section
-# I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
-# Due to this, we add urls with html code (<a href=""></a>). See Below
-# All images need to be square (e.g. 400 x 400) or the spacing of the page will be messed up
-# Also, seems finicky to the length of text. May need to use abbreviations for names/affiliations.
-[params.testimonials]
-enable = true
-title = "Friends of the lab"
+  # Testimonials section
+  # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
+  # Due to this, we add urls with html code (<a href=""></a>). See Below
+  # All images need to be square (e.g. 400 x 400) or the spacing of the page will be messed up
+  # Also, seems finicky to the length of text. May need to use abbreviations for names/affiliations.
+  [params.testimonials]
+    enable = true
+    title = "Friends of the lab"
 
-[[params.testimonials.item]]
-person = '<a href="https://jamescoan.com/">Jim Coan</a><br> University of Virginia'
-img = "jimcoan.jpeg" 
-alt = "jimcoan" # This is just text that gets displayed if the img file fails to load
+    [[params.testimonials.item]]
+      person = '<a href="https://jamescoan.com/">Jim Coan</a><br> University of Virginia'
+      img = "jimcoan.jpeg" 
+      alt = "jimcoan" # This is just text that gets displayed if the img file fails to load
 
-[[params.testimonials.item]]
-person = '<a href="https://cals.arizona.edu/fcs/faculty/emily_butler">Emily Butler</a><br> University of Arizona'
-img = "butler.jpeg"
-alt = "butler"
+    [[params.testimonials.item]]
+      person = '<a href="https://cals.arizona.edu/fcs/faculty/emily_butler">Emily Butler</a><br> University of Arizona'
+      img = "butler.jpeg"
+      alt = "butler"
 
-[[params.testimonials.item]]
-person = '<a href="https://www.su.se/english/profiles/tamm-1.182300">Maria Koptjesvakaja-Tamm</a><br> Stockholm University'
-img = "tamm.jpeg"
-alt = "tamm"
+    [[params.testimonials.item]]
+      person = '<a href="https://www.su.se/english/profiles/tamm-1.182300">Maria Koptjesvakaja-Tamm</a><br> Stockholm University'
+      img = "tamm.jpeg"
+      alt = "tamm"
 
-[[params.testimonials.item]]
-person = '<a href="http://julianneholtlunstad.byu.edu/">Julianne Holt-Lunstad</a><br> Brigham Young University'
-img = "holtlunstad.jpeg"
-alt = "holtlunstad"
+    [[params.testimonials.item]]
+      person = '<a href="http://julianneholtlunstad.byu.edu/">Julianne Holt-Lunstad</a><br> Brigham Young University'
+      img = "holtlunstad.jpeg"
+      alt = "holtlunstad"
 
-[[params.testimonials.item]]
-person = '<a href="http://www.ru.nl/english/people/hasselman-f/">Fred Hasselman</a><br>Radboud University Nijmegen'
-img = "hasselman.jpg"
-alt = "hasselman"
+    [[params.testimonials.item]]
+      person = '<a href="http://www.ru.nl/english/people/hasselman-f/">Fred Hasselman</a><br>Radboud University Nijmegen'
+      img = "hasselman.jpg"
+      alt = "hasselman"
 
-[[params.testimonials.item]]
-person = '<a href="http://www.kateratliff.com/">Kate Ratliff</a><br>University of Florida'
-img = "ratliff.jpeg"
-alt = "ratliff"
+    [[params.testimonials.item]]
+      person = '<a href="http://www.kateratliff.com/">Kate Ratliff</a><br>University of Florida'
+      img = "ratliff.jpeg"
+      alt = "ratliff"
 
-[[params.testimonials.item]]
-person = '<a href="https://psysciacc.org/">Psych Science Accelerator</a><br>Worldwide Collaboration'
-img = "psa.png"
-alt = "psa"
+    [[params.testimonials.item]]
+      person = '<a href="https://psysciacc.org/">Psych Science Accelerator</a><br>Worldwide Collaboration'
+      img = "psa.png"
+      alt = "psa"
 
-[[params.testimonials.item]]
-person = '<a href="https://psychology.as.virginia.edu/people/profile/cre2am">Charlie Ebersole</a><br>University of Virginia'
-img = "ebersole.jpg"
-alt = "ebersole"
+    [[params.testimonials.item]]
+      person = '<a href="https://psychology.as.virginia.edu/people/profile/cre2am">Charlie Ebersole</a><br>University of Virginia'
+      img = "ebersole.jpg"
+      alt = "ebersole"
 
-[[params.testimonials.item]]
-person = '<a href="https://www.tilburguniversity.edu/webwijs/show/j.j.a.denissen.htm">Jaap Denissen</a><br>Tilburg University'
-img = "denissen.jpg"
-alt = "denissen"
+    [[params.testimonials.item]]
+      person = '<a href="https://www.tilburguniversity.edu/webwijs/show/j.j.a.denissen.htm">Jaap Denissen</a><br>Tilburg University'
+      img = "denissen.jpg"
+      alt = "denissen"
 
-[[params.testimonials.item]]
-person = '<a href="http://lindenberg.academiaworks.com/">Sigi Lindenberg</a><br>Rijksuniversiteit Groningen'
-img = "lindenberg.jpeg"
-alt = "lindenberg"
+    [[params.testimonials.item]]
+      person = '<a href="http://lindenberg.academiaworks.com/">Sigi Lindenberg</a><br>Rijksuniversiteit Groningen'
+      img = "lindenberg.jpeg"
+      alt = "lindenberg"
 
-[[params.testimonials.item]]
-person = '<a href="https://sites.google.com/site/michelangelovianello/">Michelangelo Vianello</a><br>University of Padova'
-img = "vianello.jpeg"
-alt = "vianello"
+    [[params.testimonials.item]]
+      person = '<a href="https://sites.google.com/site/michelangelovianello/">Michelangelo Vianello</a><br>University of Padova'
+      img = "vianello.jpeg"
+      alt = "vianello"
 
-[[params.testimonials.item]]
-person = '<a href="https://www.anthro.ucla.edu/faculty/alan-page-fiske">Alan Fiske</a><br>University of California, LA'
-img = "fiske.jpg"
-alt = "fiske"
+    [[params.testimonials.item]]
+      person = '<a href="https://www.anthro.ucla.edu/faculty/alan-page-fiske">Alan Fiske</a><br>University of California, LA'
+      img = "fiske.jpg"
+      alt = "fiske"
 
-[[params.testimonials.item]]
-person = '<a href="http://www.unipo.sk/pedagogicka-fakulta/katedry/kpepp/ropovik">Ivan Ropovik</a><br>University of Presov'
-img = "ropovik.jpg"
-alt = "ropovik"
-
-[[params.testimonials.item]] #Layout doesn't like the second line of affiliiations, so Brian has to come last.
-person = '<a href="https://www.projectimplicit.net/nosek/">Brian Nosek</a><br>University of Virginia<br>Center for Open Science'
-img = "nosek.jpeg"
-alt = "nosek"
+    [[params.testimonials.item]]
+      person = '<a href="http://www.unipo.sk/pedagogicka-fakulta/katedry/kpepp/ropovik">Ivan Ropovik</a><br>University of Presov'
+      img = "ropovik.jpg"
+      alt = "ropovik"
       
+# I shortened the description for in-mind -- longer descriptions seem to mess up the formatting in this section      
+      [[params.testimonials.item]] 
+      person = '<a href="http://www.in-mind.org">In-Mind Foundation</a><br>Hans founded this magazine'
+      img = "inmind.png"
+      alt = "inmind"
+      
+      [[params.testimonials.item]] 
+      person = '<a href="https://research.vu.nl/en/persons/paula-sterkenburg">Paula Sterkenburg</a><br>Vrije Universiteit Amsterdam'
+      img = "Paula_Sterkenburg.jpg"
+      alt = "sterkenburg"
+      
+      [[params.testimonials.item]] 
+      person = '<a href="http://www.tilapronk.nl/">Tila Pronk</a><br>Tilburg University'
+      img = "pronk.jpg"
+      alt = "pronk"
+      
+      [[params.testimonials.item]] 
+      person = '<a href="http://english.telhai.ac.il/content/prof-yizhar-lavner">Yizhar Lavner</a><br>Tel Hai College'
+      img = "lavner2.jpg"
+      alt = "lavner"
+      
+      [[params.testimonials.item]] 
+      person = '<a href="http://emotionregulationlab.com/?page_id=41">Mattie Tops</a><br>Vrije Universiteit Amsterdam'
+      img = "tops.jpeg"
+      alt = "tops"
+      
+    [[params.testimonials.item]] #Layout doesn't like the second line of affiliiations, so Brian has to come last.
+      person = '<a href="https://www.projectimplicit.net/nosek/">Brian Nosek</a><br>University of Virginia<br>Center for Open Science'
+      img = "nosek.jpeg"
+      alt = "nosek"
+
   # Services section
   # Note: The description lengths below need to be roughly equal or the formatting will get messed up.
   [params.services]
@@ -241,11 +267,59 @@ alt = "nosek"
       icon = "icon-graduation"
 
     [[params.services.item]]
-      title = '<a href = "">Postdoc Grant - Marie Curie</a>'
-      description = "The Marie Curie grant is an excellent opportunity for scholars outside of France wanting to come to France. Deadline for this call is September 12, 2018"
+      title = '<a href = "https://ec.europa.eu/research/mariecurieactions/actions/get-funding_en">Postdoc Grant - Marie Curie</a>'
+      description = "The Marie Curie grant is an excellent opportunity for scholars outside of France wanting to come to France. Topic is flexible. Deadline for this call is September 12, 2018"
       icon = "icon-graduation"
-      link = "https://ec.europa.eu/research/mariecurieactions/actions/get-funding_en"
-      
+
+      [[params.services.item]]
+      title = '<a href = "https://www.campusfrance.org/en/PRESTIGE-programme-postdoc">Postdoc Grant - Prestige</a>'
+      description = "The Prestige grant is an excellent opportunity, but needs cofinancing from another source. Deadlines throughout the year"
+      icon = "icon-graduation"
+
+      [[params.services.item]]
+      title = '<a href = "http://training.iarc.fr/en/fellowships/postdoc.php">Postdoc Grant - International Agency for Research on Cancer</a>'
+      description = "In our papers, we have written about links between cancer and thermoregulation. There are good reasons to suppose a link. This grant could support such research. Currently closed, but may reopen"
+      icon = "icon-graduation"
+
+      [[params.services.item]]
+      title = '<a href = "http://www.fondationfyssen.fr/en/study-grants/aim-award/">Postdoc Grant - Fondation Fyssen</a>'
+      description = "The Prestige grant is an excellent opportunity, but needs cofinancing from another source. Only open to researchers outside of France. Deadline closed for this year"
+      icon = "icon-graduation"
+
+      [[params.services.item]]
+      title = '<a href = "https://www.campusfrance.org/en/make-our-planet-great-again-en">Make Our Planet Great Again</a>'
+      description = "Want to study thermoregulation and climate change? The French government has heavily invested in research countering climate change. Different grants available"
+      icon = "icon-graduation"
+
+      [[params.services.item]]
+      title = '<a href = "http://www.fundit.fr/en/institutions/china-scholarship-council-csc">China Scholarship Council</a>'
+      description = "From China and want to come work with us in France? The CSC has various grants available for Chinese scholars"
+      icon = "icon-graduation"
+
+      [[params.services.item]]
+      title = '<a href = "http://fulbright-france.org/en">Fullbright Scholarships</a>'
+      description = "US Scholar and want to come work with us in France (if only for a few months)? Fullbright has various opportunities at various level of your career"
+      icon = "icon-graduation"
+
+      [[params.services.item]]
+      title = '<a href = "http://dwih.com.br/en/brazil-research-funding">Brazilian Scholarships</a>'
+      description = "Brazilian Scholar and want to come work with us in France (if only for a few months)? There are various scholarships available (and we speak some Portuguese too!)"
+      icon = "icon-graduation"
+
+      [[params.services.item]]
+      title = '<a href = "https://twitter.com/digitalsci/status/878689381602791424">Software Grants</a>'
+      description = "We are working on developing tech (deep learning, app development. Various grants are available for this. The Catalyst grant is but one example. Get in touch to see how we can cooperate!"
+      icon = "icon-graduation"
+
+      [[params.services.item]]
+      title = '<a href = "https://www.communaute-univ-grenoble-alpes.fr/fr/presentation/le-projet-idex/appels-a-projets-idex/international-strategic-partnerships-session-2017-2018-692405.htm">IDEX Grants</a>'
+      description = "The Initiative d'Excellence (of which UGA is a part) offers opportunities for various strategic partners (including in Brazil, US, Canada, Japan, Singapore, Mexico, Senegal, Taiwan, and Morocco. Get in touch to explore with us"
+      icon = "icon-graduation"
+
+      [[params.services.item]]
+      title = '<a href = "https://grants.nih.gov/grants/guide/pa-files/PAR-13-146.html">National Cancer Institute Exploratory Grant</a>'
+      description = "In our papers, we have written about links between cancer and thermoregulation. There are good reasons to suppose a link. This grant could support such research."
+      icon = "icon-graduation"
 
   # About section
   [params.about]
@@ -333,7 +407,7 @@ alt = "nosek"
     map = true
     form = true
     title = "Get in touch"
-    description = "If you're interested in a position in the lab, contact us! In your contact request, please include why you are interested in working on concepts related to thermoregulation/co-regulation. Please also include: </li><li>Which opportunity (e.g., grant) you're interested in.</li><li>Current academic/professional status.</li><li>A brief statement about your commitment to open science.</li>"
+    description = "If you're interested in a position in the lab, contact us! You can work on co-regulation or social thermoregulation in combination with your own topic (e.g., computational modelling, motivation, et cetera). In your contact request, please include why you are interested in working on concepts related to thermoregulation/co-regulation. Please also include: </li><li>Which opportunity (e.g., grant) you're interested in.</li><li>Current academic/professional status.</li><li>A brief statement about your commitment to open science.</li>"
     
     # Available icons: http://simplelineicons.com/
     details = [

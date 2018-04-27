@@ -24,7 +24,7 @@
 
 # Load blogdown package and install Hugo (if needed)
 library(blogdown)
-install_hugo()
+#install_hugo()
 
 # At site creation, I ran the below lines to generate the site in Blogdown.
 # Running this again would overwrite the site with a new blank site. I leave the code as an example.
@@ -45,7 +45,7 @@ serve_site()
 ### THE MAIN FILE TO EDIT TO ADD/CHANGE CONTENT:
 # config.toml
 # you can run the line below to edit this file in rstudio
-file.edit("config.toml")
+#file.edit("config.toml")
 
 
 # Other information:
