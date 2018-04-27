@@ -70,7 +70,7 @@ build_site()
 # Type the three commands:
 
 # git add --all
-# git commit -m "add grants, papers, and announcements"
+# git commit -m "Enter your own message here detailing any changes"
 # git push -u origin master
 
 # First for the co-relab_source. Repeat these steps for the /co-relab.github.io repo.

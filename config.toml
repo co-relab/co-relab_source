@@ -80,6 +80,7 @@ publishDir = "../co-relab.github.io"
     enable = true
     title = "Announcements"
     description = "&bull; Justin Mah (University of Alberta) will be joining the lab as intern in May<br>&bull; Last submitted manuscript that we participated in was for the Psych Science Accelerator: https://psyarxiv.com/785qu/<br>&bull; Armel Soubeiga (Université Grenoble Alpes) will be joining the lab as an intern in May; Nazanin Kafaee (Western Ontario University) will be joining the lab as intern in 2019!"
+
 # Above description is less tidy than the rest because I hacked it in to the intro. Will try to tidy it later.
 
   [params.intro.video]
@@ -154,6 +155,7 @@ publishDir = "../co-relab.github.io"
   # Due to this, we add urls with html code (<a href=""></a>). See Below
   # All images need to be square (e.g. 400 x 400) or the spacing of the page will be messed up
   # Also, seems finicky to the length of text. May need to use abbreviations for names/affiliations.
+
   [params.testimonials]
     enable = true
     title = "Friends of the lab"
