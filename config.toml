@@ -141,14 +141,14 @@ publishDir = "../co-relab.github.io"
       alt = "Oxford Image"
       title = "Oxford Bibliography Guide"
       subtitle = "Two of our researchers participated in a collaboration to write an Oxford Bibliography on replication initiatives in psychology."
-      url = "https://psyarxiv.com/rtygm"
+      url = "https://psyarxiv.com/h5jm7/"
       
       [[params.work.row]]
       img = "SVO.jpg"
       alt = "SVO Image"
       title = "Replication Attachment-Social Value Orientation"
       subtitle = "One of our researchers conducted a (failed) replication of a famous finding in the literature (showing a relation between attachment security and Social Value Orientation)."
-      url = "https://psyarxiv.com/rtygm"
+      url = "https://psyarxiv.com/d2eqk/"
 
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
@@ -428,7 +428,7 @@ publishDir = "../co-relab.github.io"
   # Footer section
   [params.footer]
     enable = true
-    copyright = 'Powered by the <a href="https://github.com/saey55/hugo-elate-theme">Elate Hugo port</a>.'
+    copyright = 'Powered by the <a href="https://github.com/saey55/hugo-elate-theme">Elate Hugo port</a>.<br>Blogdown files available on <a href="https://github.com/co-relab/co-relab_source">GitHub</a>'
 #    links = [
 #        ["icon-twitter", "#twitter"],
 #        ["icon-facebook", "#facebook"],
