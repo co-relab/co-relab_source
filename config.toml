@@ -326,8 +326,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # About section
   [params.about]
     enable = true
-    title = "Our Humans"
-    description = "We're an experienced, diverse team of open source coders, writers, and humans."
+    title = "Lab Members"
+    description = ""
 
   [[params.about.item]]
     name = '<a href="http://www.hansijzerman.org/">Hans IJzerman</a>'  
