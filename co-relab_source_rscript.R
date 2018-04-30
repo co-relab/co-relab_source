@@ -1,20 +1,7 @@
 # Originally I followed this to get started: https://tclavelle.github.io/blog/blogdown_github/
-# Builds webpage (corelab.io) in blogdown and publishes to GitHub Pages
+# Builds webpage (corelab.io) in blogdown, commits files to GitHub, and knits them into the webpage with Netlify.com
 
-# First, two repositories were created on GitHub.com. One for the actual page (following https://pages.github.com/)
-# A second is created to store the raw files/blogdown files because the first repo can only store the "ready-for-web" files.
-# or it won't render
-
-# To start, if you haven't already, clone both GitHub repos locally: open a terminal, use "cd" to 
-# navigate to the directory you want to download to (it will make a new subdirectory below your current
-# directory for each repo). Then run in the terminal the URL to the repos
-# e.g. "git clone https://github.com/co-relab/co-relab_source.git" (source files repo)
-# and "git clone https://github.com/co-relab/co-relab.github.io.git" (github pages repo)
-# Note: you need git installed on your computer or this won't work (comes with MacOS, needs installed on Windows)
-
-# Subsequent times, run this line in Terminal if you want to pull any updates from the master branch
-# (generally good practice to run this before any new session, and run the commit/push commands -- end of this file -- at the end of each session)
-#git pull origin master
+# To start, if you haven't already, fork the github repo and then clone it locally (instructions in readme.md)
 
 # Many lines below commented out because they are only run once to download files, which are then manually edited. 
 #### WARNING: Uncommenting and running from the start will overwrite everything to defaults.
@@ -61,19 +48,16 @@ serve_site()
 # To deploy to web:
 # Below command by default renders the site into a new subfolder in the directory called "public".
 # At the top of config.toml you can specify a different directory with: publishDir = ""
-# In this case I added publishDir = "../co-relab.github.io" which generates these files in the github pages repo folder
-# as long as you downloaded the repos to folders under the same directory (the '..' command moves up one directory level)
+# Never do that for this file, because Netlify depends on the files being in /public/
 build_site()
 
-# To commit to github pages, open the terminal (or use the "Terminal" window in R Studio -- NOT the console)
-# Navigate to the local repo you want to commit with "cd"
-# Type the three commands:
+# To commit to github, use the "Git" window in R Studio.
+# Checkbox the files you want to commit (usually all of them), then press "Commit". Write a commit message
+# that explains what changes were made, and press "Commit" in the new window.
+# Wait for it to complete, then go back to the main R Studio window, and press "Push". This will push the files to GitHub.
 
-# git add --all
-# git commit -m "Enter your own message here detailing any changes"
-# git push -u origin master
+# To make the changes live on the website, you have to then go to GitHub.com, login on your account, and 
+# submit a "Pull Request".
+# Then, the website admin (Rick or Hans, at the moment) needs to login to the 'co-relab' GitHub account, and merge the pull request.
 
-# First for the co-relab_source. Repeat these steps for the /co-relab.github.io repo.
-
-# Note: You need to be authenticated to your GitHub account on your pc, and that account needs to be
-# added as a collaborator to the website repos or you will encounter an authentication error here.
+# Note: You need to be authenticated to your GitHub account on your pc or it will give you an error.
