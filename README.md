@@ -9,9 +9,14 @@ The workflow to edit the page is to clone the files locally, make any edits, the
 Basic steps for CORE lab members to edit the webpage:  
 
 1. Ensure you have R and R Studio installed.  
-2. Create a GitHub account. Ask Rick or Hans to add you as a collaborator to the webpage repos so you have commit permissions.  
-3. If necessary, [Install Git](https://help.github.com/articles/set-up-git/) (comes with MacOS by default)  
-4. [Clone](https://help.github.com/articles/cloning-a-repository/) (e.g., download the files and create a Git repository on your local hard disk) the two website repos locally. To do this, open a [Terminal](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) (or [cmd prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/)), navigate to where you want the files to be stored on your hard disk (use the 'cd' command in Terminal, which changes your directory), and run these two commands:  
+2. Create a GitHub account.   
+3. [Fork](https://help.github.com/articles/fork-a-repo/) the two repositories into your own account:  
+https://github.com/co-relab/co-relab_source  
+https://github.com/co-relab/co-relab.github.io  
+4. If necessary, [Install Git](https://help.github.com/articles/set-up-git/) (comes with MacOS by default)  
+
+
+[Clone](https://help.github.com/articles/cloning-a-repository/) (e.g., download the files and create a Git repository on your local hard disk) the two website repos locally. To do this, open a [Terminal](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) (or [cmd prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/)), navigate to where you want the files to be stored on your hard disk (use the 'cd' command in Terminal, which changes your directory), and run these two commands:  
 `"git clone https://github.com/co-relab/co-relab_source.git"`  
 `"git clone https://github.com/co-relab/co-relab.github.io.git"`
 
