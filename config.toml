@@ -326,44 +326,57 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # About section
   [params.about]
     enable = true
-    title = "Lab Members"
-#    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Our Humans"
+    description = "We're an experienced, diverse team of open source coders, writers, and humans."
 
-    [[params.about.item]]
-      name = '<a href="http://www.hansijzerman.org/">Hans IJzerman</a>'
-      position = 'Principal Investigator'
-      description = "PhD in Social Psychology from Utrecht University and Associate Professor at UGA. Directs lab strategy."
-      img = "hans_twitter.jpeg"
-      alt = "Person1"
-      social = [
-        ["icon-globe", "http://www.hansijzerman.org/"],
-        ["icon-folder", "https://osf.io/3hsfj/"],
-        ["icon-google", "https://scholar.google.com/citations?user=KC7FG9QAAAAJ"],        
-        ["icon-twitter", "https://twitter.com/hansijzerman"]
-      ]
+  [[params.about.item]]
+    name = '<a href="http://www.hansijzerman.org/">Hans IJzerman</a>'  
+    position = 'Principal Investigator'  
+    description = "PhD in Social Psychology from Utrecht University and Associate Professor at UGA. Directs lab strategy."  
+    img = "hans_twitter.jpeg"  
+    alt = "Person1"  
+    social = [
+      ["icon-globe", "http://www.hansijzerman.org/"],
+      ["icon-folder", "https://osf.io/3hsfj/"],
+      ["icon-google", "https://scholar.google.com/citations?user=KC7FG9QAAAAJ"],        
+      ["icon-twitter", "https://twitter.com/hansijzerman"]
+    ]  
 
+  [[params.about.item]]
+    name = '<a href="https://raklein.github.io/">Richard Klein</a>'
+    position = "Post-Doc"
+    description = "PhD in Social Psychology from the University of Florida. Handles complex datasets and performs statistical analyses."
+    img = "klein.cos.photo.jpg"
+    alt = "RichardKlein"
+    social = [
+      ["icon-globe", "https://raklein.github.io/"],
+      ["icon-folder", "https://osf.io/tmwry/"],
+      ["icon-google", "https://scholar.google.com/citations?user=wxW6e0sAAAAJ"],
+      ["icon-github", "https://github.com/raklein"]
+    ]     
+# With the below item, format appears to depend on the length of the description
+# If you add more than 5 people. May be a bug in the overall template.
     [[params.about.item]]
-      name = '<a href="https://raklein.github.io/">Richard Klein</a>'
-      position = "Post-Doc"
-      description = "PhD in Social Psychology from the University of Florida. Handles complex datasets and performs statistical analyses."
-      img = "klein.cos.photo.jpg"
-      alt = "RichardKlein"
-      social = [
-        ["icon-globe", "https://raklein.github.io/"],
-        ["icon-folder", "https://osf.io/tmwry/"],
-        ["icon-google", "https://scholar.google.com/citations?user=wxW6e0sAAAAJ"],
-        ["icon-github", "https://github.com/raklein"]
-      ]
-
-    [[params.about.item]]
-      name = 'Lison Neyroud'
+      name = "Lison Neyroud"
       position = "Research Manager"
-      description = "MA in Psychology from the Université Grenoble Alpes. Manages participant recruitment and keeps things running in the lab."
+      description = "MA in Psychology from the Université Grenoble Alpes. Manages participant recruitment, facilitates French <> English translations, and generally keeps things running in the lab."
       img = "person3.jpg"
-      alt = "Person3"
+      alt = "lison"
       social = [
-      ["icon-folder", "https://osf.io/n75jp/"]
-      ]      
+        ["icon-folder", "https://osf.io/n75jp/"]
+      ]
+
+  [[params.about.item]]
+    name = "Armel Soubeiga"  
+    position = "Intern"  
+    description = "Master's student in statistics and data science at UGA. Joins the lab to work on big data and deep/machine learning."
+    img = "armel.jpg"  
+    alt = "armel"  
+    social = [
+      ["icon-globe", "http://armelsoubeiga.ga/"],
+      ["icon-github", "https://github.com/armelsoubeiga"]
+    ]    
+
 
   # Counters section
   [params.counters]
