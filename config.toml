@@ -3,6 +3,7 @@ baseurl = "corelab.io"
 title = "CORE Lab"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Can add background image in themes/hugo-elate-theme/layouts/partials/hero.html or replace full_image_2.jpg
 # Adjust transparency in style.css (search 'opacity:')
