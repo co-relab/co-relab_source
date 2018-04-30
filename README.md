@@ -22,4 +22,4 @@ This will create a new directory on your computer: co-relab_source
 
 6. Navigate on your computer to the new *co-relab_source* folder and open *co-relab_source.rproj* in R Studio. 
 7. Also open *co-relab_source_rscript.R* (the R script). Using R Projects eliminates the need to set a working directory each time (it's automatically set to the folder containing the .rproj file).
-8. At this point, just follow instructions in the R script to edit the page. Once you're done, you'll "commit" those changes back to you fork in R Studio. Then, you'll submit a Pull Request on GitHub.com.
+8. At this point, just follow instructions in the R script to edit the page. Once you're done, you'll "Commit" those changes, "Push" them back to your fork (these steps in R Studio). Then, you'll submit a Pull Request on GitHub.com. Your changes will be live when the admin for the co-relab GitHub account merges the changes.
