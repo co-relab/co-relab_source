@@ -1,7 +1,11 @@
 # Originally I followed this to get started: https://tclavelle.github.io/blog/blogdown_github/
 # Builds webpage (corelab.io) in blogdown, commits files to GitHub, and knits them into the webpage with Netlify.com
 
-# To start, if you haven't already, fork the github repo and then clone it locally (instructions in readme.md)
+# To start, if you haven't already, fork the github repo, clone it locally, configure the upstream repository, and sync with the upstream repository  (steps 1-9 in readme.md)
+# Each time you start to edit the page, repeat step 9:
+#git fetch upstream
+#git checkout master
+#git merge upstream/master
 
 # Many lines below commented out because they are only run once to download files, which are then manually edited. 
 #### WARNING: Uncommenting and running from the start will overwrite everything to defaults.

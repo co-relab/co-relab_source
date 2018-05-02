@@ -16,10 +16,16 @@ https://github.com/co-relab/co-relab_source
 Open a [Terminal](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) (or [cmd prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/)), navigate to where you want the files to be stored on your hard disk (use the 'cd' command in Terminal, which changes your directory), and run:
 `git clone <copied url>`
 
-Replace <copied url> with your clipboard.
+Replace `<copied url>` with your clipboard.
 
 This will create a new directory on your computer: co-relab_source
 
 6. Navigate on your computer to the new *co-relab_source* folder and open *co-relab_source.rproj* in R Studio. 
 7. Also open *co-relab_source_rscript.R* (the R script). Using R Projects eliminates the need to set a working directory each time (it's automatically set to the folder containing the .rproj file).
-8. At this point, just follow instructions in the R script to edit the page. Once you're done, you'll "Commit" those changes, "Push" them back to your fork (these steps in R Studio). Then, you'll submit a Pull Request on GitHub.com. Your changes will be live when the admin for the co-relab GitHub account merges the changes.
+8. In the Terminal of R Studio (or your regular command line), [configure the remote repository](https://help.github.com/articles/configuring-a-remote-for-a-fork/) so you can update your local files with changes from the main repo:  
+`git remote add upstream https://github.com/co-relab/co-relab_source.git`
+9. Each time before you start editing the page, [update your local repo](https://help.github.com/articles/syncing-a-fork/) and resolve any conflicts:  
+`git fetch upstream`  
+`git checkout master`  
+`git merge upstream/master`
+10. At this point, just follow instructions in the R script to edit the page. Once you're done, you'll "Commit" those changes, "Push" them back to your fork (these steps in R Studio). Then, you'll submit a Pull Request on GitHub.com. Your changes will be live when the admin for the co-relab GitHub account merges the changes.
