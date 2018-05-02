@@ -377,6 +377,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-github", "https://github.com/armelsoubeiga"]
     ]    
 
+  [[params.about.item]]
+    name = "Justin Mah"  
+    position = "Intern"  
+    description = 'Undergraduate student in psychology at the University of Alberta, Canada. Joins the lab to do studies using the <a href="https://embrlabs.com/">Embr wave</a>.'
+    img = "justin.png"  
+    alt = "justin"  
+#    social = [
+#      ["icon-globe", "http://"],
+#      ["icon-github", "http://"]
+#    ]   
 
   # Counters section
   [params.counters]
