@@ -124,30 +124,33 @@ $(document).ready(function () {
 <div id="source-blogdown-files-for-the-corelab.io-website" class="section level1">
 <h1>Source Blogdown files for the corelab.io website</h1>
 <p>This repository contains the source files for the CORE Lab webpage (corelab.io), which is just a GitHub Pages page (co-relab.github.io) with a custom domain.</p>
-<p>The site is built in the <a href="https://bookdown.org/yihui/blogdown/">Blogdown R Package</a> and this repository stores the source Blogdown files. Blogdown then “knits” the files into .html and other web-compatible files that are published to a Github Pages page (co-relab.github.io – which is also corelab.io). These html and other “published” files, which we never edit directly, reside in the <a href="https://github.com/co-relab/co-relab.github.io">co-relab.github.io</a> repo. This is because GitHub Pages can only contain the “published” files for the site to render. So, we build the site in this repo, then “publish” the finished files to that repo.</p>
-<p>The workflow to edit the page is to clone the files locally, make any edits, then commit the changes back to this repository.</p>
+<p>The site is built in the <a href="https://bookdown.org/yihui/blogdown/">Blogdown R Package</a> and this repository stores the source Blogdown files. Netlify.com then “knits” the files into .html and other web-compatible files that are published.</p>
+<p>The workflow to edit the webpage is to fork the files to your GitHub account, clone the files locally, make any edits, commit the changes back to your GitHub account, then submit a “Pull Request” to the main co-relab/co-relab_source branch on GitHub.</p>
 <p>Basic steps for CORE lab members to edit the webpage:</p>
 <ol style="list-style-type: decimal">
 <li>Ensure you have R and R Studio installed.<br />
 </li>
-<li>Create a GitHub account. Ask Rick or Hans to add you as a collaborator to the webpage repos so you have commit permissions.<br />
+<li>Create a GitHub account.<br />
+</li>
+<li><a href="https://help.github.com/articles/fork-a-repo/">Fork</a> the repository into your own account:<br />
+<a href="https://github.com/co-relab/co-relab_source" class="uri">https://github.com/co-relab/co-relab_source</a><br />
 </li>
 <li>If necessary, <a href="https://help.github.com/articles/set-up-git/">Install Git</a> (comes with MacOS by default)<br />
 </li>
-<li><a href="https://help.github.com/articles/cloning-a-repository/">Clone</a> (e.g., download the files and create a Git repository on your local hard disk) the two website repos locally. To do this, open a <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line">Terminal</a> (or <a href="https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/">cmd prompt</a>), navigate to where you want the files to be stored on your hard disk (use the ‘cd’ command in Terminal, which changes your directory), and run these two commands:<br />
-<code>&quot;git clone https://github.com/co-relab/co-relab_source.git&quot;</code><br />
-<code>&quot;git clone https://github.com/co-relab/co-relab.github.io.git&quot;</code></li>
+<li><a href="https://help.github.com/articles/cloning-a-repository/">Clone</a> (e.g., download the files and create a Git repository on your local hard disk) the repo locally. To do this, first go to the forked repository on GitHub, click the “Clone or Download” button, copy the link. Open a <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line">Terminal</a> (or <a href="https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/">cmd prompt</a>), navigate to where you want the files to be stored on your hard disk (use the ‘cd’ command in Terminal, which changes your directory), and run: <code>git clone &lt;copied url&gt;</code></li>
 </ol>
-<p>This will create two new subdirectories/Git repos: co-relab_source and co-relab.github.io</p>
-<ol start="5" style="list-style-type: decimal">
+<p>Replace <code>&lt;copied url&gt;</code> with your clipboard.</p>
+<p>This will create a new directory on your computer: co-relab_source</p>
+<ol start="6" style="list-style-type: decimal">
 <li>Navigate on your computer to the new <em>co-relab_source</em> folder and open <em>co-relab_source.rproj</em> in R Studio.</li>
 <li>Also open <em>co-relab_source_rscript.R</em> (the R script). Using R Projects eliminates the need to set a working directory each time (it’s automatically set to the folder containing the .rproj file).</li>
-<li>At this point, just follow instructions in the R script to edit the page. Once you’re done, you’ll “commit” those changes back to this repo. Go to the Terminal (in R studio, or on your computer), if necessary navigate to the repository you want to commit (e.g., “cd C:/Users/Username/Projects/co-relab_source”). Then, run these commands:<br />
-<code>#git add --all</code><br />
-<code>#git commit -m &quot;Enter commit message detailing changes here&quot;</code><br />
-<code>#git push -u origin master</code><br />
-Repeat for the co-relab.github.io folder<br />
-(These instructions are also in the R script)</li>
+<li>In the Terminal of R Studio (or your regular command line), <a href="https://help.github.com/articles/configuring-a-remote-for-a-fork/">configure the remote repository</a> so you can update your local files with changes from the main repo:<br />
+<code>git remote add upstream https://github.com/co-relab/co-relab_source.git</code></li>
+<li>Each time before you start editing the page, <a href="https://help.github.com/articles/syncing-a-fork/">update your local repo</a> and resolve any conflicts:<br />
+<code>git fetch upstream</code><br />
+<code>git checkout master</code><br />
+<code>git merge upstream/master</code></li>
+<li>At this point, just follow instructions in the R script to edit the page. Once you’re done, you’ll “Commit” those changes, “Push” them back to your fork (these steps in R Studio). Then, you’ll submit a Pull Request on GitHub.com. Your changes will be live when the admin for the co-relab GitHub account merges the changes.</li>
 </ol>
 </div>
 
