@@ -7,6 +7,13 @@
 # git checkout master
 # git merge upstream/master
 
+# If you get conflicts you will have to resolve them before it will let you merge. IF you want to overwrite your local changes with the main repo
+# you can "stash" your files like this:
+#git stash save --keep-index
+
+# If you don't want to keep your stashed files, drop them:
+#git stash drop
+
 # Many lines below commented out because they are only run once to download files, which are then manually edited. 
 #### WARNING: Uncommenting and running from the start will overwrite everything to defaults.
 #### So, pick and choose the lines you need. Mostly this file is just describing the set-up process.

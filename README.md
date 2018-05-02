@@ -28,4 +28,12 @@ This will create a new directory on your computer: co-relab_source
 `git fetch upstream`  
 `git checkout master`  
 `git merge upstream/master`
+
+If you get conflicts you will have to resolve them before it will let you merge. IF you want to overwrite your local changes with the main repo
+you can "stash" your files like this:
+`git stash save --keep-index`
+
+If you don't want to keep your stashed files, drop them:
+`git stash drop`
+
 10. At this point, just follow instructions in the R script to edit the page. Once you're done, you'll "Commit" those changes, "Push" them back to your fork (these steps in R Studio). Then, you'll submit a Pull Request on GitHub.com. Your changes will be live when the admin for the co-relab GitHub account merges the changes.
