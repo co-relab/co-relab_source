@@ -150,6 +150,10 @@ $(document).ready(function () {
 <code>git fetch upstream</code><br />
 <code>git checkout master</code><br />
 <code>git merge upstream/master</code></li>
+</ol>
+<p>If you get conflicts you will have to resolve them before it will let you merge. IF you want to overwrite your local changes with the main repo you can “stash” your files like this: <code>git stash save --keep-index</code></p>
+<p>If you don’t want to keep your stashed files, drop them: <code>git stash drop</code></p>
+<ol start="10" style="list-style-type: decimal">
 <li>At this point, just follow instructions in the R script to edit the page. Once you’re done, you’ll “Commit” those changes, “Push” them back to your fork (these steps in R Studio). Then, you’ll submit a Pull Request on GitHub.com. Your changes will be live when the admin for the co-relab GitHub account merges the changes.</li>
 </ol>
 </div>
