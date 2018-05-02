@@ -3,9 +3,9 @@
 
 # To start, if you haven't already, fork the github repo, clone it locally, configure the upstream repository, and sync with the upstream repository  (steps 1-9 in readme.md)
 # Each time you start to edit the page, repeat step 9:
-#git fetch upstream
-#git checkout master
-#git merge upstream/master
+# git fetch upstream
+# git checkout master
+# git merge upstream/master
 
 # Many lines below commented out because they are only run once to download files, which are then manually edited. 
 #### WARNING: Uncommenting and running from the start will overwrite everything to defaults.
