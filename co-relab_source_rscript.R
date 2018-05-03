@@ -2,7 +2,7 @@
 # Builds webpage (corelab.io) in blogdown, commits files to GitHub, and knits them into the webpage with Netlify.com
 
 # To start, if you haven't already, fork the github repo, clone it locally, configure the upstream repository, and sync with the upstream repository  (steps 1-9 in readme.md)
-# Each time you start to edit the page, repeat step 9:
+# Each time you start to edit the page, repeat step 9 and do this in terminal:
 # git fetch upstream
 # git checkout master
 # git merge upstream/master
