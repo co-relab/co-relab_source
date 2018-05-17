@@ -451,7 +451,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Footer section
   [params.footer]
     enable = true
-    copyright = 'Powered by the <a href="https://github.com/saey55/hugo-elate-theme">Elate Hugo port</a>.<br>Blogdown files available on <a href="https://github.com/co-relab/co-relab_source">GitHub</a>'
+    copyright = 'Powered by the <a href="https://github.com/saey55/hugo-elate-theme">Elate Hugo port</a>.<br>Source (blogdown) files for this page and instructions for use are available on <a href="https://github.com/co-relab/co-relab_source">GitHub</a>'
 #    links = [
 #        ["icon-twitter", "#twitter"],
 #        ["icon-facebook", "#facebook"],
