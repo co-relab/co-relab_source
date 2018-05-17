@@ -154,8 +154,15 @@ $(document).ready(function () {
 <p>If you get conflicts you will have to resolve them before it will let you merge. IF you want to overwrite your local changes with the main repo you can “stash” your files like this: <code>git stash save --keep-index</code></p>
 <p>If you don’t want to keep your stashed files, drop them: <code>git stash drop</code></p>
 <ol start="10" style="list-style-type: decimal">
-<li>At this point, just follow instructions in the R script to edit the page. Once you’re done, you’ll “Commit” those changes, “Push” them back to your fork (these steps in R Studio). Then, you’ll submit a Pull Request on GitHub.com. Your changes will be live when the admin for the co-relab GitHub account merges the changes.</li>
+<li>At this point, just follow instructions in the R script to edit the page.<br />
+</li>
+<li>Once you’re done, you’ll “Commit” those changes back to your local repository using the “Git” window in R Studio: Checkbox the files you want to commit (usually all of them), then press “Commit”. Write a commit message that explains what changes were made, and press “Commit” in the new window.<br />
+</li>
+<li>Then, to “Push” these changes to your GitHub fork, press the “Push” button in R Studio.<br />
+</li>
+<li>Finally, submit a “Pull Request” to send these changes back to the original repository and make them live on the webpage: go to GitHub.com, login on your account, and submit a “Pull Request”. After this, a website admin (Rick or Hans, at the moment) needs to login to the ‘co-relab’ GitHub account, and merge the pull request.</li>
 </ol>
+<p>Note: You need to be authenticated to your GitHub account on your pc or it will give you an error.</p>
 </div>
 
 

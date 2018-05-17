@@ -36,4 +36,9 @@ you can "stash" your files like this:
 If you don't want to keep your stashed files, drop them:
 `git stash drop`
 
-10. At this point, just follow instructions in the R script to edit the page. Once you're done, you'll "Commit" those changes, "Push" them back to your fork (these steps in R Studio). Then, you'll submit a Pull Request on GitHub.com. Your changes will be live when the admin for the co-relab GitHub account merges the changes.
+10. At this point, just follow instructions in the R script to edit the page.  
+11. Once you're done, you'll "Commit" those changes back to your local repository using the "Git" window in R Studio: Checkbox the files you want to commit (usually all of them), then press "Commit". Write a commit message that explains what changes were made, and press "Commit" in the new window.  
+12. Then, to "Push" these changes back to your fork on GitHub, press the "Push" button in R Studio.  
+13. Finally, submit a "Pull Request" to send these changes back to the original repository and make them live on the webpage: go to GitHub.com, login on your account, and submit a "Pull Request". After this, a website admin (Rick or Hans, at the moment) needs to login to the 'co-relab' GitHub account, and merge the pull request.  
+
+Note: You need to be authenticated to your GitHub account on your pc or it will give you an error.
