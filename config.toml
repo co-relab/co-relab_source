@@ -343,13 +343,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     ]  
 
   [[params.about.item]]
-    name = '<a href="https://raklein.github.io/">Richard Klein</a>'
+    name = '<a href="https://raklein.me/">Richard Klein</a>'
     position = "Post-Doc"
     description = "PhD in Social Psychology from the University of Florida. Handles complex datasets and performs statistical analyses."
     img = "klein.cos.photo.jpg"
     alt = "RichardKlein"
     social = [
-      ["icon-globe", "https://raklein.github.io/"],
+      ["icon-globe", "https://raklein.me/"],
       ["icon-folder", "https://osf.io/tmwry/"],
       ["icon-google", "https://scholar.google.com/citations?user=wxW6e0sAAAAJ"],
       ["icon-github", "https://github.com/raklein"]
