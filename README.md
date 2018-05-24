@@ -1,5 +1,5 @@
 # Source Blogdown files for the corelab.io website
-This repository contains the source files for the CORE Lab webpage (corelab.io), which is just a GitHub Pages page (co-relab.github.io) with a custom domain.
+This repository contains the source files for the CORE Lab webpage (corelab.io).
 
 The site is built in the [Blogdown R Package](https://bookdown.org/yihui/blogdown/) and this repository stores the source Blogdown files. Netlify.com then "knits" the files into .html and other web-compatible files that are published.
 
