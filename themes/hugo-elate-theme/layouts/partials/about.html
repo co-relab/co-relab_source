@@ -12,7 +12,7 @@
 		</div>
 		<div class="row">
 		{{ range .Site.Params.about.item }}
-			<div class="col-md-4 person-container">
+			<div class="col-md-4 person-container"><br><br> <!-- Added these two br tags to fix formatting bugging out when adding a 6th collaborator -->
 				<div class="fh5co-person text-center to-animate">
 					<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
 					<h3>{{ .name | markdownify }}</h3>

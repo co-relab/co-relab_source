@@ -324,6 +324,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       icon = "icon-graduation"
 
   # About section
+  # Edited about.html to fix display issues when adding 6+ collaborators
   [params.about]
     enable = true
     title = "Lab Members"
@@ -344,7 +345,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   [[params.about.item]]
     name = '<a href="https://raklein.me/">Richard Klein</a>'
-    position = "Post-Doc"
+    position = "Postdoc"
     description = "PhD in Social Psychology from the University of Florida. Handles complex datasets and performs statistical analyses."
     img = "klein.cos.photo.jpg"
     alt = "RichardKlein"
@@ -359,7 +360,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.about.item]]
       name = "Lison Neyroud"
       position = "Research Manager"
-      description = "MA in Psychology from the Université Grenoble Alpes. Manages participant recruitment, facilitates French <> English translations, and generally keeps things running in the lab."
+      description = "MA in Psychology from the UGA. Manages participant recruitment, translations, and keeps the lab running."
       img = "person3.jpg"
       alt = "lison"
       social = [
@@ -367,7 +368,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ]
 
   [[params.about.item]]
-    name = "Armel Soubeiga"  
+    name = '<a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>'
     position = "Intern"  
     description = "Master's student in statistics and data science at UGA. Joins the lab to work on big data and deep/machine learning."
     img = "armel.jpg"  
@@ -380,13 +381,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.about.item]]
     name = "Justin Mah"  
     position = "Intern"  
-    description = 'Undergraduate student in psychology at the University of Alberta, Canada. Joins the lab to do studies using the <a href="https://embrlabs.com/">Embr wave</a>.'
+    description = 'Undergraduate student in Psychology at the University of Alberta, Canada. Joins the lab to do studies using the <a href="https://embrlabs.com/">Embr wave</a>.'
     img = "justin.png"  
     alt = "justin"  
-#    social = [
-#      ["icon-globe", "http://"],
-#      ["icon-github", "http://"]
-#    ]   
+    social = [
+      ["icon-github", "http://"]
+    ]   
+
+  [[params.about.item]]
+    name = "Mehdi Souabni"
+    position = "Intern"  
+    description = "Master's student in Info Systems at UGA. Does Android development for our temperature/experience sampling app."
+    img = "mehdi.jpg"  
+    alt = "mehdi"  
+    social = [
+      ["icon-github", "https://github.com/souabniMehdi"]
+    ]   
 
   # Counters section
   [params.counters]
