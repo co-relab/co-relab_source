@@ -55,7 +55,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.intro.item]]
     title = "Papers"
     description = "Check out publications and/or preprints from the lab. We try to ensure all our work is available to the public, so if you can't find a paper let us know!"
-    url = "http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1923044" #Can we make a separate page where we merge our papers from psyarxiv?
+    url = "https://osf.io/preprints/discover?provider=OSFORPsyArXiv&q=%22Richard%20A.%20Klein%22%20OR%20%22Hans%20IJzerman%22" #Searches for papers from Hans or I, update with new lab members.
     button = "Access Papers"
     icon = "icon-docs"
     img = "papers.png"
@@ -63,7 +63,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.intro.item]]
     title = "Open Data/Materials"
     description = "To the extent possible we make materials, data, and analysis scripts publicly available on the Open Science Framework. These may be used for re-analysis or for novel hypotheses."
-    url = 'https://osf.io/search/?q=tags:("CORE Lab")&page=1' #This links to a search on OSF for projects tagged "CORE Lab". So, if we stick with this, we should add that tag to all our osf projects.
+    url = 'https://osf.io/search/?q=%22Richard%20A.%20Klein%22%20OR%20%22Hans%20IJzerman%22&filter=project&page=1' #Searches for projects from Hans or I, update with new lab members.
     button = "Find our datasets"
     icon = "icon-folder"
     img = "COS-Logo-small-1.png"
