@@ -55,7 +55,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.intro.item]]
     title = "Papers"
     description = "Check out publications and/or preprints from the lab. We try to ensure all our work is available to the public, so if you can't find a paper let us know!"
-    url = "https://osf.io/preprints/discover?provider=OSFORPsyArXiv&q=%22Richard%20A.%20Klein%22%20OR%20%22Hans%20IJzerman%22" #Searches for papers from Hans or I, update with new lab members.
+    url = "https://osf.io/preprints/discover?provider=OSFORPsyArXiv&q=tags%3A(%22corelab%22)&sort=-date_updated" #Searches for OSF Preprints and PsyArXiv preprints, with the tag "corelab", sorted from most recent -> oldest.
     button = "Access Papers"
     icon = "icon-docs"
     img = "papers.png"
@@ -63,7 +63,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.intro.item]]
     title = "Open Data/Materials"
     description = "To the extent possible we make materials, data, and analysis scripts publicly available on the Open Science Framework. These may be used for re-analysis or for novel hypotheses."
-    url = 'https://osf.io/search/?q=%22Richard%20A.%20Klein%22%20OR%20%22Hans%20IJzerman%22&filter=project&page=1' #Searches for projects from Hans or I, update with new lab members.
+    url = 'https://osf.io/search/?q=tags:(corelab)&filter=project&page=1' #Searches for projects tagged "corelab".
     button = "Find our datasets"
     icon = "icon-folder"
     img = "COS-Logo-small-1.png"
@@ -79,8 +79,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.intro.news] #did some heavy editing of params/intro.html to add this section
     enable = true
     title = "Announcements"
-    description = '&bull; We welcome three new members of the lab: Justin Mah (University of Alberta), Armel Soubeiga (UGA), and Mehdi Souabni (UGA) join the lab for internships through June and July 2018<br>&bull; Hans IJzerman has signed a contract with <a href="https://en.wikipedia.org/wiki/W._W._Norton_%26_Company">WW Norton</a> to write a popular science book on thermoregulation in social relationships<br>&bull;The CORE Lab will organize a <a href="http://www.easp.eu/news/itm/rkts_workshop__solid_science_training_workshop-646.html">solid science training workshop</a>, together with the University of Bordeaux<br>&bull; <a href="https://psyarxiv.com/785qu/">Last submitted manuscript</a> that we participated in was for the Psych Science Accelerator'
-
+    description = '&bull; Find slides and presentations from our recent Open Science workshop in Bordeaux <a href="https://osf.io/gvkxn/">here</a>.<br>&bull; We send off three members of the lab who have completed very successful internships: Justin, Armel, and Mehdi. <br>&bull; Hans IJzerman has signed a contract with <a href="https://en.wikipedia.org/wiki/W._W._Norton_%26_Company">WW Norton</a> to write a popular science book on thermoregulation in social relationships<br>&bull; <a href="https://psyarxiv.com/785qu/">Last submitted manuscript</a> was for the Psych Science Accelerator'
+    
 # Above description is less tidy than the rest because I hacked it in to the intro. Will try to tidy it later.
 
   [params.intro.video]
