@@ -14,6 +14,9 @@
 # If you don't want to keep your stashed files, drop them:
 #git stash drop
 
+# Sometimes I get issues with my local branch being persistently behind master, found this helpful to resolve:
+# https://stackoverflow.com/questions/41283955/github-keeps-saying-this-branch-is-x-commits-ahead-y-commits-behind/41289258
+
 # Many lines below commented out because they are only run once to download files, which are then manually edited. 
 #### WARNING: Uncommenting and running from the start will overwrite everything to defaults.
 #### So, pick and choose the lines you need. Mostly this file is just describing the set-up process.
