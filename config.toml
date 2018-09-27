@@ -353,6 +353,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-globe", "https://raklein.me/"],
       ["icon-folder", "https://osf.io/tmwry/"],
       ["icon-google", "https://scholar.google.com/citations?user=wxW6e0sAAAAJ"],
+      ["icon-twitter", "https://twitter.com/raklein3"],
       ["icon-github", "https://github.com/raklein"]
     ]     
 # With the below item, format appears to depend on the length of the description
