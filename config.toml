@@ -439,7 +439,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
     description = "If you're interested in a position in the lab, contact us! You can work on co-regulation or social thermoregulation in combination with your own topic (e.g., computational modelling, motivation, et cetera). In your contact request, please include why you are interested in working on concepts related to thermoregulation/co-regulation. Please also include: </li><li>Which opportunity (e.g., grant) you're interested in.</li><li>Current academic/professional status.</li><li>A brief statement about your commitment to open science.</li>"
