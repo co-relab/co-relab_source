@@ -20,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.navigation]
     brand = "CORE Lab"
     home = "Home"
-    work = "Projects"
+    work = "Releases"
     testimonials = "Lab Friends" # I commented out this tab in partials/nav.html so it isn't displayed
     services = "Opportunities"
     about = "Lab Members" #Order of this one changed in layouts/partials/nav.html 
@@ -77,7 +77,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "doors.jpg"
 
   [params.intro.news] #did some heavy editing of params/intro.html to add this section
-    enable = true
+    enable = false
     title = "Announcements"
     description = '&bull; Find slides and presentations from our recent Open Science workshop in Bordeaux <a href="https://osf.io/gvkxn/">here</a>.<br>&bull; We sent off three members of the lab who have completed very successful internships: Justin, Armel, and Mehdi. <br>&bull; Hans IJzerman has signed a contract with <a href="https://en.wikipedia.org/wiki/W._W._Norton_%26_Company">WW Norton</a> to write a popular science book on thermoregulation in social relationships<br>&bull; <a href="https://psyarxiv.com/785qu/">Last submitted manuscript</a> was for the Psych Science Accelerator'
     
@@ -91,64 +91,114 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
   # Work section
-  [params.work]
-    enable = true
-    title = "Projects"
-    description = "Here's a sample of the work we do."
-    footertext = ''
-
-    [[params.work.row]]
-      img = "penguins-429128_1920.jpg"
-      alt = "Penguins Image"
-      title = "Human Penguin Project"
-      subtitle = "International collaboration investigating the link between social environment and core body temperature."
-      url = "https://osf.io/2rm5b/" 
-
 # To enable external URLs here, I had to edit layouts/partials/work.html.
 # Line 16 from: <a href="images/{{ .img }}" class="fh5co-project-item image-popup to-animate">
 # to: <a href="{{ .url }}" class="fh5co-project-item to-animate">
+# Also edited work.html to add the 'category' images. Can add new ones or change current
+# just edit with Gimp releases_categories.xcf (in images folder) and save as "name.png".
+# Can remove entirely by deleting this line from work.html: <img src="images/{{ .category }}" class="img-responsive">
+
+  [params.work]
+    enable = true
+    title = "Releases"
+    description = "Here are recent projects we've completed."
+    footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
 
     [[params.work.row]]
+      category = "education.png"
+      img = "bord_workshop.png"
+      alt = "Solid Science"
+      title = "Solid Science Training Workshop"
+      subtitle = "9/2018 - We organized a workshop training scientists on doing reproducible, open science. Videos and materials available on the OSF."
+      url = "https://osf.io/gvkxn/" 
+
+    [[params.work.row]]
+      category = "publication.png"
+      img = "penguins-429128_1920.jpg"
+      alt = "Penguins Image"
+      title = "Human Penguin Project"
+      subtitle = "9/2018 - International collaboration investigating the link between social environment and core body temperature."
+      url = "https://psyarxiv.com/6b7ne" 
+
+    [[params.work.row]]
+      category = "publication.png"
       img = "cup-939479_1920.jpg"
       alt = "Cold Glass Image"
       title = "Socially Thermoregulated Thinking"
-      subtitle = "Past experiences, and a current manipulation of physical temperature, affect thinking about our loved ones."
+      subtitle = "8/2018 - Past experiences, and a current manipulation of physical temperature, affect thinking about our loved ones."
       url = "https://psyarxiv.com/25dmj"
 
-    [[params.work.row]]
-      img = "stroopml.png"
-      alt = "Stroop figure"
-      title = "Machine Learning and the Stroop Effect"
-      subtitle = "Revisiting what predicts performance on a classic effect using new statistics (conditional random forests)."
-      url = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2805205"
-
-    [[params.work.row]]
-      img = "ml1.png"
-      alt = "Many Labs 1 figure"
-      title = "Many Labs 1"
-      subtitle = "36 labs replicated 13 classic psychology studies to investigate cultural and contextual predictors of replicability."
-      url = "https://osf.io/wx7ck/"
-      
-    [[params.work.row]]
-      img = "transparency.jpg"
-      alt = "Transparency Image"
-      title = "Transparency Guide"
-      subtitle = "One of our researchers participated in a collaboration to write a practical guide for more transparent science."
-      url = "https://psyarxiv.com/rtygm"
-      
       [[params.work.row]]
+      category = "publication.png"
       img = "oxford.jpg"
       alt = "Oxford Image"
       title = "Oxford Bibliography Guide"
-      subtitle = "Two of our researchers participated in a collaboration to write an Oxford Bibliography on replication initiatives in psychology."
+      subtitle = "5/2018 - Two of our researchers participated in a collaboration to write an Oxford Bibliography on replication initiatives in psychology."
       url = "https://psyarxiv.com/h5jm7/"
       
-      [[params.work.row]]
-      img = "SVO.jpg"
-      alt = "SVO Image"
-      title = "Replication Attachment-Social Value Orientation"
-      subtitle = "One of our researchers conducted a (failed) replication of a famous finding in the literature (showing a relation between attachment security and Social Value Orientation)."
-      url = "https://psyarxiv.com/d2eqk/"
+    [[params.work.row]]
+      category = "publication.png"
+      img = "transparency.jpg"
+      alt = "Transparency Image"
+      title = "Transparency Guide"
+      subtitle = "6/2018 - One of our researchers participated in a collaboration to write a practical guide for more transparent science."
+      url = "https://psyarxiv.com/rtygm"
+      
+    [[params.work.row]]
+      category = "publication.png"
+      img = "stroopml.png"
+      alt = "Stroop figure"
+      title = "Machine Learning and the Stroop Effect"
+      subtitle = "5/2017 - Revisiting what predicts performance on a classic effect using new statistics (conditional random forests)."
+      url = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2805205"
+
+  # About section
+  # Edited about.html to fix display issues when adding 6+ collaborators
+  [params.about]
+    enable = true
+    title = "Lab Members"
+    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>.'
+#    description = ""
+
+  [[params.about.item]]
+    name = '<a href="http://www.hansijzerman.org/">Hans IJzerman</a>'  
+    position = 'Principal Investigator'  
+    description = "PhD in Social Psychology from Utrecht University and Associate Professor at UGA. Directs lab strategy."  
+    img = "hans_twitter.jpeg"  
+    alt = "Person1"  
+    social = [
+      ["icon-globe", "http://www.hansijzerman.org/"],
+      ["icon-folder", "https://osf.io/3hsfj/"],
+      ["icon-google", "https://scholar.google.com/citations?user=KC7FG9QAAAAJ"],        
+      ["icon-twitter", "https://twitter.com/hansijzerman"]
+    ]  
+
+  [[params.about.item]]
+    name = '<a href="https://raklein.me/">Richard Klein</a>'
+    position = "Postdoc"
+    description = "PhD in Social Psychology from the University of Florida. Handles complex datasets and performs statistical analyses."
+    img = "klein.cos.photo.jpg"
+    alt = "RichardKlein"
+    social = [
+      ["icon-globe", "https://raklein.me/"],
+      ["icon-folder", "https://osf.io/tmwry/"],
+      ["icon-google", "https://scholar.google.com/citations?user=wxW6e0sAAAAJ"],
+      ["icon-twitter", "https://twitter.com/raklein3"],
+      ["icon-github", "https://github.com/raklein"]
+    ]     
+    
+# Below used to bug out after 5 people, I think I fixed it in about.html though
+    [[params.about.item]]
+      name = '<a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>'
+      position = "Postdoc"
+      description = "PhD in Social Psychology from UGA. Joins the lab to study social thermoregulation, manage participant recruitment, and teach."
+      img = "elisa.png"
+      alt = "elisa"
+      social = [
+        ["icon-globe", "https://www.researchgate.net/profile/Elisa_Sarda"],
+        ["icon-folder", "https://osf.io/t5h3s/"]
+      ]
+
 
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
@@ -227,7 +277,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       
 # I shortened the description for in-mind -- longer descriptions seem to mess up the formatting in this section      
       [[params.testimonials.item]] 
-      person = '<a href="http://www.in-mind.org">In-Mind Foundation</a><br>Hans founded this magazine'
+      person = '<a href="http://www.in-mind.org">In-Mind Foundation</a><br>Popular Psychology Journal'
       img = "inmind.png"
       alt = "inmind"
       
@@ -251,8 +301,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "tops.jpeg"
       alt = "tops"
       
-    [[params.testimonials.item]] #Layout doesn't like the second line of affiliiations, so Brian has to come last.
-      person = '<a href="https://www.projectimplicit.net/nosek/">Brian Nosek</a><br>University of Virginia<br>Center for Open Science'
+    [[params.testimonials.item]] 
+      person = '<a href="https://www.projectimplicit.net/nosek/">Brian Nosek</a><br>Center for Open Science'
       img = "nosek.jpeg"
       alt = "nosek"
 
@@ -270,7 +320,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.services.item]]
       title = '<a href = "https://ec.europa.eu/research/mariecurieactions/actions/get-funding_en">Postdoc Grant - Marie Curie</a>'
-      description = "The Marie Curie grant is an excellent opportunity for scholars outside of France wanting to come to France. Topic is flexible. Deadline for this call is September 12, 2018"
+      description = "The Marie Curie grant is an excellent opportunity for scholars outside of France wanting to come to France. Topic is flexible and various grants are available."
       icon = "icon-graduation"
 
       [[params.services.item]]
@@ -322,81 +372,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       title = '<a href = "https://grants.nih.gov/grants/guide/pa-files/PAR-13-146.html">National Cancer Institute Exploratory Grant</a>'
       description = "In our papers, we have written about links between cancer and thermoregulation. There are good reasons to suppose a link. This grant could support such research."
       icon = "icon-graduation"
-
-  # About section
-  # Edited about.html to fix display issues when adding 6+ collaborators
-  [params.about]
-    enable = true
-    title = "Lab Members"
-#    description = ""
-
-  [[params.about.item]]
-    name = '<a href="http://www.hansijzerman.org/">Hans IJzerman</a>'  
-    position = 'Principal Investigator'  
-    description = "PhD in Social Psychology from Utrecht University and Associate Professor at UGA. Directs lab strategy."  
-    img = "hans_twitter.jpeg"  
-    alt = "Person1"  
-    social = [
-      ["icon-globe", "http://www.hansijzerman.org/"],
-      ["icon-folder", "https://osf.io/3hsfj/"],
-      ["icon-google", "https://scholar.google.com/citations?user=KC7FG9QAAAAJ"],        
-      ["icon-twitter", "https://twitter.com/hansijzerman"]
-    ]  
-
-  [[params.about.item]]
-    name = '<a href="https://raklein.me/">Richard Klein</a>'
-    position = "Postdoc"
-    description = "PhD in Social Psychology from the University of Florida. Handles complex datasets and performs statistical analyses."
-    img = "klein.cos.photo.jpg"
-    alt = "RichardKlein"
-    social = [
-      ["icon-globe", "https://raklein.me/"],
-      ["icon-folder", "https://osf.io/tmwry/"],
-      ["icon-google", "https://scholar.google.com/citations?user=wxW6e0sAAAAJ"],
-      ["icon-github", "https://github.com/raklein"]
-    ]     
-# With the below item, format appears to depend on the length of the description
-# If you add more than 5 people. May be a bug in the overall template.
-    [[params.about.item]]
-      name = "Lison Neyroud"
-      position = "Research Manager"
-      description = "MA in Psychology from the UGA. Manages participant recruitment, translations, and keeps the lab running."
-      img = "person3.jpg"
-      alt = "lison"
-      social = [
-        ["icon-folder", "https://osf.io/n75jp/"]
-      ]
-
-  [[params.about.item]]
-    name = '<a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>'
-    position = "Intern"  
-    description = "Master's student in statistics and data science at UGA. Joins the lab to work on big data and deep/machine learning."
-    img = "armel.jpg"  
-    alt = "armel"  
-    social = [
-      ["icon-globe", "http://armelsoubeiga.ga/"],
-      ["icon-github", "https://github.com/armelsoubeiga"]
-    ]    
-
-  [[params.about.item]]
-    name = "Justin Mah"  
-    position = "Intern"  
-    description = 'Undergraduate student in Psychology at the University of Alberta, Canada. Joins the lab to do studies using the <a href="https://embrlabs.com/">Embr wave</a>.'
-    img = "justin.png"  
-    alt = "justin"  
-    social = [
-      ["icon-github", "http://"]
-    ]   
-
-  [[params.about.item]]
-    name = "Mehdi Souabni"
-    position = "Intern"  
-    description = "Master's student in Info Systems at UGA. Does Android development for our temperature/experience sampling app."
-    img = "mehdi.jpg"  
-    alt = "mehdi"  
-    social = [
-      ["icon-github", "https://github.com/souabniMehdi"]
-    ]   
 
   # Counters section
   [params.counters]
