@@ -63,7 +63,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.intro.item]]
     title = "Open Data/Materials"
     description = "To the extent possible we make materials, data, and analysis scripts publicly available on the Open Science Framework. These may be used for re-analysis or for novel hypotheses."
-    url = 'https://osf.io/search/?q=tags:(corelab)&filter=project&page=1' #Searches for projects tagged "corelab".
+    url = 'https://osf.io/search/?q=tags:(corelabdat)&page=1' #Searches for projects tagged "corelabdat".
     button = "Find our datasets"
     icon = "icon-folder"
     img = "COS-Logo-small-1.png"
