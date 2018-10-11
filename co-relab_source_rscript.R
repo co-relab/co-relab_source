@@ -76,6 +76,6 @@ build_site()
 
 # To make the changes live on the website, you have to then go to GitHub.com, login on your account, and 
 # submit a "Pull Request".
-# Then, the website admin (Rick or Hans, at the moment) needs to login to the 'co-relab' GitHub account, and merge the pull request.
+# Then, the website admin (Rick or Hans, at the moment) needs to login to the 'co-relab' GitHub account, and merge the pull request. Alernatively you could ask for your GitHub account to added as a collaborator with merge permissions.
 
 # Note: You need to be authenticated to your GitHub account on your pc or it will give you an error.
