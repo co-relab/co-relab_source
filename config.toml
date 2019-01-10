@@ -54,7 +54,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   [[params.intro.item]]
     title = "Papers"
-    description = "Check out publications and/or preprints from the lab. We try to ensure all our work is available to the public, so if you can't find a paper let us know!"
+    description = "Check out publications and/or preprints from the lab. We ensure all our work is available to the public, so if you can't find a paper let us know!"
     url = "https://osf.io/preprints/discover?provider=OSFORPsyArXiv&q=tags%3A(%22corelab%22)&sort=-date_updated" #Searches for OSF Preprints and PsyArXiv preprints, with the tag "corelab", sorted from most recent -> oldest.
     button = "Access Papers"
     icon = "icon-docs"
@@ -103,6 +103,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "Releases"
     description = "Here are recent projects we've completed."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
+
+    [[params.work.row]]
+      category = "publication.png"
+      img = "ml2.png" # these images should go in themes/hugo-elate-theme/static/images/ and be 470x330 pixels
+      alt = "ml2 image"
+      title = "Many Labs 2"
+      subtitle = "12/2018 - 135 labs around the world replicate 28 studies. Find minimal variation in results depending on the sample."
+      url = "https://journals.sagepub.com/doi/10.1177/2515245918810225" 
+
+    [[params.work.row]]
+      category = "preprint.png"
+      img = "straq1.png"
+      alt = "straq-1"
+      title = "STRAQ-1"
+      subtitle = "10/2018 - Developing a scale to measure individual differences in social thermoregulation."
+      url = "https://psyarxiv.com/6b7ne" 
 
     [[params.work.row]]
       category = "education.png"
@@ -414,7 +430,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false # API issues to resolve, not working right now
     form = true
     title = "Get in touch"
     description = "If you're interested in a position in the lab, contact us! You can work on co-regulation or social thermoregulation in combination with your own topic (e.g., computational modelling, motivation, et cetera). In your contact request, please include why you are interested in working on concepts related to thermoregulation/co-regulation. Please also include: </li><li>Which opportunity (e.g., grant) you're interested in.</li><li>Current academic/professional status.</li><li>A brief statement about your commitment to open science.</li>"
