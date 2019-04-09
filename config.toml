@@ -105,6 +105,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
 
     [[params.work.row]]
+      category = "conference.png"
+      img = "annecy.png"
+      alt = "Tech and Relationships"
+      title = "Tech and Relationships Conference"
+      subtitle = "5/2019 - We're organizing an EASP conference and Facebook+AdopteUnMec Hackathon in Annecy, France."
+      url = "https://www.techandrelationships.org" 
+
+    [[params.work.row]]
+      category = "education.png"
+      img = "osworkshop.png"
+      alt = "Open Science Workshop"
+      title = "Open Science Workshop"
+      subtitle = "4/2019 - We're giving a workshop on the Open Science Framework, and a deep dive on power analysis."
+      url = "https://osf.io/gvkxn/"       
+
+    [[params.work.row]]
       category = "publication.png"
       img = "ml2.png" # these images should go in themes/hugo-elate-theme/static/images/ and be 470x330 pixels
       alt = "ml2 image"
@@ -160,13 +176,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       subtitle = "6/2018 - One of our researchers participated in a collaboration to write a practical guide for more transparent science."
       url = "https://psyarxiv.com/rtygm"
       
-    [[params.work.row]]
-      category = "publication.png"
-      img = "stroopml.png"
-      alt = "Stroop figure"
-      title = "Machine Learning and the Stroop Effect"
-      subtitle = "5/2017 - Revisiting what predicts performance on a classic effect using new statistics (conditional random forests)."
-      url = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2805205"
+#    [[params.work.row]]
+#      category = "preprint.png"
+#      img = "stroopml.png"
+#      alt = "Stroop figure"
+#      title = "Machine Learning and the Stroop Effect"
+#      subtitle = "5/2017 - Revisiting what predicts performance on a classic effect using new statistics (conditional random forests)."
+#      url = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2805205"
 
   # About section
   # Edited about.html to fix display issues when adding 6+ collaborators
