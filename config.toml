@@ -196,7 +196,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = '<a href="http://www.hansijzerman.org/">Hans IJzerman</a>'  
     position = 'Principal Investigator'  
     description = "PhD in Social Psychology from Utrecht University and Associate Professor at UGA. Directs lab strategy."  
-    img = "hans_twitter.jpeg"  
+    img = "hans_twitter.jpeg"  # 300x300 images in themes/hugo-elate-theme/static/images/
     alt = "Person1"  
     social = [
       ["icon-globe", "http://www.hansijzerman.org/"],
@@ -231,6 +231,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-folder", "https://osf.io/t5h3s/"]
       ]
 
+    [[params.about.item]]
+      name = '<a href="https://www.researchgate.net/profile/Alessandro_Sparacio">Alessandro Sparacio</a>'
+      position = "PhD"
+      description = "MA in Psychology from the University of Milano-Bicocca. Joins the lab for his PhD, and will work on stress regulation processes."
+      img = "alessandro.png"
+      alt = "Alessandro"
+      social = [
+        ["icon-globe", "https://www.researchgate.net/profile/Alessandro_Sparacio"]
+      ]
 
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.

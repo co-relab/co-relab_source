@@ -29,7 +29,7 @@
 
 # Load blogdown package and install Hugo (if needed)
 library(blogdown)
-#install_hugo()
+#install_hugo(force = TRUE)
 
 # At site creation, I ran the below lines to generate the site in Blogdown.
 # Running this again would overwrite the site with a new blank site. I leave the code as an example.
