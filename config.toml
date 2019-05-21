@@ -248,7 +248,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "blank.png"
       alt = "blank"
       social = [
-        ["icon-globe", "https://www.researchgate.net/profile/Alessandro_Sparacio"]
+        ["icon-globe", ""]
       ]
 
     [[params.about.item]]
