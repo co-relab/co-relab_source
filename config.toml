@@ -233,12 +233,32 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.about.item]]
       name = '<a href="https://www.researchgate.net/profile/Alessandro_Sparacio">Alessandro Sparacio</a>'
-      position = "PhD"
+      position = "PhD Student"
       description = "MA in Psychology from the University of Milano-Bicocca. Joins the lab for his PhD, and will work on stress regulation processes."
       img = "alessandro.png"
       alt = "Alessandro"
       social = [
         ["icon-globe", "https://www.researchgate.net/profile/Alessandro_Sparacio"]
+      ]
+
+    [[params.about.item]]
+      name = '<a href="">Martin Oudart</a>'
+      position = "Intern"
+      description = "Sc.B in medicine at UGA. Joins the lab as an MSc intern and will explore links between social attachment and menopausal hot flashes."
+      img = "blank.png"
+      alt = "blank"
+      social = [
+        ["icon-globe", "https://www.researchgate.net/profile/Alessandro_Sparacio"]
+      ]
+
+    [[params.about.item]]
+      name = '<a href="https://osf.io/qetx7/">Nazanin Kafaee</a>'
+      position = "Intern"
+      description = "Senior undergrad at Western University. Joins the lab to work on effects of social support on romantic couples’ stress co-regulation."
+      img = "nazanin.png"
+      alt = "Nazanin"
+      social = [
+        ["icon-folder", "https://osf.io/qetx7/"]
       ]
 
   # Testimonials section
@@ -455,7 +475,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Contact section
   [params.contact]
     enable = true
-    map = false # API issues to resolve, not working right now
+    map = true 
     form = true
     title = "Get in touch"
     description = "If you're interested in a position in the lab, contact us! You can work on co-regulation or social thermoregulation in combination with your own topic (e.g., computational modelling, motivation, et cetera). In your contact request, please include why you are interested in working on concepts related to thermoregulation/co-regulation. Please also include: </li><li>Which opportunity (e.g., grant) you're interested in.</li><li>Current academic/professional status.</li><li>A brief statement about your commitment to open science.</li>"
