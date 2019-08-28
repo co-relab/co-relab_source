@@ -1,9 +1,9 @@
 # Source Blogdown files for the corelab.io website
 This repository contains the source files for the CORE Lab webpage (corelab.io).
 
-The site is built in the [Blogdown R Package](https://bookdown.org/yihui/blogdown/) and this repository stores the source Blogdown files. Netlify.com then "knits" the files into .html and other web-compatible files that are published.
+The site is built in the [Blogdown R Package](https://bookdown.org/yihui/blogdown/) and this repository stores the source Blogdown files. We then use a Netlify.com account, point it to this repository, and it "knits" the source files into .html and other web-compatible files that are published. The domain name ("corelab.io") is registered on namesilo.com, and you enter that information in to Netlify.
 
-The workflow to edit the webpage is to fork the files to your GitHub account, clone the files locally, make any edits, commit the changes back to your GitHub account, then submit a "Pull Request" to the main co-relab/co-relab_source branch on GitHub.
+The workflow to edit the webpage is to fork the files to your GitHub account, clone the files locally, make any edits, commit and push the changes back to your GitHub account, then submit a "Pull Request" to the main co-relab/co-relab_source branch on GitHub. One of the admins on that account will need to accept those changes before they are official.
 
 Basic steps for CORE lab members to edit the webpage:  
 
@@ -21,16 +21,15 @@ Replace `<copied url>` with your clipboard.
 This will create a new directory on your computer: co-relab_source
 
 6. Navigate on your computer to the new *co-relab_source* folder and open *co-relab_source.rproj* in R Studio. 
-7. Also open *co-relab_source_rscript.R* (the R script). Using R Projects eliminates the need to set a working directory each time (it's automatically set to the folder containing the .rproj file).
+7. Also open *co-relab_source_rscript.R* (the R script) in the same R window. Using R Projects eliminates the need to set a working directory each time (it's automatically set to the folder containing the .rproj file).
 8. In the Terminal of R Studio (or your regular command line), [configure the remote repository](https://help.github.com/articles/configuring-a-remote-for-a-fork/) so you can update your local files with changes from the main repo:  
 `git remote add upstream https://github.com/co-relab/co-relab_source.git`
-9. Each time before you start editing the page, [update your local repo](https://help.github.com/articles/syncing-a-fork/) and resolve any conflicts:  
+9. Each time before you start editing the page, [update your local repo](https://help.github.com/articles/syncing-a-fork/) and resolve any conflicts. You can do this in R Studio by using the UI interface in the upper right "Git" tab, or via the R Studio 'terminal' (a tab where the Console usually is):  
 `git fetch upstream`  
 `git checkout master`  
 `git merge upstream/master`
 
-If you get conflicts you will have to resolve them before it will let you merge. IF you want to overwrite your local changes with the main repo
-you can "stash" your files like this:
+If you get conflicts you will have to resolve them before it will let you merge. IF you want to overwrite your local changes with the main repo you can "stash" your files like this:
 `git stash save --keep-index`
 
 If you don't want to keep your stashed files, drop them:
