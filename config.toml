@@ -189,7 +189,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.about]
     enable = true
     title = "Lab Members"
-    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>.'
+    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>.'
 #    description = ""
 
   [[params.about.item]]
@@ -197,7 +197,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     position = 'Principal Investigator'  
     description = "PhD in Social Psychology from Utrecht University and Associate Professor at UGA. Directs lab strategy."  
     img = "hans_twitter.jpeg"  # 300x300 images in themes/hugo-elate-theme/static/images/
-    alt = "Person1"  
+    alt = "hans"  
     social = [
       ["icon-globe", "http://www.hansijzerman.org/"],
       ["icon-folder", "https://osf.io/3hsfj/"],
@@ -251,15 +251,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-globe", ""]
       ]
 
-    [[params.about.item]]
-      name = '<a href="https://osf.io/qetx7/">Nazanin Kafaee</a>'
-      position = "Intern"
-      description = "Senior undergrad at Western University. Joins the lab to work on effects of social support on romantic couples’ stress co-regulation."
-      img = "nazanin.png"
-      alt = "Nazanin"
-      social = [
-        ["icon-folder", "https://osf.io/qetx7/"]
-      ]
+  [[params.about.item]]
+    name = '<a href="https://www.researchgate.net/profile/Olivier_Dujols2">Olivier Dujols</a>'
+    position = "PhD Student"
+    description = "MA in Social Psychology from UGA. Joins the lab to study social thermoregulation."
+    img = "OlivierDujols.png"
+    alt = "OlivierDujols"
+    social = [
+      ["icon-globe", "https://www.researchgate.net/profile/Olivier_Dujols2"],
+      ["icon-folder", "https://osf.io/bc79d"],
+      ["icon-twitter", "https://twitter.com/OlivierDujols"],
+      ["icon-github", "https://github.com/DujolsOlivier"]
+    ]   
+
 
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
