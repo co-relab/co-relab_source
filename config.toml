@@ -189,14 +189,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.about]
     enable = true
     title = "Lab Members"
-    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>.'
+    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>, <a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>.'
 #    description = ""
 
   [[params.about.item]]
     name = '<a href="http://www.hansijzerman.org/">Hans IJzerman</a>'  
     position = 'Principal Investigator'  
     description = "PhD in Social Psychology from Utrecht University and Associate Professor at UGA. Directs lab strategy."  
-    img = "hans_twitter.jpeg"  # 300x300 images in themes/hugo-elate-theme/static/images/
+    img = "Hans 2.png"  # 300x300 images in themes/hugo-elate-theme/static/images/
     alt = "hans"  
     social = [
       ["icon-globe", "http://www.hansijzerman.org/"],
@@ -221,14 +221,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     
 # Below used to bug out after 5 people, I think I fixed it in about.html though
     [[params.about.item]]
-      name = '<a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>'
+      name = '<a href="https://www.researchgate.net/profile/Patrick_Forscher">Patrick Forscher</a>'
       position = "Postdoc"
-      description = "PhD in Social Psychology from UGA. Joins the lab to study social thermoregulation, manage participant recruitment, and teach."
-      img = "elisa.png"
-      alt = "elisa"
+      description = "Assistant Professor at the University of Arkansas. Joins the lab to find funding sources for the Psychological Science Accelerator."
+      img = "Patrick.png"
+      alt = "Patrick"
       social = [
-        ["icon-globe", "https://www.researchgate.net/profile/Elisa_Sarda"],
-        ["icon-folder", "https://osf.io/t5h3s/"]
+        ["icon-globe", "https://www.researchgate.net/profile/Patrick_Forscher"],
+        ["icon-folder", "https://osf.io/eff4m/"],
+        ["icon-google", "https://scholar.google.com/citations?user=lEXTftIAAAAJ&hl=en"],
+        ["icon-twitter", "https://twitter.com/psforscher"]
       ]
 
     [[params.about.item]]
@@ -254,7 +256,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.about.item]]
     name = '<a href="https://www.researchgate.net/profile/Olivier_Dujols2">Olivier Dujols</a>'
     position = "PhD Student"
-    description = "MA in Social Psychology from UGA. Joins the lab to study social thermoregulation."
+    description = "MA in Social Psychology at UGA. Joins the lab for his PhD, and will work on social thermoregulation."
     img = "OlivierDujols.png"
     alt = "OlivierDujols"
     social = [
