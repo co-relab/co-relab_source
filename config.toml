@@ -256,7 +256,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.about.item]]
     name = '<a href="https://www.researchgate.net/profile/Olivier_Dujols2">Olivier Dujols</a>'
     position = "PhD Student"
-    description = "MA in Social Psychology at UGA. Joins the lab for his PhD, and will work on social thermoregulation."
+    description = "MA in Social Psychology at UGA. Joins the lab for his PhD, and will work on social thermoregulation and co-regulation."
     img = "OlivierDujols.png"
     alt = "OlivierDujols"
     social = [
