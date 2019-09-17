@@ -50,7 +50,7 @@ serve_site()
 ### THE MAIN FILE TO EDIT TO ADD/CHANGE CONTENT:
 # config.toml
 # you can run the line below to edit this file in rstudio
-file.edit("config.toml")
+#file.edit("config.toml")
 
 
 # Other information:

@@ -71,7 +71,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.intro.item]]
     title = "Lab Philosophy"
     description = "Doing science is really hard. Here, we document the workflow of the lab and expectations for lab members. Includes templates for OSF projects to make open science easier."
-    url = "lab_philosophy.docx" #the file is under /content/
+    url = "https://docs.google.com/document/d/1aZWfCIReB9goSiEQcYQGWj70R0NXfQ0cOWKWa3julcA/edit?usp=sharing" #the file is under /content/
     button = "Download"
     icon = "icon-bulb"
     img = "doors.jpg"
@@ -103,6 +103,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "Releases"
     description = "Here are recent projects we've completed."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
+
+    [[params.work.row]]
+      category = "announcements.png"
+      img = "philo_update_2019.png"
+      alt = "Workflow Update"
+      title = "Annual Workflow Update"
+      subtitle = "9/2019 - We've released the 2019 update to our lab philosophy/workflow. Key changes: Sprints, CRediT contributorship, code hygeine."
+      url = "https://docs.google.com/document/d/1aZWfCIReB9goSiEQcYQGWj70R0NXfQ0cOWKWa3julcA/edit?usp=sharing" 
 
     [[params.work.row]]
       category = "conference.png"
@@ -168,13 +176,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       subtitle = "5/2018 - Two of our researchers participated in a collaboration to write an Oxford Bibliography on replication initiatives in psychology."
       url = "https://psyarxiv.com/h5jm7/"
       
-    [[params.work.row]]
-      category = "publication.png"
-      img = "transparency.jpg"
-      alt = "Transparency Image"
-      title = "Transparency Guide"
-      subtitle = "6/2018 - One of our researchers participated in a collaboration to write a practical guide for more transparent science."
-      url = "https://psyarxiv.com/rtygm"
+#    [[params.work.row]]
+#      category = "publication.png"
+#      img = "transparency.jpg"
+#      alt = "Transparency Image"
+#      title = "Transparency Guide"
+#      subtitle = "6/2018 - One of our researchers participated in a collaboration to write a practical guide for more transparent science."
+#      url = "https://psyarxiv.com/rtygm"
       
 #    [[params.work.row]]
 #      category = "preprint.png"
