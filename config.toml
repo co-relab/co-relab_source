@@ -46,7 +46,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Hero section
   [params.hero]
     title = "Co-Regulation (CORE) Lab."
-    subtitle = 'We study co-regulation in romantic relationships. We study social thermoregulation. We rely on open science ideals. We collaborate with researchers around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
+    subtitle = 'We study co-regulation in romantic relationships. We study social thermoregulation. We do meta-science. We rely on open science ideals. We collaborate with researchers around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
