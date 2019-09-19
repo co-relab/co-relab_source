@@ -3,9 +3,9 @@
 
 # To start, if you haven't already, fork the github repo, clone it locally, configure the upstream repository, and sync with the upstream repository  (steps 1-9 in readme.md)
 # Each time you start to edit the page, repeat step 9 and do this in terminal:
-# git fetch upstream
-# git checkout master
-# git merge upstream/master
+          # git fetch upstream
+          # git checkout master
+          # git merge upstream/master
 
 # If you get conflicts you will have to resolve them before it will let you merge. IF you want to overwrite your local changes with the main repo
 # you can "stash" your files like this:
@@ -18,7 +18,7 @@
 # https://stackoverflow.com/questions/41283955/github-keeps-saying-this-branch-is-x-commits-ahead-y-commits-behind/41289258
 
 # specifically running these two lines:
-#git pull --rebase upstream master
+          #git pull --rebase upstream master       # c'est bien pour repartir du master! juste ça puis lancer les 3 au dessus!
 #git push --force-with-lease origin master
 
 # Many lines below commented out because they are only run once to download files, which are then manually edited. 
