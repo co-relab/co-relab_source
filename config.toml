@@ -274,6 +274,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-github", "https://github.com/DujolsOlivier"]
     ]   
 
+  [[params.about.item]]
+    name = '<a href="https://www.researchgate.net/profile/Mae_Braud">Mae Braud</a>'
+    position = "MA Student"
+    description = "BA in psychology at UGA. Joins the lab as an intern and will work on social thermoregulation and temperature manipulation."
+    img = "maebraud_pic.png"
+    alt = "Mae Braud"
+    social = [
+      ["icon-globe", "https://www.researchgate.net/profile/Mae_Braud"],
+      ["icon-folder", "https://osf.io/q5bpf/"],
+      ["icon-twitter", "https://twitter.com/maebraud"],
+      ["icon-github", "https://github.com/braudm"]
+    ]   
 
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
