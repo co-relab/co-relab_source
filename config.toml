@@ -274,7 +274,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-github", "https://github.com/DujolsOlivier"]
     ]   
 
+<<<<<<< HEAD
 [[params.about.item]]
+=======
+  [[params.about.item]]
+>>>>>>> 0c166475be91a7bbf425e091ecccc79d9052efdc
     name = '<a href="https://www.researchgate.net/profile/Mae_Braud">Mae Braud</a>'
     position = "MA Student"
     description = "BA in psychology at UGA. Joins the lab as an intern and will work on social thermoregulation and temperature manipulation."
