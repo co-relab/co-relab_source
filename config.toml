@@ -231,7 +231,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.about.item]]
       name = '<a href="https://www.researchgate.net/profile/Patrick_Forscher">Patrick Forscher</a>'
       position = "Postdoc"
-      description = "Assistant Professor at the University of Arkansas. Joins the lab to find funding sources for the Psychological Science Accelerator."
+      description = "PhD from University of Wisconsin-Madison. Joins the lab to find funding sources for the Psychological Science Accelerator."
       img = "Patrick.png"
       alt = "Patrick"
       social = [
@@ -254,7 +254,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.about.item]]
       name = '<a href="">Martin Oudart</a>'
       position = "Intern"
-      description = "Sc.B in medicine at UGA. Joins the lab as an MSc intern and will explore links between social attachment and menopausal hot flashes."
+      description = "B.Sc. in medicine from UGA. Joins the lab as an MSc intern and will explore links between social attachment and menopausal hot flashes."
       img = "blank.png"
       alt = "blank"
       social = [
@@ -274,7 +274,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-github", "https://github.com/DujolsOlivier"]
     ]   
 
+<<<<<<< HEAD
+[[params.about.item]]
+=======
   [[params.about.item]]
+>>>>>>> 0c166475be91a7bbf425e091ecccc79d9052efdc
     name = '<a href="https://www.researchgate.net/profile/Mae_Braud">Mae Braud</a>'
     position = "MA Student"
     description = "BA in psychology at UGA. Joins the lab as an intern and will work on social thermoregulation and temperature manipulation."
