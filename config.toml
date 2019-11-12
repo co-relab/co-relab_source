@@ -103,7 +103,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "Releases"
     description = "Here are recent projects we've completed."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
-
+  
+     [[params.work.row]]
+      category = "announcements.png"
+      img = "Team_rev_web.jpg"
+      alt = "Workflow Update"
+      title = "Team Revolution"
+      subtitle = "Patrick Forscher and Hans IJzerman were involved in a major grant proposal (Synergy) to promote the PSA and team science."
+      url = "https://psysciacc.org/" 
+    
     [[params.work.row]]
       category = "announcements.png"
       img = "philo_update_2019.png"
