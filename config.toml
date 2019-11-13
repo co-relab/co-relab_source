@@ -261,8 +261,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.about.item]]
       name = '<a href="">Martin Oudart</a>'
-      position = "Intern"
-      description = "B.Sc. in medicine from UGA. Joins the lab as an MSc intern and will explore links between social attachment and menopausal hot flashes."
+      position = "MA Student"
+      description = "B.Sc. in medicine from UGA. Joins the lab as an intern and will explore links between attachment and menopausal hot flashes."
       img = "blank.png"
       alt = "blank"
       social = [
@@ -294,6 +294,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-twitter", "https://twitter.com/maebraud"],
       ["icon-github", "https://github.com/braudm"]
     ]   
+    
+  [[params.about.item]]
+    name = '<a>Shanèle Payart</a>'
+    position = "MA Student"
+    description = "B.Sc. in chemistry and biology from ENS Paris-Saclay. Joins the lab as an intern to explore links between personnality and individual differences in thermoregulation."
+    img = "Shanelepayard.jpg"
+    alt = "Shanèle Payart"
 
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
