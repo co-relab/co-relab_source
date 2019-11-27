@@ -104,12 +104,20 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Here are recent projects we've completed."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
   
-     [[params.work.row]]
+    [[params.work.row]]
+      category = "publication.png"
+      img = "Means joined plot.png" # these images should go in themes/hugo-elate-theme/static/images/ and be 470x330 pixels
+      alt = "Profile of the Alt-Right"
+      title = "A Psychological Profile of the Alt-Right"
+      subtitle = "11/2018 - We find that alt-right people are more motivated by group-based dominance than economic anxiety."
+      url = "https://journals.sagepub.com/doi/10.1177/1745691619868208" 
+      
+    [[params.work.row]]
       category = "announcements.png"
       img = "Team_rev_web.jpg"
-      alt = "Workflow Update"
+      alt = "Team Revolution"
       title = "Team Revolution"
-      subtitle = "Patrick Forscher and Hans IJzerman were involved in a major grant proposal (Synergy) to promote the PSA and team science."
+      subtitle = "10/2018 - Patrick Forscher and Hans IJzerman were involved in a major grant proposal (Synergy) to promote the PSA and team science."
       url = "https://psysciacc.org/" 
     
     [[params.work.row]]
