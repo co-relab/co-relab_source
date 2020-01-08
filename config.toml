@@ -26,6 +26,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     about = "Lab Members" #Order of this one changed in layouts/partials/nav.html 
     contact = "Contact"
 
+
     # You can add custom links before or after the default links
     # Assign a weight to define the order
     
@@ -36,10 +37,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #      weight = 10
 
     # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
+    [[menu.postpend]]
+     url = "https://corelab.tech.blog/"
+     name = "Blog"
+     weight = 10
 
 # Can edit the order of components in layouts/index.html, and menu order in layouts/partials/nav.html  
   
@@ -103,13 +104,29 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "Releases"
     description = "Here are recent projects we've completed."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
+    
+     [[params.work.row]]
+      category = "announcements.png"
+      img = "social_priming.jpg"
+      alt = "social priming"
+      title = "Social priming"
+      subtitle = "01/2020 - After investigators couldn’t repeat key findings, researchers are trying to establish what’s worth saving."
+      url = "https://www.nature.com/articles/d41586-019-03755-2" 
+      
+     [[params.work.row]]
+      category = "announcements.png"
+      img = "pejuges.jpg"
+      alt = "pejuges"
+      title = "Prejudice and discrimination"
+      subtitle = "01/2020 - Patrick  Forscher consider that this area of research is not yet ready for application in every day live."
+      url = "https://www.revue-horizons.ch/2019/12/05/les-prejuges-menent-ils-toujours-a-la-discrimination/" 
   
     [[params.work.row]]
       category = "publication.png"
       img = "Means joined plot.png" # these images should go in themes/hugo-elate-theme/static/images/ and be 470x330 pixels
       alt = "Profile of the Alt-Right"
       title = "A Psychological Profile of the Alt-Right"
-      subtitle = "11/2018 - We find that alt-right people are more motivated by group-based dominance than economic anxiety."
+      subtitle = "11/2019 - We find that alt-right people are more motivated by group-based dominance than economic anxiety."
       url = "https://journals.sagepub.com/doi/10.1177/1745691619868208" 
       
     [[params.work.row]]
@@ -117,7 +134,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "Team_rev_web.jpg"
       alt = "Team Revolution"
       title = "Team Revolution"
-      subtitle = "10/2018 - Patrick Forscher and Hans IJzerman were involved in a major grant proposal (Synergy) to promote the PSA and team science."
+      subtitle = "10/2019 - Patrick Forscher and Hans IJzerman were involved in a major grant proposal (Synergy) to promote the PSA and team science."
       url = "https://psysciacc.org/" 
     
     [[params.work.row]]
@@ -213,7 +230,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.about]
     enable = true
     title = "Lab Members"
-    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>, <a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>.'
+    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>, <a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>, <a href="https://raklein.me/">Richard Klein</a>.'
 #    description = ""
 
   [[params.about.item]]
@@ -229,20 +246,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-twitter", "https://twitter.com/hansijzerman"]
     ]  
 
-  [[params.about.item]]
-    name = '<a href="https://raklein.me/">Richard Klein</a>'
-    position = "Postdoc"
-    description = "PhD in Social Psychology from the University of Florida. Handles complex datasets and performs statistical analyses."
-    img = "klein.cos.photo.jpg"
-    alt = "RichardKlein"
-    social = [
-      ["icon-globe", "https://raklein.me/"],
-      ["icon-folder", "https://osf.io/tmwry/"],
-      ["icon-google", "https://scholar.google.com/citations?user=wxW6e0sAAAAJ"],
-      ["icon-twitter", "https://twitter.com/raklein3"],
-      ["icon-github", "https://github.com/raklein"]
-    ]     
-    
 # Below used to bug out after 5 people, I think I fixed it in about.html though
     [[params.about.item]]
       name = '<a href="https://www.researchgate.net/profile/Patrick_Forscher">Patrick Forscher</a>'
@@ -306,7 +309,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.about.item]]
     name = '<a>Shanèle Payart</a>'
     position = "MA Student"
-    description = "B.Sc. in chemistry and biology from ENS Paris-Saclay. Joins the lab as an intern to explore links between personnality and individual differences in thermoregulation."
+    description = "B.Sc. in chemistry and biology from ENS Paris-Saclay. Joins the lab as an intern to explore links between personality and individual differences in Brown Adipose Tissue."
     img = "Shanelepayard.jpg"
     alt = "Shanèle Payart"
 
