@@ -38,7 +38,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     # postpended links
     [[menu.postpend]]
-     url = "https://corelab.tech.blog/"
+     url = "https://corelab.blog/"
      name = "Blog"
      weight = 10
 
