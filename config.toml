@@ -105,6 +105,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Here are recent projects we've completed."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
     
+    [[params.work.row]]
+      category = "announcements.png"
+      img = "le monde.jpg"
+      alt = "le monde"
+      title = "Open letter to the (French) public"
+      subtitle = "02/2020 - Society should demand more from scientists: We propose ways to improve the methodological quality of scientific work."
+      url = "https://www.lemonde.fr/sciences/article/2020/02/11/nous-devons-changer-radicalement-la-facon-dont-la-science-fonctionne_6029219_1650684.html" 
+      
      [[params.work.row]]
       category = "announcements.png"
       img = "social_priming.jpg"
