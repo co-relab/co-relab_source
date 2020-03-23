@@ -321,10 +321,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "Shanelepayard.jpg"
     alt = "Shanèle Payart"
     
-    [[params.about.item]]
+  [[params.about.item]]
     name = '<a>Adeyemi Adetula</a>'
     position = "PhD Student"
-    description = "M.Sc in Forensic and Correctional Psychology at Nasarawa State University, Keffi, Nigeria. Joins the Lab for his PhD to work on increasing psychology’s generalizability by making it less WEIRD."
+    description = "M.Sc in Forensic and Correctional Psychology at Nasarawa State University, Keffi, Nigeria. Joins the Lab for his PhD to work on increasing psychology’s generalizability."
     img = "ade.png"
     alt = "Adeyemi Adetula"
 
