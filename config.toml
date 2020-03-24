@@ -320,6 +320,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "B.Sc. in chemistry and biology from ENS Paris-Saclay. Joins the lab as an intern to explore links between personality and individual differences in Brown Adipose Tissue."
     img = "Shanelepayard.jpg"
     alt = "Shanèle Payart"
+    
+  [[params.about.item]]
+    name = '<a>Adeyemi Adetula</a>'
+    position = "PhD Student"
+    description = "M.Sc in Forensic and Correctional Psychology at Nasarawa State University, Nigeria. Joins the Lab for his PhD to work on increasing psychology’s generalizability."
+    img = "ade.png"
+    alt = "Adeyemi Adetula"
 
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
