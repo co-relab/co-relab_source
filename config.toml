@@ -324,7 +324,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.about.item]]
     name = '<a>Adeyemi Adetula</a>'
     position = "PhD Student"
-    description = "M.Sc in Forensic and Correctional Psychology at Nasarawa State University, Keffi, Nigeria. Joins the Lab for his PhD to work on increasing psychology’s generalizability."
+    description = "M.Sc in Forensic and Correctional Psychology at Nasarawa State University, Nigeria. Joins the Lab for his PhD to work on increasing psychology’s generalizability."
     img = "ade.png"
     alt = "Adeyemi Adetula"
 
