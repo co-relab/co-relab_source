@@ -113,7 +113,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       subtitle = "02/2020 - Society should demand more from scientists: We propose ways to improve the methodological quality of scientific work."
       url = "https://www.lemonde.fr/sciences/article/2020/02/11/nous-devons-changer-radicalement-la-facon-dont-la-science-fonctionne_6029219_1650684.html" 
       
-     [[params.work.row]]
+    [[params.work.row]]
       category = "announcements.png"
       img = "social_priming.jpg"
       alt = "social priming"
@@ -121,7 +121,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       subtitle = "01/2020 - After investigators couldn’t repeat key findings, researchers are trying to establish what’s worth saving."
       url = "https://www.nature.com/articles/d41586-019-03755-2" 
       
-     [[params.work.row]]
+    [[params.work.row]]
       category = "announcements.png"
       img = "pejuges.jpg"
       alt = "pejuges"
@@ -302,19 +302,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     ]   
 
   [[params.about.item]]
-    name = '<a href="https://www.researchgate.net/profile/Mae_Braud">Mae Braud</a>'
-    position = "MA Student"
-    description = "BA in psychology at UGA. Joins the lab as an intern and will work on social thermoregulation and temperature manipulation."
-    img = "maebraud_pic.png"
-    alt = "Mae Braud"
-    social = [
-      ["icon-globe", "https://www.researchgate.net/profile/Mae_Braud"],
-      ["icon-folder", "https://osf.io/q5bpf/"],
-      ["icon-twitter", "https://twitter.com/maebraud"],
-      ["icon-github", "https://github.com/braudm"]
-    ]   
-    
-  [[params.about.item]]
     name = '<a>Shanèle Payart</a>'
     position = "MA Student"
     description = "B.Sc. in chemistry and biology from ENS Paris-Saclay. Joins the lab as an intern to explore links between personality and individual differences in Brown Adipose Tissue."
@@ -327,7 +314,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "M.Sc in Forensic and Correctional Psychology at Nasarawa State University, Nigeria. Joins the Lab for his PhD to work on increasing psychology’s generalizability."
     img = "ade.png"
     alt = "Adeyemi Adetula"
-
+    
+  [[params.about.item]]
+    name = '<a href="bastien.paris@etu.univ-grenoble-alpes.fr">Bastien Paris</a>'
+    position = "MA Student"
+    description = "BA in psychology at UGA. Joins the lab as an intern and is applying crowdsourced science in various contexts."
+    img = "bastien.png"
+    alt = "Bastien Paris"
+  
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
   # Due to this, we add urls with html code (<a href=""></a>). See Below
