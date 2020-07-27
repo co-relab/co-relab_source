@@ -238,7 +238,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.about]
     enable = true
     title = "Lab Members"
-    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>, <a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>, <a href="https://raklein.me/">Richard Klein</a>, <a>Shanèle Payart</a>, <a>Martin Oudart</a>.'
+    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>, <a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>, <a href="https://raklein.me/">Richard Klein</a>, Shanèle Payart, Martin Oudart.'
 #    description = ""
 
   [[params.about.item]]
@@ -294,9 +294,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.about.item]]
     name = '<a>Adeyemi Adetula</a>'
     position = "PhD Student"
-    description = "M.Sc in Forensic and Correctional Psychology at Nasarawa State University, Nigeria. Joins the Lab for his PhD to work on increasing psychology’s generalizability."
+    description = "M.Sc in Psychology at Nasarawa State University, Nigeria. Joins the lab for his PhD to work on increasing psychology’s generalizability."
     img = "ade.png"
     alt = "Adeyemi Adetula"
+    social = [
+      ["icon-globe", "https://www.lippc2s.fr/person/adetula-adeyemi/"]
+    ]   
+   
     
   [[params.about.item]]
     name = '<a href="bastien.paris@etu.univ-grenoble-alpes.fr">Bastien Paris</a>'
@@ -304,13 +308,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "BA in psychology at UGA. Joins the lab as an intern and is applying crowdsourced science in various contexts."
     img = "bastien.png"
     alt = "Bastien Paris"
+    social = [
+      ["icon-globe", ""]
+    ]  
     
   [[params.about.item]]
     name = '<a>Zaithwa Matemvu</a>'
     position = "Affiliate Member"
-    description = "Zaithwa Matemvu is a MBBS student at the University of Malawi, interested in the application of psychological research in clinical work."
+    description = "MBBS student at the University of Malawi, interested in the application of psychological research in clinical work."
     img = "zaithwa.png"
     alt = "Zaithwa Matemvu"
+    social = [
+      ["icon-globe", ""]
+    ]  
   
   
   # Testimonials section
