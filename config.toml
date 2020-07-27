@@ -238,17 +238,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.about]
     enable = true
     title = "Lab Members"
-    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>, <a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>, <a href="https://raklein.me/">Richard Klein</a>.'
+    footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>, <a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>, <a href="https://raklein.me/">Richard Klein</a>, <a>Shanèle Payart</a>, <a>Martin Oudart</a>.'
 #    description = ""
 
   [[params.about.item]]
-    name = '<a href="http://www.hansijzerman.org/">Hans IJzerman</a>'  
+    name = '<a href="http://www.iufrance.fr/les-membres-de-liuf/membre/2111-hans-ijzerman.html/">Hans IJzerman</a>'  
     position = 'Principal Investigator'  
     description = "PhD in Social Psychology from Utrecht University and Associate Professor at UGA. Directs lab strategy."  
     img = "Hans 2.png"  # 300x300 images in themes/hugo-elate-theme/static/images/
     alt = "hans"  
     social = [
-      ["icon-globe", "http://www.hansijzerman.org/"],
+      ["icon-globe", "http://www.iufrance.fr/les-membres-de-liuf/membre/2111-hans-ijzerman.html"],
       ["icon-folder", "https://osf.io/3hsfj/"],
       ["icon-google", "https://scholar.google.com/citations?user=KC7FG9QAAAAJ"],        
       ["icon-twitter", "https://twitter.com/hansijzerman"]
@@ -278,16 +278,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-globe", "https://www.researchgate.net/profile/Alessandro_Sparacio"]
       ]
 
-    [[params.about.item]]
-      name = '<a href="">Martin Oudart</a>'
-      position = "MA Student"
-      description = "B.Sc. in medicine from UGA. Joins the lab as an intern and will explore links between attachment and menopausal hot flashes."
-      img = "blank.png"
-      alt = "blank"
-      social = [
-        ["icon-globe", ""]
-      ]
-
   [[params.about.item]]
     name = '<a href="https://www.researchgate.net/profile/Olivier_Dujols2">Olivier Dujols</a>'
     position = "PhD Student"
@@ -302,13 +292,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     ]   
 
   [[params.about.item]]
-    name = '<a>Shanèle Payart</a>'
-    position = "MA Student"
-    description = "B.Sc. in chemistry and biology from ENS Paris-Saclay. Joins the lab as an intern to explore links between personality and individual differences in Brown Adipose Tissue."
-    img = "Shanelepayard.jpg"
-    alt = "Shanèle Payart"
-    
-  [[params.about.item]]
     name = '<a>Adeyemi Adetula</a>'
     position = "PhD Student"
     description = "M.Sc in Forensic and Correctional Psychology at Nasarawa State University, Nigeria. Joins the Lab for his PhD to work on increasing psychology’s generalizability."
@@ -321,6 +304,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "BA in psychology at UGA. Joins the lab as an intern and is applying crowdsourced science in various contexts."
     img = "bastien.png"
     alt = "Bastien Paris"
+    
+  [[params.about.item]]
+    name = '<a>Zaithwa Matemvu</a>'
+    position = "Affiliate Member"
+    description = "Zaithwa Matemvu is a MBBS student at the University of Malawi, interested in the application of psychological research in clinical work."
+    img = "zaithwa.png"
+    alt = "Zaithwa Matemvu"
+  
   
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
