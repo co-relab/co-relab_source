@@ -321,6 +321,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     social = [
       ["icon-globe", ""]
     ]  
+    
+     [[params.about.item]]
+    name = '<a>Kashish Madan</a>'
+    position = "Intern"
+    description = "BE in Computer Science from Manipal University Jaipur, India. Joins the lab as an intern for mobile app development."
+    img = "kashish.png"
+    alt = "Kashish Madan"
+    social = [
+      ["icon-globe", ""]
+    ]  
   
   
   # Testimonials section
