@@ -329,7 +329,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "kashish.png"
     alt = "Kashish Madan"
     social = [
-      ["icon-globe", ""]
+      ["icon-globe", "https://www.linkedin.com/in/kashishmadan"]
     ]  
   
   
