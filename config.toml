@@ -209,13 +209,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       subtitle = "8/2018 - Past experiences, and a current manipulation of physical temperature, affect thinking about our loved ones."
       url = "https://psyarxiv.com/25dmj"
 
-      [[params.work.row]]
-      category = "publication.png"
-      img = "oxford.jpg"
-      alt = "Oxford Image"
-      title = "Oxford Bibliography Guide"
-      subtitle = "5/2018 - Two of our researchers participated in a collaboration to write an Oxford Bibliography on replication initiatives in psychology."
-      url = "https://psyarxiv.com/h5jm7/"
+#    [[params.work.row]]
+#      category = "publication.png"
+#      img = "oxford.jpg"
+#      alt = "Oxford Image"
+#      title = "Oxford Bibliography Guide"
+#      subtitle = "5/2018 - Two of our researchers participated in a collaboration to write an Oxford Bibliography on replication initiatives in psychology."
+#      url = "https://psyarxiv.com/h5jm7/"
       
 #    [[params.work.row]]
 #      category = "publication.png"
@@ -301,7 +301,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-globe", "https://www.lippc2s.fr/person/adetula-adeyemi/"]
     ]   
    
-    
   [[params.about.item]]
     name = '<a href="bastien.paris@etu.univ-grenoble-alpes.fr">Bastien Paris</a>'
     position = "MA Student"
@@ -322,7 +321,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-globe", ""]
     ]  
     
-     [[params.about.item]]
+  [[params.about.item]]
     name = '<a>Kashish Madan</a>'
     position = "Intern"
     description = "BE in Computer Science from Manipal University Jaipur, India. Joins the lab as an intern for mobile app development."
