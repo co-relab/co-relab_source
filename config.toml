@@ -317,7 +317,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "MBBS student at the University of Malawi, interested in the application of psychological research in clinical work."
     img = "zaithwa.png"
     alt = "Zaithwa Matemvu"
-    social = ["icon-globe", ""]  
+    social = ["icon-globe"]  
     
   [[params.about.item]]
     name = '<a>Kashish Madan</a>'
@@ -335,7 +335,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "BA in psychology at UGA. Joins the lab for her MA, and will work on the measurement instruments of romantic relationship quality."
     img = "blandine.png"
     alt = "Blandine Ribotta"
-    social = ["icon-globe", ""]
+    social = ["icon-globe"]
 
   [[params.about.item]]
     name = '<a href="ronan.bellemin@etu.univ-grenoble-alpes.fr">Ronan Bellemin</a>'
@@ -343,7 +343,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "BA in psychology at UGA. Joins the lab for his MA, and will work on the relationships between temperature and sexual/dating behavior."
     img = "ronan.png"
     alt = "Ronan Bellemin"
-    social = ["icon-globe", ""]
+    social = ["icon-globe"]
   
   
   # Testimonials section
