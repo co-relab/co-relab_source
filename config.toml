@@ -107,6 +107,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     
     [[params.work.row]]
       category = "announcements.png"
+      img = "SIPS.jpg"
+      alt = "SIPS"
+      title = "SIPS Commendation for one of our blogpost"
+      subtitle = "11/2020 - Our blogpost 'How open science can advance African psychology: Lessons from the inside' has been awarded with a SIPS Commendation"
+      url = "https://twitter.com/improvingpsych/status/1325854387726667776"
+     
+    
+    [[params.work.row]]
+      category = "announcements.png"
       img = "le monde.jpg"
       alt = "le monde"
       title = "Open letter to the (French) public"
