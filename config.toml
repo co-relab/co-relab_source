@@ -104,11 +104,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "Releases"
     description = "Here are recent projects we've completed."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
-    
+
+
+    [[params.work.row]]
+      category = "announcements.png"
+      img = "SIPS_logo.jpg"
+      alt = "SIPS lab"
+      title = "SIPS Commendation for our Lab Philosophy and Research Templates"
+      subtitle = "11/2020 - Our Lab Philosophy and our Research Templates have been awarded with a SIPS Commendation"
+      url = "https://twitter.com/improvingpsych/status/1326175174387961861"
+      
+
     [[params.work.row]]
       category = "announcements.png"
       img = "SIPS.jpg"
-      alt = "SIPS"
+      alt = "SIPS blogpost"
       title = "SIPS Commendation for one of our blogpost"
       subtitle = "11/2020 - Our blogpost 'How open science can advance African psychology: Lessons from the inside' has been awarded with a SIPS Commendation"
       url = "https://twitter.com/improvingpsych/status/1325854387726667776"
