@@ -129,7 +129,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "bbc-logo.png"
       alt = "BBC sounds"
-      title = "Patrick's research featured on BBC sounds"
+      title = "Patrick's research featured on bbc.org"
       subtitle = "12/2020 - Patrick was interviewed on the efficiency of training in reducing unconscious bias."
       url = "https://www.bbc.com/news/education-55309923"
 
