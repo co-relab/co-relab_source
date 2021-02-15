@@ -112,7 +112,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "hostile-logo.png"
       alt = "hostile priming effect"
       title = "A Multi-Site Collaborative Study of the Hostile Priming Effect"
-      subtitle = "02/2021 - We find the "hostile priming effect" did not replicate across close (n = 2123) and conceptual (n = 2579) replications"
+      subtitle = "02/2021 - We find the 'hostile priming effect' did not replicate across close (n = 2123) and conceptual (n = 2579) replications"
       url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
 
 
@@ -121,7 +121,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "kpcw-logo.png"
       alt = "KPCW"
       title = "Hans' book featured on kpcw.org"
-      subtitle = "02/2021 - Hans was interviewed on "Heartwarming", his new book on social thermoregulation"
+      subtitle = "02/2021 - Hans was interviewed on 'Heartwarming', his new book on social thermoregulation"
       url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
 
 
