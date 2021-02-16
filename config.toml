@@ -106,6 +106,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
 
 
+    [[params.work.row]]
+      category = "announcements.png"
+      img = "heartwarming.jpeg"
+      alt = "Heartwarming"
+      title = "Heartwarming featured on nextbigidea"
+      subtitle = "02/2021 - Hans IJzerman talked to the Next Big Idea Club about his book Heartwarming."
+      url = "https://nextbigidea.app.link/Heartwarming"
+
 
     [[params.work.row]]
       category = "publication.png"
@@ -120,8 +128,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "kpcw-logo.png"
       alt = "KPCW"
-      title = "Heartwarming featured on kpcw.org"
-      subtitle = "02/2021 - Hans was interviewed on 'Heartwarming', his new book on social thermoregulation."
+      title = "Heartwarming featured on kpcw"
+      subtitle = "02/2021 - Hans IJzerman talked to kpcw about his book Heartwarming."
       url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
 
 
@@ -129,8 +137,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "bbc-logo.png"
       alt = "BBC sounds"
-      title = "Patrick's research featured on bbc.org"
-      subtitle = "12/2020 - Patrick was interviewed on the efficiency of training in reducing unconscious bias."
+      title = "Patrick Forscher's research featured on bbc"
+      subtitle = "12/2020 - Patrick Forscher talked to the bbc on the efficiency of training in reducing unconscious bias."
       url = "https://www.bbc.com/news/education-55309923"
 
 
