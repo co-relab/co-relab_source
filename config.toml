@@ -72,7 +72,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.intro.item]]
     title = "Lab Philosophy"
     description = "Doing science is really hard. Here, we document the workflow of the lab and expectations for lab members. Includes templates for OSF projects to make open science easier."
-    url = "https://docs.google.com/document/d/1aZWfCIReB9goSiEQcYQGWj70R0NXfQ0cOWKWa3julcA/edit?usp=sharing" #the file is under /content/
+    url = "https://psyarxiv.com/6jmhe/" #the file is under /content/
     button = "Download"
     icon = "icon-bulb"
     img = "doors.jpg"
