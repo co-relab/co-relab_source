@@ -108,7 +108,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
       category = "announcements.png"
-      img = "SPSP.jpeg"
+      img = "SPSP.jpg"
       alt = "SPSP"
       title = "SPSP Presentation"
       subtitle = "02/2021 - Patrick Forscher is hosting an SPSP free-form Friday!."
