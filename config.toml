@@ -20,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.navigation]
     brand = "CORE Lab"
     home = "Home"
-    work = "Releases"
+    work = "Announcements"
     testimonials = "Lab Friends" # I commented out this tab in partials/nav.html so it isn't displayed
     services = "Opportunities"
     about = "Lab Members" #Order of this one changed in layouts/partials/nav.html 
@@ -101,8 +101,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   [params.work]
     enable = true
-    title = "Releases"
-    description = "Here are recent projects we've completed."
+    title = "Announcements"
+    description = "Here are some recent announcements."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
 
 
