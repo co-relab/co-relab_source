@@ -118,7 +118,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "DeVolkskrant.png"
       alt = "DeVolkskrant 2"
-      title = "Hans IJzerman's expertise called"
+      title = "IJzerman’s expertise called upon"
       subtitle = "02/2021 - IJzerman served as a fact checker for science news in Dutch newspaper De Volkskrant."
       url = "https://i.imgur.com/k1yDoOo.png"
 
@@ -180,7 +180,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "SIPS.jpg"
       alt = "SIPS blogpost"
       title = "SIPS Commendation for one of our blogpost"
-      subtitle = "11/2020 - Our blogpost 'How open science can advance African psychology: Lessons from the inside' has been awarded with a SIPS Commendation."
+      subtitle = "11/2020 - Our blogpost on African psychology has been awarded a SIPS commendation."
       url = "https://twitter.com/improvingpsych/status/1325854387726667776"
      
     
