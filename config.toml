@@ -105,13 +105,20 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Here are some recent announcements."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
 
+    [[params.work.row]]
+    category = "announcements.png"
+    img = "osf.png"
+    alt = "KLI workshop"
+    title = "KLI Exploratory Data Analysis workshop"
+    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis"
+    url = "https://osf.io/8vapw/"
 
     [[params.work.row]]
     category = "announcements.png"
     img = "hbes.jpg"
     alt = "HBES"
     title = "Heartwarming recommended by HBES"
-    subtitle = "The Human Behavior & Evolution Society recommended Hans' last book 'Heartwarming'."
+    subtitle = "05/2021 - The Human Behavior & Evolution Society recommended Hans' last book 'Heartwarming'."
     url = "https://i.imgur.com/n4p04nF.jpeg"
     
     [[params.work.row]]
@@ -119,7 +126,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "osf.png"
     alt = "ISCTE-IUL"
     title = "Workshop on Registered Reports"
-    subtitle = "Patrick Forscher’s workshop on Registered Reports at ISCTE-IUL March 24-25!"
+    subtitle = "05/2021 - Patrick Forscher’s workshop on Registered Reports at ISCTE-IUL March 24-25!"
     url = "https://osf.io/m9bzh/"
 
     [[params.work.row]]
@@ -180,6 +187,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       title = "Patrick Forscher's research featured on bbc"
       subtitle = "12/2020 - Patrick Forscher talked to the bbc on the efficiency of training in reducing unconscious bias."
       url = "https://www.bbc.com/news/education-55309923"
+
+
+    [[params.work.row]]
+    category = "announcements.png"
+    img = "osf.png"
+    alt = "KLI workshop"
+    title = "KLI Meta-analysis workshop"
+    subtitle = "11/2020 - Patrick & Alessandro taught a workshop on Meta-analysis"
+    url = "https://osf.io/n4uqa/"
 
 
     [[params.work.row]]
