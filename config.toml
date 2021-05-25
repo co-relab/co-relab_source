@@ -105,6 +105,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Here are some recent announcements."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
 
+
+    [[params.work.row]]
+    category = "announcements.png"
+    img = "hbes.png"
+    alt = "HBES"
+    title = "Heartwarming recommended by HBES"
+    subtitle = "The Human Behavior & Evolution Society recommended Hans' last book 'Heartwarming'."
+    url = "https://i.imgur.com/n4p04nF.jpeg"
     
     [[params.work.row]]
     category = "announcements.png"
