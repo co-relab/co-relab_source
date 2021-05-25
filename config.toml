@@ -131,7 +131,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
-    img = "pillowtalk_core.jpeg"
+    img = "pillowtalk_core.png"
     alt = "Heartwarming"
     title = "Heartwarming featured on Pillowtalk"
     subtitle = "03/2021 - Hans IJzerman talked about his book Heartwarming in the online show Pillowtalk."
