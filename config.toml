@@ -165,7 +165,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "publication.png"
       img = "socialthermoregulation.png"
       alt = "social thermoregulation"
-      title = "Popular science article on social thermoregulation"
+      title = "Insights on social thermoregulation"
       subtitle = "03/2021 - Hans published a popular science article on social thermoregulation, in 'Psychology Today'."
       url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
 
@@ -173,7 +173,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     category = "publication.png"
     img = "practical.png"
     alt = "practical"
-    title = "On the translation of science to practical advice"
+    title = "Translation of science to practical advice"
     subtitle = "02/2021 - Hans & Patrick published an article on the difficulty experienced by Science to provide practical advice, in 'The Inquisitive Mind'."
     url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
 
@@ -181,7 +181,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     category = "announcements.png"
     img = "embrlabs.png"
     alt = "embrlabs"
-    title = "Hans IJzerman's work featured on embrlabs"
+    title = "Hans' work featured on embrlabs"
     subtitle = "02/2021 - Hans has been interviewed by embrlabs to talk about him, his work, and embrlabs."
     url = "https://embrlabs.com/blogs/news/a-thermal-connection-a-conversation-with-dr-hans-rocha-ijzerman"
 
@@ -189,7 +189,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "publication.png"
       img = "gezelligheid.jpg"
       alt = "gezelligheid"
-      title = "Popular science article on social thermoregulation"
+      title = "Insights on social thermoregulation"
       subtitle = "02/2021 - Hans & Olivier published an article on social thermoregulation, in 'The Inquisitive Mind'."
       url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
 
@@ -213,7 +213,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "DeVolkskrant.png"
       alt = "DeVolkskrant 1"
-      title = "Hans IJzerman's research featured on De Volkskrant"
+      title = "Hans' research featured on De Volkskrant"
       subtitle = "02/2021 - IJzerman et al.’s Nature Human Behaviour paper was covered in the Dutch newspaper 'De Volkskrant'."
       url = "https://i.imgur.com/fVO4rWK.png"
 
@@ -230,7 +230,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "publication.png"
       img = "hostile-logo.png"
       alt = "hostile priming effect"
-      title = "A Multi-Site Collaborative Study of the Hostile Priming Effect"
+      title = "Results of a collaborative Study"
       subtitle = "02/2021 - We find the 'hostile priming effect' did not replicate across close (n = 2123) and conceptual (n = 2579) replications."
       url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
 
@@ -248,7 +248,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "bbc-logo.png"
       alt = "BBC sounds"
-      title = "Patrick Forscher's research featured on bbc"
+      title = "Patrick's research featured on bbc"
       subtitle = "12/2020 - Patrick Forscher talked to the bbc on the efficiency of training in reducing unconscious bias."
       url = "https://www.bbc.com/news/education-55309923"
 
@@ -266,7 +266,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "SIPS_logo.jpg"
       alt = "SIPS lab"
-      title = "SIPS Commendation for our Lab Philosophy and Research Templates"
+      title = "SIPS Commendation"
       subtitle = "11/2020 - Our Lab Philosophy and our Research Templates have been awarded with a SIPS Commendation."
       url = "https://twitter.com/improvingpsych/status/1326175174387961861"
       
@@ -275,7 +275,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "SIPS.jpg"
       alt = "SIPS blogpost"
-      title = "SIPS Commendation for one of our blogpost"
+      title = "SIPS Commendation"
       subtitle = "11/2020 - Our recent blogpost on African psychology has been awarded a SIPS commendation."
       url = "https://twitter.com/improvingpsych/status/1325854387726667776"
      
