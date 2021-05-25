@@ -110,7 +110,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "osf.png"
     alt = "KLI workshop"
     title = "KLI Exploratory Data Analysis workshop"
-    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis"
+    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis at KLI."
     url = "https://osf.io/8vapw/"
 
     [[params.work.row]]
@@ -120,13 +120,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "Heartwarming recommended by HBES"
     subtitle = "05/2021 - The Human Behavior & Evolution Society recommended Hans' last book 'Heartwarming'."
     url = "https://i.imgur.com/n4p04nF.jpeg"
-    
+
     [[params.work.row]]
     category = "announcements.png"
     img = "osf.png"
     alt = "ISCTE-IUL"
     title = "Registered Reports workshop"
-    subtitle = "05/2021 - Patrick Forscher taught a workshop on Registered Reports at ISCTE-IUL March 24-25!"
+    subtitle = "03/2021 - Patrick Forscher taught a workshop on Registered Reports at ISCTE-IUL."
     url = "https://osf.io/m9bzh/"
 
     [[params.work.row]]
@@ -194,7 +194,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "osf.png"
     alt = "KLI workshop"
     title = "KLI Meta-analysis workshop"
-    subtitle = "11/2020 - Patrick & Alessandro taught a workshop on Meta-analysis"
+    subtitle = "11/2020 - Patrick & Alessandro taught a workshop on Meta-analysis at KLI."
     url = "https://osf.io/n4uqa/"
 
 
