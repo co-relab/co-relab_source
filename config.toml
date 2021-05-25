@@ -119,7 +119,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "radiolab"
     title = "Heartwarming featured on Radiolab"
     subtitle = "05/2021 - Hans Rocha IJzerman’s book Heartwarming was featured in a recent Radiolab episode!"
-    url = "https://www.advalvas.vu.nl/verhalen/weg-met-die-zelfingenomenheid-praat-over-je-fouten"
+    url = "https://podcasts.apple.com/fr/podcast/radiolab/id152249110?l=en&i=1000520639850"
 
     [[params.work.row]]
     category = "announcements.png"
@@ -127,7 +127,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "lab philosophy"
     title = "Media coverage of our lab philosophy"
     subtitle = "05/2021 - Our lab philosophy has been covered in the University newspaper of Free University, Amsterdam."
-    url = "https://www.advalvas.vu.nl/verhalen/weg-met-die-zelfingenomenheid-praat-over-je-fouten"
+    url = "https://www.advalvas.vu.nl/en/verhalen/stop-being-self-satisfied-talk-about-your-mistakes"
 
     [[params.work.row]]
     category = "announcements.png"
