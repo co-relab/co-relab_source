@@ -105,13 +105,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Here are some recent announcements."
     footertext = "We're working on a page for achived projects. We'll link those here when it's ready."
 
+    
+    [[params.work.row]]
+    category = "announcements.png"
+    img = "osf.png"
+    alt = "ISCTE-IUL"
+    title = "Workshop on Registered Reports"
+    subtitle = "Patrick Forscher’s workshop on Registered Reports at ISCTE-IUL March 24-25!"
+    url = "https://osf.io/m9bzh/"
 
     [[params.work.row]]
       category = "announcements.png"
       img = "SPSP.jpg"
       alt = "SPSP"
       title = "SPSP Presentation"
-      subtitle = "02/2021 - Patrick Forscher is hosting an SPSP free-form Friday!."
+      subtitle = "02/2021 - Patrick Forscher is hosting an SPSP free-form Friday!"
       url = "https://i.imgur.com/Zv0wb90.png"
 
     [[params.work.row]]
