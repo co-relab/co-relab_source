@@ -240,7 +240,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "kpcw-logo.png"
       alt = "KPCW"
       title = "Heartwarming featured on kpcw"
-      subtitle = "02/2021 - Hans IJzerman gave a talk on kpcw radio about his recent book 'Heartwarming'."
+      subtitle = "02/2021 - Hans IJzerman has been interviewed on kpcw radio to talk about his recent book 'Heartwarming'."
       url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
 
 
