@@ -167,7 +167,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       alt = "social thermoregulation"
       title = "Insights on social thermoregulation"
       subtitle = "03/2021 - Hans published a popular science article on social thermoregulation, in 'Psychology Today'."
-      url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
+      url = "https://www.psychologytoday.com/us/articles/202103/warming-each-other"
 
     [[params.work.row]]
     category = "publication.png"
@@ -175,7 +175,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "practical"
     title = "Translation of science to practical advice"
     subtitle = "02/2021 - Hans & Patrick published an article on the difficulty experienced by Science to provide practical advice, in 'The Inquisitive Mind'."
-    url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
+    url = "https://in-mind.org/blog/post/why-a-new-popular-press-psychology-book-refrains-from-giving-advice"
 
     [[params.work.row]]
     category = "announcements.png"
@@ -232,7 +232,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       alt = "hostile priming effect"
       title = "Results of a collaborative Study"
       subtitle = "02/2021 - We find the 'hostile priming effect' did not replicate across close (n = 2123) and conceptual (n = 2579) replications."
-      url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
+      url = "https://online.ucpress.edu/collabra/article/7/1/18738/116070/A-Multi-Site-Collaborative-Study-of-the-Hostile"
 
 
     [[params.work.row]]
