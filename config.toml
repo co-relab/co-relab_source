@@ -139,6 +139,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
       category = "announcements.png"
+      img = "gezelligheid.jpg"
+      alt = "gezelligheid"
+      title = "Popular science article on social thermoregulation"
+      subtitle = "02/2021 - Hans & Olivier published a popular science article on social thermoregulation in 'The Inquisitive Mind'"
+      url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
+
+    [[params.work.row]]
+      category = "announcements.png"
       img = "SPSP.jpg"
       alt = "SPSP"
       title = "SPSP Presentation"
