@@ -213,7 +213,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "DeVolkskrant.png"
       alt = "DeVolkskrant 1"
-      title = "Hans' research featured on De Volkskrant"
+      title = "Hans' paper featured on De Volkskrant"
       subtitle = "02/2021 - IJzerman et al.’s Nature Human Behaviour paper was covered in the Dutch newspaper 'De Volkskrant'."
       url = "https://i.imgur.com/fVO4rWK.png"
 
