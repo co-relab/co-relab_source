@@ -108,7 +108,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
-    img = "hbes.png"
+    img = "hbes.jpeg"
     alt = "HBES"
     title = "Heartwarming recommended by HBES"
     subtitle = "The Human Behavior & Evolution Society recommended Hans' last book 'Heartwarming'."
