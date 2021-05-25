@@ -198,7 +198,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "SPSP.jpg"
       alt = "SPSP"
       title = "SPSP Presentation"
-      subtitle = "02/2021 - Patrick Forscher is hosting an SPSP free-form Friday!"
+      subtitle = "02/2021 - Patrick Forscher is hosting an SPSP free-form Friday titled 'Encouraging team-based science in psychology'"
       url = "https://i.imgur.com/Zv0wb90.png"
 
     [[params.work.row]]
@@ -240,7 +240,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "kpcw-logo.png"
       alt = "KPCW"
       title = "Heartwarming featured on kpcw"
-      subtitle = "02/2021 - Hans IJzerman talked to kpcw radio about his recent book 'Heartwarming'."
+      subtitle = "02/2021 - Hans IJzerman gave a talk on kpcw radio about his recent book 'Heartwarming'."
       url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
 
 
