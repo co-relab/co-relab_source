@@ -222,7 +222,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "heartwarming.jpeg"
       alt = "Heartwarming"
       title = "Heartwarming featured on nextbigidea"
-      subtitle = "02/2021 - Hans IJzerman talked to the Next Big Idea Club about his book Heartwarming."
+      subtitle = "02/2021 - Hans IJzerman talked to the Next Big Idea Club about his new book 'Heartwarming'."
       url = "https://nextbigidea.app.link/Heartwarming"
 
 
