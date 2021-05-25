@@ -138,7 +138,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "https://i.imgur.com/ZpX2kGK.png"
 
     [[params.work.row]]
-      category = "announcements.png"
+      category = "publication.png"
       img = "socialthermoregulation.png"
       alt = "social thermoregulation"
       title = "Popular science article on social thermoregulation"
@@ -146,7 +146,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
 
       [[params.work.row]]
-      category = "announcements.png"
+      category = "publication.png"
       img = "practical.png"
       alt = "practical"
       title = "On the translation of science to practical advice"
@@ -154,7 +154,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
 
     [[params.work.row]]
-      category = "announcements.png"
+      category = "publication.png"
       img = "gezelligheid.jpg"
       alt = "gezelligheid"
       title = "Popular science article on social thermoregulation"
