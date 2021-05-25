@@ -206,7 +206,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "DeVolkskrant.png"
       alt = "DeVolkskrant 2"
       title = "IJzerman’s expertise called upon"
-      subtitle = "02/2021 - IJzerman served as a fact checker for science news in Dutch newspaper De Volkskrant."
+      subtitle = "02/2021 - IJzerman served as a fact checker for science news in the Dutch newspaper 'De Volkskrant'."
       url = "https://i.imgur.com/k1yDoOo.png"
 
     [[params.work.row]]
@@ -214,7 +214,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "DeVolkskrant.png"
       alt = "DeVolkskrant 1"
       title = "Hans IJzerman's research featured on De Volkskrant"
-      subtitle = "02/2021 - IJzerman et al.’s NHB paper was covered in Dutch newspaper De Volkskrant."
+      subtitle = "02/2021 - IJzerman et al.’s NHB paper was covered in the Dutch newspaper 'De Volkskrant'."
       url = "https://i.imgur.com/fVO4rWK.png"
 
     [[params.work.row]]
