@@ -126,7 +126,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "osf.png"
     alt = "ISCTE-IUL"
     title = "Workshop on Registered Reports"
-    subtitle = "05/2021 - Patrick Forscher’s workshop on Registered Reports at ISCTE-IUL March 24-25!"
+    subtitle = "05/2021 - Patrick Forscher taught a workshop on Registered Reports at ISCTE-IUL March 24-25!"
     url = "https://osf.io/m9bzh/"
 
     [[params.work.row]]
