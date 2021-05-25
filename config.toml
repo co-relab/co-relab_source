@@ -130,6 +130,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "https://osf.io/m9bzh/"
 
     [[params.work.row]]
+    category = "announcements.png"
+    img = "pillowtalk_core.jpeg"
+    alt = "Heartwarming"
+    title = "Heartwarming featured on Pillowtalk"
+    subtitle = "03/2021 - Hans IJzerman talked about his book Heartwarming in the online show Pillowtalk."
+    url = "https://i.imgur.com/ZpX2kGK.png"
+
+    [[params.work.row]]
       category = "announcements.png"
       img = "SPSP.jpg"
       alt = "SPSP"
