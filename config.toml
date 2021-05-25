@@ -107,6 +107,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
+    img = "nrcnl.png"
+    alt = "nrcnl"
+    title = "Heartwarming featured on NRC"
+    subtitle = "05/2021 - Hans Rocha IJzerman’s book Heartwarming was featured in a recent NRC article!"
+    url = "https://www.nrc.nl/nieuws/2021/05/16/kou-doet-je-denken-aan-je-geliefde-a4043705"
+
+    [[params.work.row]]
+    category = "announcements.png"
     img = "radiolab.png"
     alt = "radiolab"
     title = "Heartwarming featured on Radiolab"
