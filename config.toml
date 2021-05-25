@@ -110,7 +110,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "labphilosophy.png"
     alt = "lab philosophy"
     title = "Media coverage of our lab philosophy"
-    subtitle = "05/2021 - Our lab philosophy has been covered on the University newspaper of Free University, Amsterdam."
+    subtitle = "05/2021 - Our lab philosophy has been covered in the University newspaper of Free University, Amsterdam."
     url = "https://www.advalvas.vu.nl/verhalen/weg-met-die-zelfingenomenheid-praat-over-je-fouten"
 
     [[params.work.row]]
