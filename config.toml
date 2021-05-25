@@ -158,7 +158,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "pillowtalk_core.png"
     alt = "Heartwarming"
     title = "Heartwarming featured on Pillowtalk"
-    subtitle = "03/2021 - Hans IJzerman talked about his new book Heartwarming in the online show Pillowtalk."
+    subtitle = "03/2021 - Hans IJzerman talked about his recent book 'Heartwarming' in the online show Pillowtalk."
     url = "https://i.imgur.com/ZpX2kGK.png"
 
     [[params.work.row]]
@@ -214,7 +214,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "DeVolkskrant.png"
       alt = "DeVolkskrant 1"
       title = "Hans IJzerman's research featured on De Volkskrant"
-      subtitle = "02/2021 - IJzerman et al.’s NHB paper was covered in the Dutch newspaper 'De Volkskrant'."
+      subtitle = "02/2021 - IJzerman et al.’s Nature Human Behaviour paper was covered in the Dutch newspaper 'De Volkskrant'."
       url = "https://i.imgur.com/fVO4rWK.png"
 
     [[params.work.row]]
@@ -222,7 +222,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "heartwarming.jpeg"
       alt = "Heartwarming"
       title = "Heartwarming featured on nextbigidea"
-      subtitle = "02/2021 - Hans IJzerman talked to the Next Big Idea Club about his new book 'Heartwarming'."
+      subtitle = "02/2021 - Hans IJzerman talked to the 'Next Big Idea Club' about his recent book 'Heartwarming'."
       url = "https://nextbigidea.app.link/Heartwarming"
 
 
@@ -240,7 +240,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "kpcw-logo.png"
       alt = "KPCW"
       title = "Heartwarming featured on kpcw"
-      subtitle = "02/2021 - Hans IJzerman talked to kpcw about his book Heartwarming."
+      subtitle = "02/2021 - Hans IJzerman talked to kpcw radio about his recent book 'Heartwarming'."
       url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
 
 
@@ -276,7 +276,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "SIPS.jpg"
       alt = "SIPS blogpost"
       title = "SIPS Commendation for one of our blogpost"
-      subtitle = "11/2020 - Our blogpost on African psychology has been awarded a SIPS commendation."
+      subtitle = "11/2020 - Our recent blogpost on African psychology has been awarded a SIPS commendation."
       url = "https://twitter.com/improvingpsych/status/1325854387726667776"
      
     
