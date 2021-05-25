@@ -145,21 +145,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       subtitle = "03/2021 - Hans published an article on social thermoregulation, in 'Psychology Today'"
       url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
 
-      [[params.work.row]]
-      category = "publication.png"
-      img = "practical.png"
-      alt = "practical"
-      title = "On the translation of science to practical advice"
-      subtitle = "02/2021 - Hans & Patrick published an article on the difficulty experienced by Science to provide practical advice, in 'The Inquisitive Mind'"
-      url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
+    [[params.work.row]]
+    category = "publication.png"
+    img = "practical.png"
+    alt = "practical"
+    title = "On the translation of science to practical advice"
+    subtitle = "02/2021 - Hans & Patrick published an article on the difficulty experienced by Science to provide practical advice, in 'The Inquisitive Mind'"
+    url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
 
-      [[params.work.row]]
-      category = "announcements.png"
-      img = "embrlabs.png"
-      alt = "embrlabs"
-      title = "Hans IJzerman's work featured on embrlabs"
-      subtitle = "02/2021 - Hans has been interviewed by embrlabs to talk about him, his work, and embrlabs."
-      url = "https://embrlabs.com/blogs/news/a-thermal-connection-a-conversation-with-dr-hans-rocha-ijzerman"
+    [[params.work.row]]
+    category = "announcements.png"
+    img = "embrlabs.png"
+    alt = "embrlabs"
+    title = "Hans IJzerman's work featured on embrlabs"
+    subtitle = "02/2021 - Hans has been interviewed by embrlabs to talk about him, his work, and embrlabs."
+    url = "https://embrlabs.com/blogs/news/a-thermal-connection-a-conversation-with-dr-hans-rocha-ijzerman"
 
     [[params.work.row]]
       category = "publication.png"
