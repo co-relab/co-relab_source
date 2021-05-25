@@ -134,7 +134,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "osf.png"
     alt = "KLI workshop"
     title = "KLI Exploratory Data Analysis workshop"
-    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis at KLI."
+    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis at KLI.                         "
     url = "https://osf.io/8vapw/"
 
     [[params.work.row]]
@@ -150,7 +150,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "osf.png"
     alt = "ISCTE-IUL"
     title = "Registered Reports workshop"
-    subtitle = "03/2021 - Patrick Forscher taught a workshop on Registered Reports at ISCTE-IUL."
+    subtitle = "03/2021 - Patrick Forscher taught a workshop on Registered Reports at ISCTE-IUL.                          "
     url = "https://osf.io/m9bzh/"
 
     [[params.work.row]]
