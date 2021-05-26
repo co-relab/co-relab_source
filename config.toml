@@ -109,7 +109,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     category = "announcements.png"
     img = "nrcnl.png"
     alt = "nrcnl"
-    title = "Heartwarming featured on NRC"
+    title = "Heartwarming featured in NRC"
     subtitle = "05/2021 - Hans Rocha IJzerman’s book Heartwarming was featured in a recent NRC article!"
     url = "https://www.nrc.nl/nieuws/2021/05/16/kou-doet-je-denken-aan-je-geliefde-a4043705"
 
@@ -117,7 +117,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     category = "announcements.png"
     img = "radiolab.png"
     alt = "radiolab"
-    title = "Heartwarming featured on Radiolab"
+    title = "Heartwarming featured in Radiolab"
     subtitle = "05/2021 - Hans Rocha IJzerman’s book Heartwarming was featured in a recent Radiolab episode!"
     url = "https://podcasts.apple.com/fr/podcast/radiolab/id152249110?l=en&i=1000520639850"
 
@@ -157,7 +157,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     category = "announcements.png"
     img = "pillowtalk_core.png"
     alt = "Heartwarming"
-    title = "Heartwarming featured on Pillowtalk"
+    title = "Heartwarming featured in Pillowtalk"
     subtitle = "03/2021 - Hans IJzerman talked about his recent book 'Heartwarming' in the online show Pillowtalk."
     url = "https://i.imgur.com/ZpX2kGK.png"
 
@@ -181,7 +181,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     category = "announcements.png"
     img = "embrlabs.png"
     alt = "embrlabs"
-    title = "Hans' work featured on embrlabs"
+    title = "Hans' work featured in embrlabs"
     subtitle = "02/2021 - Hans has been interviewed by embrlabs to talk about him, his work, and embrlabs."
     url = "https://embrlabs.com/blogs/news/a-thermal-connection-a-conversation-with-dr-hans-rocha-ijzerman"
 
@@ -213,7 +213,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "DeVolkskrant.png"
       alt = "DeVolkskrant 1"
-      title = "NHB paper featured on De Volkskrant"
+      title = "NHB paper featured in De Volkskrant"
       subtitle = "02/2021 - IJzerman et al.’s Nature Human Behaviour paper was covered in the Dutch newspaper 'De Volkskrant'."
       url = "https://i.imgur.com/fVO4rWK.png"
 
@@ -221,7 +221,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "heartwarming.jpeg"
       alt = "Heartwarming"
-      title = "Heartwarming featured on nextbigidea"
+      title = "Heartwarming featured in nextbigidea"
       subtitle = "02/2021 - Hans IJzerman talked to the 'Next Big Idea Club' about his recent book 'Heartwarming'."
       url = "https://nextbigidea.app.link/Heartwarming"
 
@@ -239,7 +239,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "kpcw-logo.png"
       alt = "KPCW"
-      title = "Heartwarming featured on kpcw"
+      title = "Heartwarming featured in kpcw"
       subtitle = "02/2021 - Hans IJzerman has been interviewed on kpcw radio to talk about his recent book 'Heartwarming'."
       url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
 
@@ -248,7 +248,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       category = "announcements.png"
       img = "bbc-logo.png"
       alt = "BBC sounds"
-      title = "Patrick's research featured on bbc"
+      title = "Patrick's research featured in bbc"
       subtitle = "12/2020 - Patrick Forscher talked to the bbc on the efficiency of training in reducing unconscious bias."
       url = "https://www.bbc.com/news/education-55309923"
 
