@@ -483,7 +483,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "bastien.png"
     alt = "Bastien Paris"
     social = [
-      ["icon-github", "https://github.com/parisbastien"]
+      ["icon-github", "https://github.com/parisbastien"],
+      ["icon-twitter", "https://twitter.com/l3astienParis"]
     ]
     
   [[params.about.item]]
