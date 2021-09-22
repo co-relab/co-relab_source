@@ -535,7 +535,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = '<a href="">Annabelle Narsama</a>'
     position = "MA Student"
     description = "BA in psychology at Paul-Valéry Montpellier 3 University. Joins the lab for her MA, and will work on men’s sexual behaviors."
-    img = "annabelle.png"
+    img = "annabelle.jpg"
     alt = "Annabelle Narsama"
     social = [
         ["icon-globe", ""]
