@@ -532,6 +532,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "annabelle.jpg"
     alt = "Annabelle Narsama"
     social = []
+
+    [[params.about.item]]
+    name = '<a href="">Nathan Vidal</a>'
+    position = "MS Student"
+    description = "BS in Health Biology, joins the lab for his MS (Cogmaster, Paris) and will work on brown adipose tissues and their relation to social thermoregulation."
+    img = "nathan.jpg"
+    alt = "Nathan Vidal"
+    social = []
   
   
   # Testimonials section
