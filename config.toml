@@ -527,8 +527,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Miguel Silan"
     social = [
         ["icon-folder", "https://orcid.org/0000-0002-7480-3661"],
-        ["icon-twitter", "https://twitter.com/MetaMethodsPH"],
-        ["icon-google", "https://scholar.google.com/citations?user=JAA8K7UAAAAJ&hl=en&oi=ao"]
+        ["icon-google", "https://scholar.google.com/citations?user=JAA8K7UAAAAJ&hl=en&oi=ao"],
+        ["icon-twitter", "https://twitter.com/MetaMethodsPH"]
         ]
 
     [[params.about.item]]
