@@ -509,7 +509,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Adar Cem Lagap"
     social = [
         ["icon-globe", "https://www.researchgate.net/profile/Adar-Lagap"],
-        ["icon-folder", "https://osf.io/"],
+        ["icon-folder", "https://osf.io/eb67a/"],
         ["icon-twitter", "https://twitter.com/CemLagap"]
         ]
 
