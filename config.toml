@@ -109,7 +109,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     category = "announcements.png"
     img = "georgiou.png"
     alt = "georgiou"
-    title = "Replication and extension of Georgiou et al. (2020)"
+    title = "Replication of Georgiou et al. (2020)"
     subtitle = "05/2021 - Students of our university replicated and extended the work of Georgiou et al. (2020) on COVID-19-related conspiracy beliefs."
     url = "https://psyarxiv.com/t62s7/"
 
