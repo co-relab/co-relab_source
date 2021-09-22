@@ -430,18 +430,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     ]  
 
 # Below used to bug out after 5 people, I think I fixed it in about.html though
-    [[params.about.item]]
-      name = '<a href="https://www.researchgate.net/profile/Patrick_Forscher">Patrick Forscher</a>'
-      position = "Postdoc"
-      description = "PhD from University of Wisconsin-Madison. Joins the lab to find funding sources for the Psychological Science Accelerator."
-      img = "Patrick.png"
-      alt = "Patrick"
-      social = [
-        ["icon-globe", "https://www.researchgate.net/profile/Patrick_Forscher"],
-        ["icon-folder", "https://osf.io/eff4m/"],
-        ["icon-google", "https://scholar.google.com/citations?user=lEXTftIAAAAJ&hl=en"],
-        ["icon-twitter", "https://twitter.com/psforscher"]
-      ]
 
     [[params.about.item]]
       name = '<a href="https://www.researchgate.net/profile/Alessandro_Sparacio">Alessandro Sparacio</a>'
@@ -486,14 +474,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-github", "https://github.com/parisbastien"],
       ["icon-twitter", "https://twitter.com/l3astienParis"]
     ]
-    
-  [[params.about.item]]
-    name = '<a>Zaithwa Matemvu</a>'
-    position = "Affiliate Member"
-    description = "MBBS student at the University of Malawi, interested in the application of psychological research in clinical work."
-    img = "zaithwa.png"
-    alt = "Zaithwa Matemvu"
-    social = ["icon-globe"]  
 
   [[params.about.item]]
     name = '<a href="blandine.ribotta@etu.univ-grenoble-alpes.fr">Blandine Ribotta</a>'
