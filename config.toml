@@ -537,9 +537,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "BA in psychology at Paul-Valéry Montpellier 3 University. Joins the lab for her MA, and will work on men’s sexual behaviors."
     img = "annabelle.jpg"
     alt = "Annabelle Narsama"
-    social = [
-        ["icon-globe", ""]
-        ]
+    social = []
   
   
   # Testimonials section
