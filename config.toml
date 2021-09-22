@@ -532,18 +532,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ]
 
     [[params.about.item]]
-    name = '<a href="">Miguel Silan</a>'
-    position = "PhD Student"
-    description = "MA in Psychology from the University of the Philippines Diliman. Joins the lab for his PhD, and will work on the conceptualization and measurement of relationship quality."
-    img = "miguel.jpeg"
-    alt = "Miguel Silan"
-    social = [
-        ["icon-folder", "https://orcid.org/0000-0002-7480-3661"],
-        ["icon-twitter", "https://twitter.com/MetaMethodsPH"],
-        ["icon-google", "https://scholar.google.com/citations?user=JAA8K7UAAAAJ&hl=en&oi=ao"]
-        ]
-
-    [[params.about.item]]
     name = '<a href="">Annabelle Narsama</a>'
     position = "MA Student"
     description = "BA in psychology at Paul-Valéry Montpellier 3 University. Joins the lab for her MA, and will work on men’s sexual behaviors."
