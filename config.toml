@@ -549,6 +549,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Nathan Vidal"
     social = []
   
+    [[params.about.item]]
+    name = '<a href="">Louise Faure</a>'
+    position = "BS Student"
+    description = "Third year undergraduate student in psychology at UGA and trainee in the team working on social thermoregulation and co-regulation."
+    img = "Louise.jpg"
+    alt = "Louise Faure"
+    social = []
+  
   
   # Testimonials section
   # I edited partials/testimonials.html to remove the quotes and change this to a friends-of-lab section.
