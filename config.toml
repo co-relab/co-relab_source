@@ -496,7 +496,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.about.item]]
     name = '<a href="ronan.bellemin@etu.univ-grenoble-alpes.fr">Ronan Bellemin</a>'
     position = "MA Student"
-    description = "Intern as manager of the lab. Will work on several projects related to social thermoregulation and emotions."
+    description = "Intern as lab manager. Will work on several projects related to social thermoregulation and emotions."
     img = "ronan.png"
     alt = "Ronan Bellemin"
     social = [["icon-twitter", "https://twitter.com/BelleminRonan"]]
