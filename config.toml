@@ -439,7 +439,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Below used to bug out after 5 people, I think I fixed it in about.html though
 
-    [[params.about.item]]
+  [[params.about.item]]
       name = '<a href="https://www.researchgate.net/profile/Alessandro_Sparacio">Alessandro Sparacio</a>'
       position = "PhD Student"
       description = "MA in Psychology from the University of Milano-Bicocca. Joins the lab for his PhD, and will work on stress regulation processes."
@@ -501,7 +501,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Ronan Bellemin"
     social = [["icon-twitter", "https://twitter.com/BelleminRonan"]]
 
-    [[params.about.item]]
+  [[params.about.item]]
     name = '<a href="">Anthony Dall’agnola-Bombier</a>'
     position = "Developer"
     description = "Anthony Dall’agnola-Bombier is subcontracted by the CORE lab for app development."
@@ -509,7 +509,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Anthony Dall’agnola-Bombier"
     social = []
 
-    [[params.about.item]]
+  [[params.about.item]]
     name = '<a href="">Adar Cem Lagap</a>'
     position = "Intern"
     description = "BA in Psychology, joins the lab as an intern and studying on close relationships and dynamics."
@@ -521,7 +521,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-twitter", "https://twitter.com/CemLagap"]
         ]
 
-    [[params.about.item]]
+  [[params.about.item]]
     name = '<a href="">Miguel Silan</a>'
     position = "PhD Student"
     description = "MA in Psychology from the University of the Philippines Diliman. Joins the lab for his PhD to work on measuring relationship quality."
@@ -533,7 +533,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-twitter", "https://twitter.com/MetaMethodsPH"]
         ]
 
-    [[params.about.item]]
+  [[params.about.item]]
     name = '<a href="">Annabelle Narsama</a>'
     position = "MA Student"
     description = "BA in psychology at Paul-Valéry Montpellier 3 University. Joins the lab for her MA, and will work on men’s sexual behaviors."
@@ -541,7 +541,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Annabelle Narsama"
     social = []
 
-    [[params.about.item]]
+  [[params.about.item]]
     name = '<a href="">Nathan Vidal</a>'
     position = "MS Student"
     description = "BS in Health Biology, joins the lab for his MS (Cogmaster, Paris) and will work on brown adipose tissues and their relation to social thermoregulation."
@@ -549,9 +549,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Nathan Vidal"
     social = []
   
-    [[params.about.item]]
+  [[params.about.item]]
     name = '<a href="">Louise Faure</a>'
-    position = "BS Student"
+    position = "BA Student"
     description = "Third year undergraduate student in psychology at UGA and trainee in the team working on social thermoregulation and co-regulation."
     img = "Louise.jpg"
     alt = "Louise Faure"
