@@ -424,7 +424,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     footertext = '<big>Former members:</big> <a href="https://osf.io/n75jp/">Lison Neyroud</a>, <a href="http://armelsoubeiga.ga/">Armel Soubeiga</a>, Justin Mah, <a href="https://github.com/souabniMehdi">Mehdi Souabni</a>, <a href="https://osf.io/qetx7/">Nazanin Kafaee</a>, <a href="https://www.researchgate.net/profile/Elisa_Sarda">Elisa Sarda</a>, <a href="https://raklein.me/">Richard Klein</a>, Shanèle Payart, Martin Oudart, <a href="https://twitter.com/psforscher">Patrick Forscher</a>.'
 #    description = ""
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="http://www.iufrance.fr/les-membres-de-liuf/membre/2111-hans-ijzerman.html/">Hans IJzerman</a>'  
     position = 'Principal Investigator'  
     description = "PhD in Social Psychology from Utrecht University and Associate Professor at UGA. Directs lab strategy."  
@@ -439,7 +439,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Below used to bug out after 5 people, I think I fixed it in about.html though
 
-   [[params.about.html]]
+   [[params.about.item]]
       name = '<a href="https://www.researchgate.net/profile/Alessandro_Sparacio">Alessandro Sparacio</a>'
       position = "PhD Student"
       description = "MA in Psychology from the University of Milano-Bicocca. Joins the lab for his PhD, and will work on stress regulation processes."
@@ -449,7 +449,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-globe", "https://www.researchgate.net/profile/Alessandro_Sparacio"]
       ]
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="https://www.researchgate.net/profile/Olivier_Dujols2">Olivier Dujols</a>'
     position = "PhD Student"
     description = "MA in Social Psychology at UGA. Joins the lab for his PhD, and will work on social thermoregulation and co-regulation."
@@ -462,7 +462,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-github", "https://github.com/DujolsOlivier"]
     ]   
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a>Adeyemi Adetula</a>'
     position = "PhD Student"
     description = "M.Sc in Psychology at Nasarawa State University, Nigeria. Joins the lab for his PhD to work on increasing psychology’s generalizability."
@@ -472,7 +472,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-globe", "https://www.lippc2s.fr/person/adetula-adeyemi/"]
     ]   
    
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="bastien.paris@etu.univ-grenoble-alpes.fr">Bastien Paris</a>'
     position = "MA Student"
     description = "BA in psychology at Université de Bourgogne. Joins the lab for his MA, and will work on loneliness trends across time."
@@ -485,7 +485,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ["icon-github", "https://github.com/parisbastien"]
     ]
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="blandine.ribotta@etu.univ-grenoble-alpes.fr">Blandine Ribotta</a>'
     position = "MA Student"
     description = "BA in psychology at UGA. Joins the lab for her MA, and will work on the measurement instruments of romantic relationship quality."
@@ -493,7 +493,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Blandine Ribotta"
     social = []
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="ronan.bellemin@etu.univ-grenoble-alpes.fr">Ronan Bellemin</a>'
     position = "MA Student"
     description = "Intern as lab manager. Will work on several projects related to social thermoregulation and emotions."
@@ -501,7 +501,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Ronan Bellemin"
     social = [["icon-twitter", "https://twitter.com/BelleminRonan"]]
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="">Anthony Dall’agnola-Bombier</a>'
     position = "Developer"
     description = "Anthony Dall’agnola-Bombier is subcontracted by the CORE lab for app development."
@@ -509,7 +509,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Anthony Dall’agnola-Bombier"
     social = []
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="">Adar Cem Lagap</a>'
     position = "Intern"
     description = "BA in Psychology, joins the lab as an intern and studying on close relationships and dynamics."
@@ -521,7 +521,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-twitter", "https://twitter.com/CemLagap"]
         ]
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="">Miguel Silan</a>'
     position = "PhD Student"
     description = "MA in Psychology from the University of the Philippines Diliman. Joins the lab for his PhD to work on measuring relationship quality."
@@ -533,7 +533,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-twitter", "https://twitter.com/MetaMethodsPH"]
         ]
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="">Annabelle Narsama</a>'
     position = "MA Student"
     description = "BA in psychology at Paul-Valéry Montpellier 3 University. Joins the lab for her MA, and will work on men’s sexual behaviors."
@@ -541,7 +541,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Annabelle Narsama"
     social = []
 
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="">Nathan Vidal</a>'
     position = "MS Student"
     description = "BS in Health Biology, joins the lab for his MS (Cogmaster, Paris) and will work on brown adipose tissues and their relation to social thermoregulation."
@@ -549,7 +549,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Nathan Vidal"
     social = []
   
-   [[params.about.html]]
+   [[params.about.item]]
     name = '<a href="">Louise Faure</a>'
     position = "BS Student"
     description = "Third year undergraduate student in psychology at UGA and trainee in the team working on social thermoregulation and co-regulation."
