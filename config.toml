@@ -107,6 +107,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
+    img = "Alessandro_meta_analysis.png"
+    alt = "Sparacio"
+    title = "New meta-analysis on stress regulation!"
+    subtitle = "09/2021 - Alessandro Sparacio has just submitted his first paper and preprint: A pre-registered meta-analysis on stress regulation."
+    url = "https://psyarxiv.com/zpw28/"
+
+    [[params.work.row]]
+    category = "announcements.png"
     img = "georgiou.png"
     alt = "georgiou"
     title = "Replication of Georgiou et al. (2020)"
