@@ -481,6 +481,26 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     ]   
    
    [[params.about.item]]
+    name = '<a href="">Miguel Silan</a>'
+    position = "PhD Student"
+    description = "MA in Psychology from the University of the Philippines Diliman. Joins the lab for his PhD to work on measuring relationship quality."
+    img = "miguel.jpeg"
+    alt = "Miguel Silan"
+    social = [
+        ["icon-folder", "https://orcid.org/0000-0002-7480-3661"],
+        ["icon-google", "https://scholar.google.com/citations?user=JAA8K7UAAAAJ&hl=en&oi=ao"],
+        ["icon-twitter", "https://twitter.com/MetaMethodsPH"]
+        ]
+    
+   [[params.about.item]]
+    name = '<a href="ronan.bellemin@etu.univ-grenoble-alpes.fr">Ronan Bellemin</a>'
+    position = "MA Student"
+    description = "Intern as lab manager. Will work on several projects related to social thermoregulation and emotions."
+    img = "ronan.png"
+    alt = "Ronan Bellemin"
+    social = [["icon-twitter", "https://twitter.com/BelleminRonan"]]
+    
+   [[params.about.item]]
     name = '<a href="bastien.paris@etu.univ-grenoble-alpes.fr">Bastien Paris</a>'
     position = "MA Student"
     description = "BA in psychology at Université de Bourgogne. Joins the lab for his MA, and will work on loneliness trends across time."
@@ -500,23 +520,31 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "blandine.png"
     alt = "Blandine Ribotta"
     social = []
-
+    
    [[params.about.item]]
-    name = '<a href="ronan.bellemin@etu.univ-grenoble-alpes.fr">Ronan Bellemin</a>'
+    name = '<a href="">Annabelle Narsama</a>'
     position = "MA Student"
-    description = "Intern as lab manager. Will work on several projects related to social thermoregulation and emotions."
-    img = "ronan.png"
-    alt = "Ronan Bellemin"
-    social = [["icon-twitter", "https://twitter.com/BelleminRonan"]]
-
-   [[params.about.item]]
-    name = '<a href="">Anthony Dall’agnola-Bombier</a>'
-    position = "Developer"
-    description = "Anthony Dall’agnola-Bombier is subcontracted by the CORE lab for app development."
-    img = "anthony.png"
-    alt = "Anthony Dall’agnola-Bombier"
+    description = "BA in psychology at Paul-Valéry Montpellier 3 University. Joins the lab for her MA, and will work on men’s sexual behaviors."
+    img = "annabelle.jpg"
+    alt = "Annabelle Narsama"
     social = []
-
+    
+   [[params.about.item]]
+    name = '<a href="">Nathan Vidal</a>'
+    position = "MS Student"
+    description = "BS in Health Biology, joins the lab for his MS (Cogmaster, Paris) and will work on brown adipose tissues and their relation to social thermoregulation."
+    img = "nathan.jpg"
+    alt = "Nathan Vidal"
+    social = []  
+      
+   [[params.about.item]]
+    name = '<a href="">Louise Faure</a>'
+    position = "BS Student"
+    description = "Third year undergraduate student in psychology at UGA and trainee in the team working on social thermoregulation and co-regulation."
+    img = "Louise.jpg"
+    alt = "Louise Faure"
+    social = []
+    
    [[params.about.item]]
     name = '<a href="">Adar Cem Lagap</a>'
     position = "Intern"
@@ -530,40 +558,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ]
 
    [[params.about.item]]
-    name = '<a href="">Miguel Silan</a>'
-    position = "PhD Student"
-    description = "MA in Psychology from the University of the Philippines Diliman. Joins the lab for his PhD to work on measuring relationship quality."
-    img = "miguel.jpeg"
-    alt = "Miguel Silan"
-    social = [
-        ["icon-folder", "https://orcid.org/0000-0002-7480-3661"],
-        ["icon-google", "https://scholar.google.com/citations?user=JAA8K7UAAAAJ&hl=en&oi=ao"],
-        ["icon-twitter", "https://twitter.com/MetaMethodsPH"]
-        ]
-
-   [[params.about.item]]
-    name = '<a href="">Annabelle Narsama</a>'
-    position = "MA Student"
-    description = "BA in psychology at Paul-Valéry Montpellier 3 University. Joins the lab for her MA, and will work on men’s sexual behaviors."
-    img = "annabelle.jpg"
-    alt = "Annabelle Narsama"
+    name = '<a href="">Anthony Dall’agnola-Bombier</a>'
+    position = "Developer"
+    description = "Anthony Dall’agnola-Bombier is subcontracted by the CORE lab for app development."
+    img = "anthony.png"
+    alt = "Anthony Dall’agnola-Bombier"
     social = []
-
-   [[params.about.item]]
-    name = '<a href="">Nathan Vidal</a>'
-    position = "MS Student"
-    description = "BS in Health Biology, joins the lab for his MS (Cogmaster, Paris) and will work on brown adipose tissues and their relation to social thermoregulation."
-    img = "nathan.jpg"
-    alt = "Nathan Vidal"
-    social = []
-  
-   [[params.about.item]]
-    name = '<a href="">Louise Faure</a>'
-    position = "BS Student"
-    description = "Third year undergraduate student in psychology at UGA and trainee in the team working on social thermoregulation and co-regulation."
-    img = "Louise.jpg"
-    alt = "Louise Faure"
-    social = []
+    
   
   
   # Testimonials section
