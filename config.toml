@@ -668,7 +668,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "tops.jpeg"
       alt = "tops"
       
-    [[params.testimonials.item]] 
+      [[params.testimonials.item]] 
       person = '<a href="https://www.projectimplicit.net/nosek/">Brian Nosek</a><br>Center for Open Science'
       img = "nosek.jpeg"
       alt = "nosek"
