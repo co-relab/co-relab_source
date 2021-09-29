@@ -499,19 +499,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "ronan.png"
     alt = "Ronan Bellemin"
     social = [["icon-twitter", "https://twitter.com/BelleminRonan"]]
-    
-   [[params.about.item]]
-    name = '<a href="bastien.paris@etu.univ-grenoble-alpes.fr">Bastien Paris</a>'
-    position = "MA Student"
-    description = "BA in psychology at Université de Bourgogne. Joins the lab for his MA, and will work on loneliness trends across time."
-    img = "bastien.png"
-    alt = "Bastien Paris"
-    social = [
-      ["icon-globe", "https://www.researchgate.net/profile/Bastien-Paris"],
-      ["icon-folder", "https://osf.io/profile/cj3u5"],
-      ["icon-twitter", "https://twitter.com/l3astienParis"],
-      ["icon-github", "https://github.com/parisbastien"]
-    ]
 
    [[params.about.item]]
     name = '<a href="blandine.ribotta@etu.univ-grenoble-alpes.fr">Blandine Ribotta</a>'
