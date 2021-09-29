@@ -43,3 +43,5 @@ If you don't want to keep your stashed files, drop them:
 Note: You need to be authenticated to your GitHub account on your pc or it will give you an error.
 
 Advanced note: Sometimes the site won't deploy on Netlify and you have to debug why that is. In the past, on Netlify under 'build and deploy', 'environment', I've had to add an environment variable "HUGO_VERSION" and specify the same version I built it in (as I write this, hugo 0.58.3). However, this caused problems later when it got out of date (so I removed that environment variable, causing it to use the most recent version of Hugo).
+adding a line
+adding a line
