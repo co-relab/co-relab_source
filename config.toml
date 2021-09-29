@@ -510,7 +510,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
        ["icon-globe", "https://www.researchgate.net/profile/Bastien-Paris"],
        ["icon-folder", "https://osf.io/profile/cj3u5"],
        ["icon-twitter", "https://twitter.com/l3astienParis"],
-       ["icon-github", "https://github.com/parisbastien"]
+       ["icon-github", "https://github.com/l3astienParis"]
        ]
 
    [[params.about.item]]
