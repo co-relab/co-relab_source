@@ -352,53 +352,53 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       subtitle = "5/2019 - We're organizing an EASP conference and Facebook+AdopteUnMec Hackathon in Annecy, France."
       url = "https://www.techandrelationships.org" 
 
-    [[params.work.row]]
-      category = "education.png"
-      img = "osworkshop.png"
-      alt = "Open Science Workshop"
-      title = "Open Science Workshop"
-      subtitle = "4/2019 - We're giving a workshop on the Open Science Framework, and a deep dive on power analysis."
-      url = "https://osf.io/gvkxn/"       
+#    [[params.work.row]]
+#      category = "education.png"
+#      img = "osworkshop.png"
+#      alt = "Open Science Workshop"
+#      title = "Open Science Workshop"
+#      subtitle = "4/2019 - We're giving a workshop on the Open Science Framework, and a deep dive on power analysis."
+#      url = "https://osf.io/gvkxn/"       
 
-    [[params.work.row]]
-      category = "publication.png"
-      img = "ml2.png" # these images should go in themes/hugo-elate-theme/static/images/ and be 470x330 pixels
-      alt = "ml2 image"
-      title = "Many Labs 2"
-      subtitle = "12/2018 - 135 labs around the world replicate 28 studies. Find minimal variation in results depending on the sample."
-      url = "https://journals.sagepub.com/doi/10.1177/2515245918810225" 
+#    [[params.work.row]]
+#      category = "publication.png"
+#      img = "ml2.png" # these images should go in themes/hugo-elate-theme/static/images/ and be 470x330 pixels
+#      alt = "ml2 image"
+#      title = "Many Labs 2"
+#      subtitle = "12/2018 - 135 labs around the world replicate 28 studies. Find minimal variation in results depending on the sample."
+#      url = "https://journals.sagepub.com/doi/10.1177/2515245918810225" 
 
-    [[params.work.row]]
-      category = "preprint.png"
-      img = "straq1.png"
-      alt = "straq-1"
-      title = "STRAQ-1"
-      subtitle = "10/2018 - Developing a scale to measure individual differences in social thermoregulation."
-      url = "https://psyarxiv.com/6b7ne" 
+#    [[params.work.row]]
+#      category = "preprint.png"
+#      img = "straq1.png"
+#      alt = "straq-1"
+#      title = "STRAQ-1"
+#      subtitle = "10/2018 - Developing a scale to measure individual differences in social thermoregulation."
+#      url = "https://psyarxiv.com/6b7ne" 
 
-    [[params.work.row]]
-      category = "education.png"
-      img = "bord_workshop.png"
-      alt = "Solid Science"
-      title = "Solid Science Training Workshop"
-      subtitle = "9/2018 - We organized a workshop training scientists on doing reproducible, open science. Videos and materials available on the OSF."
-      url = "https://osf.io/gvkxn/" 
+#    [[params.work.row]]
+#      category = "education.png"
+#      img = "bord_workshop.png"
+#      alt = "Solid Science"
+#      title = "Solid Science Training Workshop"
+#      subtitle = "9/2018 - We organized a workshop training scientists on doing reproducible, open science. Videos and materials available on the OSF."
+#      url = "https://osf.io/gvkxn/" 
 
-    [[params.work.row]]
-      category = "publication.png"
-      img = "penguins-429128_1920.jpg"
-      alt = "Penguins Image"
-      title = "Human Penguin Project"
-      subtitle = "9/2018 - International collaboration investigating the link between social environment and core body temperature."
-      url = "https://psyarxiv.com/6b7ne" 
+#    [[params.work.row]]
+#      category = "publication.png"
+#      img = "penguins-429128_1920.jpg"
+#      alt = "Penguins Image"
+#      title = "Human Penguin Project"
+#      subtitle = "9/2018 - International collaboration investigating the link between social environment and core body temperature."
+#      url = "https://psyarxiv.com/6b7ne" 
 
-    [[params.work.row]]
-      category = "publication.png"
-      img = "cup-939479_1920.jpg"
-      alt = "Cold Glass Image"
-      title = "Socially Thermoregulated Thinking"
-      subtitle = "8/2018 - Past experiences, and a current manipulation of physical temperature, affect thinking about our loved ones."
-      url = "https://psyarxiv.com/25dmj"
+#    [[params.work.row]]
+#      category = "publication.png"
+#      img = "cup-939479_1920.jpg"
+#      alt = "Cold Glass Image"
+#      title = "Socially Thermoregulated Thinking"
+#      subtitle = "8/2018 - Past experiences, and a current manipulation of physical temperature, affect thinking about our loved ones."
+#      url = "https://psyarxiv.com/25dmj"
 
 #    [[params.work.row]]
 #      category = "publication.png"
