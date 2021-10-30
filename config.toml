@@ -557,13 +557,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-twitter", "https://twitter.com/CemLagap"]
         ]
 
-#   [[params.about.item]]
-#    name = '<a href="">Anthony Dall’agnola-Bombier</a>'
-#    position = "Developer"
-#   description = "Anthony Dall’agnola-Bombier is subcontracted by the CORE lab for app development."
-#   img = "anthony.png"
-#   alt = "Anthony Dall’agnola-Bombier"
-#   social = []
+   [[params.about.item]]
+    name = '<a href="">Anthony Dall’agnola-Bombier</a>'
+    position = "Developer"
+   description = "Anthony Dall’agnola-Bombier is subcontracted by the CORE lab for app development."
+   img = "anthony.png"
+   alt = "Anthony Dall’agnola-Bombier"
+   social = []
     
   
   
