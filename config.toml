@@ -103,7 +103,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     enable = true
     title = "Announcements"
     description = "Here are some recent announcements."
-    footertext = "Here our older announcements: https://corelab-announcement.blogspot.com/."
+    footertext = "Here our older announcements: https://corelab.blog/older-announcement/."
 
     [[params.work.row]]
     category = "announcements.png"
