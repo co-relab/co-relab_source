@@ -201,156 +201,156 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "02/2021 - Hans has been interviewed by embrlabs to talk about him, his work, and embrlabs."
     url = "https://embrlabs.com/blogs/news/a-thermal-connection-a-conversation-with-dr-hans-rocha-ijzerman"
 
-    [[params.work.row]]
-      category = "publication.png"
-      img = "gezelligheid.jpg"
-      alt = "gezelligheid"
-      title = "Insights on social thermoregulation"
-      subtitle = "02/2021 - Hans & Olivier published an article on social thermoregulation, in 'The Inquisitive Mind'."
-      url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
+#    [[params.work.row]]
+#      category = "publication.png"
+#      img = "gezelligheid.jpg"
+#      alt = "gezelligheid"
+#      title = "Insights on social thermoregulation"
+#      subtitle = "02/2021 - Hans & Olivier published an article on social thermoregulation, in 'The Inquisitive Mind'."
+#      url = "https://www.in-mind.org/blog/post/how-to-bring-the-gezelligheid-this-pandemic-winter-into-your-home-0"
 
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "SPSP.jpg"
-      alt = "SPSP"
-      title = "SPSP Presentation"
-      subtitle = "02/2021 - Patrick Forscher is hosting an SPSP free-form Friday titled 'Encouraging team-based science in psychology'"
-      url = "https://i.imgur.com/Zv0wb90.png"
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "SPSP.jpg"
+#      alt = "SPSP"
+#      title = "SPSP Presentation"
+#      subtitle = "02/2021 - Patrick Forscher is hosting an SPSP free-form Friday titled 'Encouraging team-based science in psychology'"
+#      url = "https://i.imgur.com/Zv0wb90.png"
 
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "DeVolkskrant.png"
-      alt = "DeVolkskrant 2"
-      title = "Hans’ expertise called upon"
-      subtitle = "02/2021 - Hans served as a fact checker for science news in the Dutch newspaper 'De Volkskrant'."
-      url = "https://i.imgur.com/k1yDoOo.png"
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "DeVolkskrant.png"
+#      alt = "DeVolkskrant 2"
+#      title = "Hans’ expertise called upon"
+#      subtitle = "02/2021 - Hans served as a fact checker for science news in the Dutch newspaper 'De Volkskrant'."
+#      url = "https://i.imgur.com/k1yDoOo.png"
 
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "DeVolkskrant.png"
-      alt = "DeVolkskrant 1"
-      title = "NHB paper featured in De Volkskrant"
-      subtitle = "02/2021 - IJzerman et al.’s Nature Human Behaviour paper was covered in the Dutch newspaper 'De Volkskrant'."
-      url = "https://i.imgur.com/fVO4rWK.png"
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "DeVolkskrant.png"
+#      alt = "DeVolkskrant 1"
+#      title = "NHB paper featured in De Volkskrant"
+#      subtitle = "02/2021 - IJzerman et al.’s Nature Human Behaviour paper was covered in the Dutch newspaper 'De Volkskrant'."
+#      url = "https://i.imgur.com/fVO4rWK.png"
 
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "heartwarming.jpeg"
-      alt = "Heartwarming"
-      title = "Heartwarming featured in nextbigidea"
-      subtitle = "02/2021 - Hans IJzerman talked to the 'Next Big Idea Club' about his recent book 'Heartwarming'."
-      url = "https://nextbigidea.app.link/Heartwarming"
-
-
-    [[params.work.row]]
-      category = "publication.png"
-      img = "hostile-logo.png"
-      alt = "hostile priming effect"
-      title = "Results of a collaborative Study"
-      subtitle = "02/2021 - We find the 'hostile priming effect' did not replicate across close (n = 2123) and conceptual (n = 2579) replications."
-      url = "https://online.ucpress.edu/collabra/article/7/1/18738/116070/A-Multi-Site-Collaborative-Study-of-the-Hostile"
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "heartwarming.jpeg"
+#      alt = "Heartwarming"
+#      title = "Heartwarming featured in nextbigidea"
+#      subtitle = "02/2021 - Hans IJzerman talked to the 'Next Big Idea Club' about his recent book 'Heartwarming'."
+#      url = "https://nextbigidea.app.link/Heartwarming"
 
 
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "kpcw-logo.png"
-      alt = "KPCW"
-      title = "Heartwarming featured in kpcw"
-      subtitle = "02/2021 - Hans IJzerman has been interviewed on kpcw radio to talk about his recent book 'Heartwarming'."
-      url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
+#    [[params.work.row]]
+#      category = "publication.png"
+#      img = "hostile-logo.png"
+#      alt = "hostile priming effect"
+#      title = "Results of a collaborative Study"
+#      subtitle = "02/2021 - We find the 'hostile priming effect' did not replicate across close (n = 2123) and conceptual (n = 2579) replications."
+#      url = "https://online.ucpress.edu/collabra/article/7/1/18738/116070/A-Multi-Site-Collaborative-Study-of-the-Hostile"
 
 
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "bbc-logo.png"
-      alt = "BBC sounds"
-      title = "Patrick's research featured in bbc"
-      subtitle = "12/2020 - Patrick Forscher talked to the bbc on the efficiency of training in reducing unconscious bias."
-      url = "https://www.bbc.com/news/education-55309923"
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "kpcw-logo.png"
+#      alt = "KPCW"
+#      title = "Heartwarming featured in kpcw"
+#      subtitle = "02/2021 - Hans IJzerman has been interviewed on kpcw radio to talk about his recent book 'Heartwarming'."
+#      url = "https://www.kpcw.org/post/learn-more-about-your-inner-thermostat-hans-rocha-ijzerman"
 
 
-    [[params.work.row]]
-    category = "announcements.png"
-    img = "osf.png"
-    alt = "KLI workshop"
-    title = "KLI Meta-analysis workshop"
-    subtitle = "11/2020 - Patrick & Alessandro taught a workshop on Meta-analysis for the Kurt Lewin Institute."
-    url = "https://osf.io/n4uqa/"
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "bbc-logo.png"
+#      alt = "BBC sounds"
+#      title = "Patrick's research featured in bbc"
+#      subtitle = "12/2020 - Patrick Forscher talked to the bbc on the efficiency of training in reducing unconscious bias."
+#      url = "https://www.bbc.com/news/education-55309923"
 
 
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "SIPS_logo.jpg"
-      alt = "SIPS lab"
-      title = "SIPS Commendation"
-      subtitle = "11/2020 - Our Lab Philosophy and our Research Templates have been awarded with a SIPS Commendation."
-      url = "https://twitter.com/improvingpsych/status/1326175174387961861"
+#    [[params.work.row]]
+#    category = "announcements.png"
+#    img = "osf.png"
+#    alt = "KLI workshop"
+#    title = "KLI Meta-analysis workshop"
+#    subtitle = "11/2020 - Patrick & Alessandro taught a workshop on Meta-analysis for the Kurt Lewin Institute."
+#    url = "https://osf.io/n4uqa/"
+
+
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "SIPS_logo.jpg"
+#      alt = "SIPS lab"
+#      title = "SIPS Commendation"
+#      subtitle = "11/2020 - Our Lab Philosophy and our Research Templates have been awarded with a SIPS Commendation."
+#      url = "https://twitter.com/improvingpsych/status/1326175174387961861"
       
 
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "SIPS.jpg"
-      alt = "SIPS blogpost"
-      title = "SIPS Commendation"
-      subtitle = "11/2020 - Our recent blogpost on African psychology has been awarded a SIPS commendation."
-      url = "https://twitter.com/improvingpsych/status/1325854387726667776"
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "SIPS.jpg"
+#      alt = "SIPS blogpost"
+#      title = "SIPS Commendation"
+#      subtitle = "11/2020 - Our recent blogpost on African psychology has been awarded a SIPS commendation."
+#      url = "https://twitter.com/improvingpsych/status/1325854387726667776"
      
     
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "le monde.jpg"
-      alt = "le monde"
-      title = "Open letter to the (French) public"
-      subtitle = "02/2020 - Society should demand more from scientists: We propose ways to improve the methodological quality of scientific work."
-      url = "https://www.lemonde.fr/sciences/article/2020/02/11/nous-devons-changer-radicalement-la-facon-dont-la-science-fonctionne_6029219_1650684.html" 
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "le monde.jpg"
+#      alt = "le monde"
+#      title = "Open letter to the (French) public"
+#      subtitle = "02/2020 - Society should demand more from scientists: We propose ways to improve the methodological quality of scientific work."
+#      url = "https://www.lemonde.fr/sciences/article/2020/02/11/nous-devons-changer-radicalement-la-facon-dont-la-science-fonctionne_6029219_1650684.html" 
       
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "social_priming.jpg"
-      alt = "social priming"
-      title = "Social priming"
-      subtitle = "01/2020 - After investigators couldn’t repeat key findings, researchers are trying to establish what’s worth saving."
-      url = "https://www.nature.com/articles/d41586-019-03755-2" 
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "social_priming.jpg"
+#      alt = "social priming"
+#      title = "Social priming"
+#      subtitle = "01/2020 - After investigators couldn’t repeat key findings, researchers are trying to establish what’s worth saving."
+#      url = "https://www.nature.com/articles/d41586-019-03755-2" 
       
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "pejuges.jpg"
-      alt = "pejuges"
-      title = "Prejudice and discrimination"
-      subtitle = "01/2020 - Patrick  Forscher consider that this area of research is not yet ready for application in every day live."
-      url = "https://www.revue-horizons.ch/2019/12/05/les-prejuges-menent-ils-toujours-a-la-discrimination/" 
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "pejuges.jpg"
+#      alt = "pejuges"
+#      title = "Prejudice and discrimination"
+#      subtitle = "01/2020 - Patrick  Forscher consider that this area of research is not yet ready for application in every day live."
+#      url = "https://www.revue-horizons.ch/2019/12/05/les-prejuges-menent-ils-toujours-a-la-discrimination/" 
   
-    [[params.work.row]]
-      category = "publication.png"
-      img = "Means joined plot.png" # these images should go in themes/hugo-elate-theme/static/images/ and be 470x330 pixels
-      alt = "Profile of the Alt-Right"
-      title = "A Psychological Profile of the Alt-Right"
-      subtitle = "11/2019 - We find that alt-right people are more motivated by group-based dominance than economic anxiety."
-      url = "https://journals.sagepub.com/doi/10.1177/1745691619868208" 
+#    [[params.work.row]]
+#      category = "publication.png"
+#      img = "Means joined plot.png" # these images should go in themes/hugo-elate-theme/static/images/ and be 470x330 pixels
+#      alt = "Profile of the Alt-Right"
+#      title = "A Psychological Profile of the Alt-Right"
+#      subtitle = "11/2019 - We find that alt-right people are more motivated by group-based dominance than economic anxiety."
+#      url = "https://journals.sagepub.com/doi/10.1177/1745691619868208" 
       
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "Team_rev_web.jpg"
-      alt = "Team Revolution"
-      title = "Team Revolution"
-      subtitle = "10/2019 - Patrick Forscher and Hans IJzerman were involved in a major grant proposal (Synergy) to promote the PSA and team science."
-      url = "https://psysciacc.org/" 
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "Team_rev_web.jpg"
+#      alt = "Team Revolution"
+#      title = "Team Revolution"
+#      subtitle = "10/2019 - Patrick Forscher and Hans IJzerman were involved in a major grant proposal (Synergy) to promote the PSA and team science."
+#      url = "https://psysciacc.org/" 
     
-    [[params.work.row]]
-      category = "announcements.png"
-      img = "philo_update_2019.png"
-      alt = "Workflow Update"
-      title = "Annual Workflow Update"
-      subtitle = "9/2019 - We've released the 2019 update to our lab philosophy/workflow. Key changes: Sprints, CRediT contributorship, code hygeine."
-      url = "https://docs.google.com/document/d/1aZWfCIReB9goSiEQcYQGWj70R0NXfQ0cOWKWa3julcA/edit?usp=sharing" 
+#    [[params.work.row]]
+#      category = "announcements.png"
+#      img = "philo_update_2019.png"
+#      alt = "Workflow Update"
+#      title = "Annual Workflow Update"
+#      subtitle = "9/2019 - We've released the 2019 update to our lab philosophy/workflow. Key changes: Sprints, CRediT contributorship, code hygeine."
+#      url = "https://docs.google.com/document/d/1aZWfCIReB9goSiEQcYQGWj70R0NXfQ0cOWKWa3julcA/edit?usp=sharing" 
 
-    [[params.work.row]]
-      category = "conference.png"
-      img = "annecy.png"
-      alt = "Tech and Relationships"
-      title = "Tech and Relationships Conference"
-      subtitle = "5/2019 - We're organizing an EASP conference and Facebook+AdopteUnMec Hackathon in Annecy, France."
-      url = "https://www.techandrelationships.org" 
+#    [[params.work.row]]
+#      category = "conference.png"
+#      img = "annecy.png"
+#      alt = "Tech and Relationships"
+#      title = "Tech and Relationships Conference"
+#      subtitle = "5/2019 - We're organizing an EASP conference and Facebook+AdopteUnMec Hackathon in Annecy, France."
+#      url = "https://www.techandrelationships.org" 
 
 #    [[params.work.row]]
 #      category = "education.png"
