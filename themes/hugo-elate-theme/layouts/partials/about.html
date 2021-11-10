@@ -1,10 +1,10 @@
 <section id="fh5co-about" data-section="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-13 section-heading text-center">
+			<div class="col-md-12 section-heading text-center">
 				<h2 class="to-animate">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 subtext to-animate">
+					<div class="col-md-10 col-md-offset-2 subtext to-animate">
 						<h3>{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</h3>
 					</div>
 				</div>
@@ -12,7 +12,7 @@
 		</div>
 		<div class="row">
 		{{ range .Site.Params.about.item }}
-			<div class="col-md-4 person-container"><br><br><br> <!-- Added these two br tags to fix formatting bugging out when adding a 6th collaborator -->
+			<div class="col-md-4 person-container"><br><br><br> <!-- Added these three br tags to fix formatting bugging out when adding a 6th collaborator -->
 				<div class="fh5co-person text-center to-animate">
 					<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
 					<h3>{{ .name | markdownify }}</h3>
