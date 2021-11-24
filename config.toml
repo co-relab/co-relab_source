@@ -109,8 +109,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     category = "announcements.png"
     img = "early_career_award.png"
     alt = "Forscher"
-    title = "Patrick nominated for the Early Career Award 2021!"
-    subtitle = "11/2021 - Patrick was nominated for the Early Career Award 2021."
+    title = "Patrick nominated for his work!"
+    subtitle = "11/2021 - Patrick Forscher was shortlisted for the Einstein Early Career Award based on his work at the CORE lab!"
     url = "https://twitter.com/einstein_berlin/status/1462801738419916800?s=21"
 
     [[params.work.row]]
