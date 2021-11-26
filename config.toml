@@ -511,7 +511,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    [[params.about.item]]
     name = '<a href="ronan.bellemin@etu.univ-grenoble-alpes.fr">Ronan Bellemin</a>'
     position = "MA Student"
-    description = "Intern as lab manager. Will work on several projects related to social thermoregulation and emotions."
+    description = "Intern as lab manager. Will work on several projects related to social thermoregulation, emotions, and sexual behaviors."
     img = "ronan.png"
     alt = "Ronan Bellemin"
     social = [["icon-twitter", "https://twitter.com/BelleminRonan"]]
@@ -548,7 +548,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    [[params.about.item]]
     name = '<a href="">Nathan Vidal</a>'
     position = "MS Student"
-    description = "BS in Health Biology, joins the lab for his MS (Cogmaster, Paris) and will work on brown adipose tissues and their relation to social thermoregulation."
+    description = "BS in Health Biology, joins the lab for his MS and will work on brown adipose tissues and their relation to social thermoregulation."
     img = "nathan.jpg"
     alt = "Nathan Vidal"
     social = []  
@@ -564,7 +564,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    [[params.about.item]]
     name = '<a href="">Adar Cem Lagap</a>'
     position = "Intern"
-    description = "BA in Psychology, joins the lab as an intern and studying on close relationships and dynamics."
+    description = "BA in Psychology, joins the lab as an intern and studying close relationships and their differents dynamics."
     img = "adar.jpeg"
     alt = "Adar Cem Lagap"
     social = [
@@ -576,7 +576,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    [[params.about.item]]
     name = '<a href="">Anthony Dall’agnola-Bombier</a>'
     position = "Developer"
-   description = "Anthony Dall’agnola-Bombier is subcontracted by the CORE lab for app development."
+   description = "Anthony Dall’agnola-Bombier is subcontracted by the CORE lab for app development, espacially for the Bio-App."
    img = "anthony.png"
    alt = "Anthony Dall’agnola-Bombier"
    social = []
