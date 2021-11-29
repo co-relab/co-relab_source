@@ -535,7 +535,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "BA in psychology at UGA. Joins the lab for her MA, and will work on the measurement instruments of romantic relationship quality."
     img = "blandine.png"
     alt = "Blandine Ribotta"
-    social = []
+    social = [["icon-globe"]]
     
    [[params.about.item]]
     name = '<a href="">Annabelle Narsama</a>'
@@ -543,7 +543,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "BA in psychology at Paul-Valéry Montpellier 3 University. Joins the lab for her MA, and will work on men’s sexual behaviors."
     img = "annabelle.jpg"
     alt = "Annabelle Narsama"
-    social = []
+    social = [["icon-globe"]]
     
    [[params.about.item]]
     name = '<a href="">Nathan Vidal</a>'
@@ -551,7 +551,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "BS in Health Biology, joins the lab for his MS and will work on brown adipose tissues and their relation to social thermoregulation."
     img = "nathan.jpg"
     alt = "Nathan Vidal"
-    social = []  
+    social = [["icon-globe"]]
       
    [[params.about.item]]
     name = '<a href="">Louise Faure</a>'
@@ -559,7 +559,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Third year undergraduate student in psychology at UGA and trainee in the team working on social thermoregulation and co-regulation."
     img = "Louise.jpg"
     alt = "Louise Faure"
-    social = []
+    social = [["icon-globe"]]
     
    [[params.about.item]]
     name = '<a href="">Adar Cem Lagap</a>'
@@ -579,7 +579,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    description = "Anthony Dall’agnola-Bombier is subcontracted by the CORE lab for app development, espacially for the Bio-App."
    img = "anthony.png"
    alt = "Anthony Dall’agnola-Bombier"
-   social = []
+   social = [["icon-globe"]]
     
   
   
