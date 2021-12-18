@@ -107,6 +107,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
    [[params.work.row]]
     category = "announcements.png"
+    img = "cuffing.png"
+    alt = "cuffing season"
+    title = "Science behind cuffing season"
+    subtitle = "12/2021 - Hans' work on social thermoregulation cited in Insider journal!"
+    url = "https://www.insider.com/science-behind-cuffing-season-why-we-crave-relationships-in-winter-2021-12"
+
+   [[params.work.row]]
+    category = "announcements.png"
     img = "warm.png"
     alt = "Heartwarming"
     title = "Heartwarming covered in a magazine"
@@ -193,13 +201,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "03/2021 - Hans IJzerman talked about his recent book 'Heartwarming' in the online show Pillowtalk."
     url = "https://i.imgur.com/ZpX2kGK.png"
 
-    [[params.work.row]]
-      category = "publication.png"
-      img = "socialthermoregulation.png"
-      alt = "social thermoregulation"
-      title = "Insights on social thermoregulation"
-      subtitle = "03/2021 - Hans published a popular science article on social thermoregulation, in 'Psychology Today'."
-      url = "https://www.psychologytoday.com/us/articles/202103/warming-each-other"
+#    [[params.work.row]]
+#      category = "publication.png"
+#      img = "socialthermoregulation.png"
+#      alt = "social thermoregulation"
+#      title = "Insights on social thermoregulation"
+#      subtitle = "03/2021 - Hans published a popular science article on social thermoregulation, in 'Psychology Today'."
+#      url = "https://www.psychologytoday.com/us/articles/202103/warming-each-other"
 
 #    [[params.work.row]]
 #    category = "publication.png"
