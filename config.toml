@@ -118,7 +118,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "warm.png"
     alt = "Heartwarming"
     title = "Heartwarming covered in a magazine"
-    subtitle = "11/2021 - IJzerman's book - Heartwarming - was covered in Dutch science magazine Quest.afzh hzfe blblblblblblbl"
+    subtitle = "11/2021 - IJzerman's book - Heartwarming - was covered in Dutch science magazine Quest."
     url = "https://www.quest.nl/"
 
    [[params.work.row]]
