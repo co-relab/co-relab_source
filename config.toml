@@ -110,7 +110,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "cuffing.png"
     alt = "cuffing season"
     title = "Science behind cuffing season"
-    subtitle = "12/2021 - Hans' work on social thermoregulation was cited in Insider journal! blblbllblblbl lbllfr gleerlre"
+    subtitle = "12/2021 - Hans' work on social thermoregulation was cited in Insider journal!"
     url = "https://www.insider.com/science-behind-cuffing-season-why-we-crave-relationships-in-winter-2021-12"
 
    [[params.work.row]]
@@ -118,7 +118,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "warm.png"
     alt = "Heartwarming"
     title = "Heartwarming covered in a magazine"
-    subtitle = "11/2021 - IJzerman's book - Heartwarming - was covered in Dutch science magazine Quest. bkk kbkb blblbl znnzxn"
+    subtitle = "11/2021 - IJzerman's book - Heartwarming - was covered in Dutch science magazine Quest."
     url = "https://www.quest.nl/"
 
    [[params.work.row]]
