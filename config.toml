@@ -106,8 +106,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     footertext = "Here our older announcements: https://corelab.blog/older-announcement/."
 
    [[params.work.row]]
-    category = "hans_interview.png"
-    img = "interview.png"
+    category = "announcements.png"
+    img = "hans_interview.png"
     alt = "Hans interview"
     title = "Hans interview"
     subtitle = "01/2022 - Hans Rocha IJzerman was interviewed by De Psycholoog to discuss what inspires him in research."
