@@ -106,6 +106,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     footertext = "Here our older announcements: https://corelab.blog/older-announcement/."
 
    [[params.work.row]]
+    category = "hans_interview.png"
+    img = "interview.png"
+    alt = "Hans interview"
+    title = "Hans interview"
+    subtitle = "01/2022 - Hans Rocha IJzerman was interviewed by De Psycholoog to discuss what inspires him in research."
+    url = "https://www.insider.com/science-behind-cuffing-season-why-we-crave-relationships-in-winter-2021-12"
+
+   [[params.work.row]]
     category = "announcements.png"
     img = "cuffing.png"
     alt = "cuffing season"
@@ -193,13 +201,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "03/2021 - Patrick Forscher taught a workshop on Registered Reports for the Lisbon University Institute."
     url = "https://osf.io/m9bzh/"
 
-    [[params.work.row]]
-    category = "announcements.png"
-    img = "pillowtalk_core.png"
-    alt = "Heartwarming"
-    title = "Heartwarming featured in Pillowtalk"
-    subtitle = "03/2021 - Hans IJzerman talked about his recent book 'Heartwarming' in the online show Pillowtalk."
-    url = "https://i.imgur.com/ZpX2kGK.png"
+#    [[params.work.row]]
+#    category = "announcements.png"
+#    img = "pillowtalk_core.png"
+#    alt = "Heartwarming"
+#    title = "Heartwarming featured in Pillowtalk"
+#    subtitle = "03/2021 - Hans IJzerman talked about his recent book 'Heartwarming' in the online show Pillowtalk."
+#    url = "https://i.imgur.com/ZpX2kGK.png"
 
 #    [[params.work.row]]
 #      category = "publication.png"
