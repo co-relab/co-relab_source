@@ -111,7 +111,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Hans interview"
     title = "Hans interview"
     subtitle = "01/2022 - Hans Rocha IJzerman was interviewed by De Psycholoog to discuss what inspires him in research."
-    url = "https://www.insider.com/science-behind-cuffing-season-why-we-crave-relationships-in-winter-2021-12"
+    url = ""
 
    [[params.work.row]]
     category = "announcements.png"
