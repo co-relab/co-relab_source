@@ -115,30 +115,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
    [[params.work.row]]
     category = "announcements.png"
-    img = "alone together.png"
-    alt = "Hans interviewed for a podcast"
-    title = "Hans interviewed for a podcast"
-    subtitle = "01/2022 - Hans Rocha IJzerman was interviewed about Heartwarming for the Alone Together podcast by Peg Fong."
-    url = "https://apostrophepodcasts.ca/turn-up-the-heat-how-temperature-affects-relationships/"
-
-   [[params.work.row]]
-    category = "announcements.png"
-    img = "alone together.png"
-    alt = "Hans interviewed for a podcast"
-    title = "Hans interviewed for a podcast"
-    subtitle = "01/2022 - Hans Rocha IJzerman was interviewed about Heartwarming for the Alone Together podcast by Peg Fong."
-    url = "https://apostrophepodcasts.ca/turn-up-the-heat-how-temperature-affects-relationships/"
-
-   [[params.work.row]]
-    category = "announcements.png"
-    img = "alone together.png"
-    alt = "Hans interviewed for a podcast"
-    title = "Hans interviewed for a podcast"
-    subtitle = "01/2022 - Hans Rocha IJzerman was interviewed about Heartwarming for the Alone Together podcast by Peg Fong."
-    url = "https://apostrophepodcasts.ca/turn-up-the-heat-how-temperature-affects-relationships/"
-
-   [[params.work.row]]
-    category = "announcements.png"
     img = "hans_interview.png"
     alt = "Interview on career-changing events"
     title = "Interview on career-changing events"
@@ -201,29 +177,29 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "05/2021 - Hans Rocha IJzerman’s book Heartwarming was featured in a recent Radiolab episode!"
     url = "https://podcasts.apple.com/fr/podcast/radiolab/id152249110?l=en&i=1000520639850"
 
-#    [[params.work.row]]
-#    category = "announcements.png"
-#    img = "labphilosophy.png"
-#    alt = "lab philosophy"
-#    title = "Media coverage of our lab philosophy"
-#    subtitle = "05/2021 - Our lab philosophy has been covered in the University newspaper of Free University, Amsterdam."
-#    url = "https://www.advalvas.vu.nl/en/verhalen/stop-being-self-satisfied-talk-about-your-mistakes"
+    [[params.work.row]]
+    category = "announcements.png"
+    img = "labphilosophy.png"
+    alt = "lab philosophy"
+    title = "Media coverage of our lab philosophy"
+    subtitle = "05/2021 - Our lab philosophy has been covered in the University newspaper of Free University, Amsterdam."
+    url = "https://www.advalvas.vu.nl/en/verhalen/stop-being-self-satisfied-talk-about-your-mistakes"
 
-#    [[params.work.row]]
-#    category = "announcements.png"
-#    img = "osf.png"
-#    alt = "KLI workshop"
-#    title = "KLI Exploratory Data Analysis workshop"
-#    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis for the Kurt Lewin Institute."
-#    url = "https://osf.io/8vapw/"
+    [[params.work.row]]
+    category = "announcements.png"
+    img = "osf.png"
+    alt = "KLI workshop"
+    title = "KLI Exploratory Data Analysis workshop"
+    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis for the Kurt Lewin Institute."
+    url = "https://osf.io/8vapw/"
 
-#    [[params.work.row]]
-#    category = "announcements.png"
-#    img = "hbes.jpg"
-#    alt = "HBES"
-#    title = "Heartwarming recommended by HBES"
-#    subtitle = "05/2021 - The Human Behavior & Evolution Society recommended Hans' last book 'Heartwarming'."
-#    url = "https://i.imgur.com/n4p04nF.jpeg"
+    [[params.work.row]]
+    category = "announcements.png"
+    img = "hbes.jpg"
+    alt = "HBES"
+    title = "Heartwarming recommended by HBES"
+    subtitle = "05/2021 - The Human Behavior & Evolution Society recommended Hans' last book 'Heartwarming'."
+    url = "https://i.imgur.com/n4p04nF.jpeg"
 
 #    [[params.work.row]]
 #    category = "announcements.png"
