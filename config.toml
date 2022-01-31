@@ -576,15 +576,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "nathan.jpg"
     alt = "Nathan Vidal"
     social = [["icon-globe"]]
-      
-   [[params.about.item]]
-    name = '<a href="">Louise Faure</a>'
-    position = "BS Student"
-    description = "Third year undergraduate student in psychology at UGA and trainee in the team working on social thermoregulation and co-regulation."
-    img = "Louise.jpg"
-    alt = "Louise Faure"
-    social = [["icon-globe"]]
-    
+
    [[params.about.item]]
     name = '<a href="">Adar Cem Lagap</a>'
     position = "Intern"
