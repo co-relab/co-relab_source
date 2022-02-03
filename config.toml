@@ -608,98 +608,98 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "Friends of the lab"
 
     [[params.testimonials.item]]
-      person = '<a href="https://jamescoan.com/">Jim Coan</a><br> University of Virginia'
+      person = '<a href="https://jamescoan.com/">Jim Coan</a><br>'
       img = "jimcoan.jpeg" 
      alt = "jimcoan" # This is just text that gets displayed if the img file fails to load
 
     [[params.testimonials.item]]
-      person = '<a href="https://cals.arizona.edu/fcs/faculty/emily_butler">Emily Butler</a><br> University of Arizona'
+      person = '<a href="https://cals.arizona.edu/fcs/faculty/emily_butler">Emily Butler</a><br>'
       img = "butler.jpeg"
       alt = "butler"
 
     [[params.testimonials.item]]
-      person = '<a href="https://www.su.se/english/profiles/tamm-1.182300">Tamm</a><br> Stockholm University'
+      person = '<a href="https://www.su.se/english/profiles/tamm-1.182300">Maria Koptjesvakaja-Tamm</a><br>'
       img = "tamm.jpeg"
       alt = "tamm"
 
     [[params.testimonials.item]]
-      person = '<a href="http://julianneholtlunstad.byu.edu/">Holt-Lunstad</a><br> Brigham Young University'
+      person = '<a href="http://julianneholtlunstad.byu.edu/">Julianne Holt-Lunstad</a><br>'
       img = "holtlunstad.jpeg"
       alt = "holtlunstad"
 
     [[params.testimonials.item]]
-      person = '<a href="http://www.ru.nl/english/people/hasselman-f/">Hasselman</a><br> Radboud University'
+      person = '<a href="http://www.ru.nl/english/people/hasselman-f/">Fred Hasselman</a><br>'
       img = "hasselman.jpg"
       alt = "hasselman"
 
     [[params.testimonials.item]]
-      person = '<a href="http://www.kateratliff.com/">Kate Ratliff</a><br> University of Florida'
+      person = '<a href="http://www.kateratliff.com/">Kate Ratliff</a><br>'
       img = "ratliff.jpeg"
       alt = "ratliff"
 
     [[params.testimonials.item]]
-      person = '<a href="https://psysciacc.org/">PSA</a><br> Worldwide Collaboration'
+      person = '<a href="https://psysciacc.org/">Psychological Science Accelerator</a><br>'
       img = "psa.png"
       alt = "psa"
 
     [[params.testimonials.item]]
-      person = '<a href="https://psychology.as.virginia.edu/people/profile/cre2am">Charlie Ebersole</a><br> University of Virginia'
+      person = '<a href="https://psychology.as.virginia.edu/people/profile/cre2am">Charlie Ebersole</a><br>'
       img = "ebersole.jpg"
       alt = "ebersole"
 
     [[params.testimonials.item]]
-      person = '<a href="https://www.tilburguniversity.edu/webwijs/show/j.j.a.denissen.htm">Jaap Denissen</a><br> Tilburg University'
+      person = '<a href="https://www.tilburguniversity.edu/webwijs/show/j.j.a.denissen.htm">Jaap Denissen</a><br>'
       img = "denissen.jpg"
       alt = "denissen"
 
     [[params.testimonials.item]]
-      person = '<a href="http://lindenberg.academiaworks.com/"> Lindenberg</a><br> Groningen university'
+      person = '<a href="http://lindenberg.academiaworks.com/">Sigi Lindenberg</a><br>'
       img = "lindenberg.jpeg"
       alt = "lindenberg"
 
     [[params.testimonials.item]]
-      person = '<a href="https://sites.google.com/site/michelangelovianello/"> Vianello</a><br> University of Padova'
+      person = '<a href="https://sites.google.com/site/michelangelovianello/">Michelangelo Vianello</a><br>'
       img = "vianello.jpeg"
       alt = "vianello"
 
     [[params.testimonials.item]]
-      person = '<a href="https://www.anthro.ucla.edu/faculty/alan-page-fiske">Alan Fiske</a><br> University of California, LA'
+      person = '<a href="https://www.anthro.ucla.edu/faculty/alan-page-fiske">Alan Fiske</a><br>'
       img = "fiske.jpg"
       alt = "fiske"
 
     [[params.testimonials.item]]
-      person = '<a href="http://iropovik.github.io">Ivan Ropovik</a><br>University of Presov'
+      person = '<a href="http://iropovik.github.io">Ivan Ropovik</a><br>'
       img = "ropovik.jpg"
       alt = "ropovik"
       
 # I shortened the description for in-mind -- longer descriptions seem to mess up the formatting in this section      
       [[params.testimonials.item]] 
-      person = '<a href="http://www.in-mind.org">In-Mind</a><br> Popular Psychology Journal'
+      person = '<a href="http://www.in-mind.org">In-Mind Foundation</a><br>'
       img = "inmind.png"
       alt = "inmind"
       
       [[params.testimonials.item]] 
-      person = '<a href="https://research.vu.nl/en/persons/paula-sterkenburg">Sterkenburg</a><br> Amsterdam'
+      person = '<a href="https://research.vu.nl/en/persons/paula-sterkenburg">Paula Sterkenburg</a><br>'
       img = "Paula_Sterkenburg.jpg"
       alt = "sterkenburg"
       
       [[params.testimonials.item]] 
-      person = '<a href="http://www.tilapronk.nl/">Tila Pronk</a><br> Tilburg University'
+      person = '<a href="http://www.tilapronk.nl/">Tila Pronk</a><br>'
       img = "pronk.jpg"
       alt = "pronk"
       
       [[params.testimonials.item]] 
-      person = '<a href="http://english.telhai.ac.il/content/prof-yizhar-lavner">Yizhar Lavner</a><br> Tel Hai College'
+      person = '<a href="http://english.telhai.ac.il/content/prof-yizhar-lavner">Yizhar Lavner</a><br>'
       img = "lavner2.jpg"
       alt = "lavner"
       
       [[params.testimonials.item]] 
-      person = '<a href="http://emotionregulationlab.com/?page_id=41">Mattie Tops</a><br> Vrije Universiteit Amsterdam'
+      person = '<a href="http://emotionregulationlab.com/?page_id=41">Mattie Tops</a><br>'
       img = "tops.jpeg"
       alt = "tops"
       
       [[params.testimonials.item]] 
-      person = '<a href="https://www.projectimplicit.net/nosek/">Brian Nosek</a><br> Center for Open Science'
+      person = '<a href="https://www.projectimplicit.net/nosek/">Brian Nosek</a><br>'
       img = "nosek.jpeg"
       alt = "nosek"
   
