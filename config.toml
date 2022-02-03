@@ -618,7 +618,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       alt = "butler"
 
     [[params.testimonials.item]]
-      person = '<a href="https://www.su.se/english/profiles/tamm-1.182300"> Koptjesvakaja-Tamm</a><br> Stockholm University'
+      person = '<a href="https://www.su.se/english/profiles/tamm-1.182300"> Tamm</a><br> Stockholm University'
       img = "tamm.jpeg"
       alt = "tamm"
 
