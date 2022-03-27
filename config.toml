@@ -518,7 +518,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Adeyemi Adetula"
     social = [
       ["icon-globe", "https://www.lippc2s.fr/person/adetula-adeyemi/"],
-      ["icon-folder", "https://drive.google.com/file/d/1NfQlMEQGfCXOGPCzKzmZVDfbVxFKEHoF/view"]
+      ["icon-folder", "https://drive.google.com/file/d/1NfQlMEQGfCXOGPCzKzmZVDfbVxFKEHoF/view"],
       ["icon-twitter", "https://twitter.com/AdeyemiAdetula1?s=20&t=2ZBgSatsy388e0UJFomRCA"]
     ]   
    
