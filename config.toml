@@ -533,6 +533,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-google", "https://scholar.google.com/citations?user=JAA8K7UAAAAJ&hl=en&oi=ao"],
         ["icon-twitter", "https://twitter.com/MetaMethodsPH"]
         ]
+ 
+ #   [[params.about.item]]
+ #     name = '<a href="">Tetyana Stoianova</a>'
+ #     position = "Visiting Researcher"
+ #     description = "..."
+ #     img = "....png"
+ #     alt = "Tetyana"
+ #     social = [
+ #       [...]
+ #     ]
    
    [[params.about.item]]
     name = '<a href="ronan.bellemin@etu.univ-grenoble-alpes.fr">Ronan Bellemin</a>'
