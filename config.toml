@@ -538,7 +538,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
  #     name = '<a href="">Tetyana Stoianova</a>'
  #     position = "Visiting Researcher"
  #     description = "..."
- #     img = "....png"
+ #     img = "tetyana.png"
  #     alt = "Tetyana"
  #     social = [
  #       [...]
