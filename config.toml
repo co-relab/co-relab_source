@@ -541,7 +541,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "tetyana.png"
       alt = "Tetyana Stoianova"
       social = [
-        ["icon-globe"]
+        ["icon-google", "https://scholar.google.com.ua/citations?user=aQDDGkIAAAAJ&hl=uk"]
       ]
    
    [[params.about.item]]
