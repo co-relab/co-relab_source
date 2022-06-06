@@ -515,7 +515,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     position = "PhD Student"
     description = "M.Sc in Psychology at Nasarawa State University, Nigeria. Joins the lab for his PhD to work on increasing psychology’s generalizability."
     img = "ade.png"
-    alt = "Adeyemi Adetula"
     social = [
       ["icon-globe", "https://www.lippc2s.fr/person/adetula-adeyemi/"],
       ["icon-folder", "https://drive.google.com/file/d/1NfQlMEQGfCXOGPCzKzmZVDfbVxFKEHoF/view"],
@@ -549,7 +548,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     position = "MA Student"
     description = "Intern as lab manager. Will work on several projects related to social thermoregulation, emotions, and sexual behaviors."
     img = "ronan.png"
-    alt = "Ronan Bellemin"
     social = [["icon-twitter", "https://twitter.com/BelleminRonan"]]
   
    [[params.about.item]]
