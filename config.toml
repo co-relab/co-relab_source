@@ -547,7 +547,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    [[params.about.item]]
 name = '<a>Ronan Bellemin</a>'
 position = "Core Lab Manager"
-description = "BA in psychology at UGA. Will work on social thermoregulation and emotions."
+description = "BA in psychology at Université Grenoble Alpes. Will work on social thermoregulation and emotions."
 img = "ronan.png"
 alt = "Ronan Bellemin"
 social = [
