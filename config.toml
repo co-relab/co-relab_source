@@ -556,44 +556,6 @@ social = [
 ["icon-twitter", "https://twitter.com/BelleminRonan"]
 ]
 
-
-   [[params.about.item]]
-    name = '<a href="bastien.paris@etu.univ-grenoble-alpes.fr">Bastien Paris</a>'
-    position = "MA Student"
-    description = "BA in psychology at Université de Bourgogne. Joins the lab for his MA, and will work on loneliness trends across time."
-    img = "bastien.png"
-    alt = "Bastien Paris"
-    social = [
-       ["icon-globe", "https://www.researchgate.net/profile/Bastien-Paris"],
-       ["icon-folder", "https://osf.io/profile/cj3u5"],
-       ["icon-twitter", "https://twitter.com/l3astienParis"],
-       ["icon-github", "https://github.com/l3astienParis"]
-       ]
-
-   [[params.about.item]]
-    name = '<a href="blandine.ribotta@etu.univ-grenoble-alpes.fr">Blandine Ribotta</a>'
-    position = "MA Student"
-    description = "BA in psychology at UGA. Joins the lab for her MA, and will work on the measurement instruments of romantic relationship quality."
-    img = "blandine.png"
-    alt = "Blandine Ribotta"
-    social = [["icon-globe"]]
-    
-   [[params.about.item]]
-    name = '<a href="">Annabelle Narsama</a>'
-    position = "MA Student"
-    description = "BA in psychology at Paul-Valéry Montpellier 3 University. Joins the lab for her MA, and will work on men’s sexual behaviors."
-    img = "annabelle.jpg"
-    alt = "Annabelle Narsama"
-    social = [["icon-globe"]]
-    
-   [[params.about.item]]
-    name = '<a href="">Nathan Vidal</a>'
-    position = "MS Student"
-    description = "BS in Health Biology, joins the lab for his MS and will work on brown adipose tissues and their relation to social thermoregulation."
-    img = "nathan.jpg"
-    alt = "Nathan Vidal"
-    social = [["icon-globe"]]
-
    [[params.about.item]]
     name = '<a href="">Adar Cem Lagap</a>'
     position = "Intern"
