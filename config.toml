@@ -545,16 +545,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ]
       
    [[params.about.item]]
-name = '<a>Ronan Bellemin</a>'
-position = "Core Lab Manager"
-description = "BA in psychology at Université Grenoble Alpes. Will study the relationship between social thermoregulation and emotions."
-img = "ronan.png"
-alt = "Ronan Bellemin"
-social = [
-["icon-google", "https://scholar.google.com/citations?hl=fr&user=rFMUpAEAAAAJ"],
-["icon-folder", "https://osf.io/profile/"],
-["icon-twitter", "https://twitter.com/BelleminRonan"]
-]
+      name = '<a>Juliana Ellameh</a>'
+      position = "Core Lab Manager"
+      description = "BA in psychology at Lebanese University. Will study the relationship between social thermoregulation and emotions."
+      img = "JulianaEllameh.jpeg"
+      alt = "Juliana Ellameh"
+      social = [["icon-globe"]]
+  
 
    [[params.about.item]]
     name = '<a href="">Adar Cem Lagap</a>'
