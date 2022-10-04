@@ -49,7 +49,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "Co-Regulation (CORE) Lab."
     subtitle = 'We study co-regulation in romantic relationships. We study social thermoregulation. We do meta-science. We rely on open science ideals. We collaborate with researchers around the world, but are located at the <a href="https://www.univ-grenoble-alpes.fr">Université Grenoble Alpes</a>.'
  
-  # Intro section
+  # Intro sectio2n
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
@@ -83,7 +83,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = '&bull; Find slides and presentations from our recent Open Science workshop in Bordeaux <a href="https://osf.io/gvkxn/">here</a>.<br>&bull; We sent off three members of the lab who have completed very successful internships: Justin, Armel, and Mehdi. <br>&bull; Hans IJzerman has signed a contract with <a href="https://en.wikipedia.org/wiki/W._W._Norton_%26_Company">WW Norton</a> to write a popular science book on thermoregulation in social relationships<br>&bull; <a href="https://psyarxiv.com/785qu/">Last submitted manuscript</a> was for the Psych Science Accelerator'
     
 # Above description is less tidy than the rest because I hacked it in to the intro. Will try to tidy it later.
-
+2
   [params.intro.video]
     enable = false
     title = "Watch the video."
@@ -103,7 +103,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     enable = true
     title = "Announcements"
     description = "Here are some recent announcements."
-    footertext = "Here our older announcements: https://corelab.blog/older-announcement/."
+    footertext = "Here are our older announcements: https://corelab.blog/older-announcement/."
 
    [[params.work.row]]
     category = "announcements.png"
