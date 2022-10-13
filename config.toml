@@ -105,7 +105,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Here are some recent announcements."
     footertext = "Here are our older announcements: https://corelab.blog/older-announcement/."
 
-   [[params.work.row]]
+    [[params.work.row]]
+    category = "announcements.png"
+    img = "osf-community.jpg"
+    alt = "Celebrating a Global Open Science Community"
+    title = "Celebrating a Global Open Science Community"
+    subtitle = "500,000 Open Science Framework (OSF) Users: Celebrating a Global Open Science Community"
+    url = "https://www.youtube.com/watch?v=udcp3Nuat4w"
+   
+    [[params.work.row]]
     category = "announcements.png"
     img = "alone together.png"
     alt = "Hans interviewed for a podcast"
@@ -193,13 +201,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis for the Kurt Lewin Institute."
     url = "https://osf.io/8vapw/"
 
-    [[params.work.row]]
-    category = "announcements.png"
-    img = "hbes.jpg"
-    alt = "HBES"
-    title = "Heartwarming recommended by HBES"
-    subtitle = "05/2021 - The Human Behavior & Evolution Society recommended Hans' last book 'Heartwarming'."
-    url = "https://i.imgur.com/n4p04nF.jpeg"
+#   [[params.work.row]]
+#    category = "announcements.png"
+#    img = "hbes.jpg"
+#    alt = "HBES"
+#    title = "Heartwarming recommended by HBES"
+#    subtitle = "05/2021 - The Human Behavior & Evolution Society recommended Hans' last book 'Heartwarming'."
+#    url = "https://i.imgur.com/n4p04nF.jpeg"
 
 #    [[params.work.row]]
 #    category = "announcements.png"
