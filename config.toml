@@ -107,6 +107,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
+    img = "climatechange.jpg"
+    alt = "Will the climate crisis affect our sex lives?"
+    title = "Will the climate crisis affect our sex lives?"
+    subtitle = "Global warming is having an impact on every aspect of our lives – including the way we have sex"
+    url = "https://www.dazeddigital.com/life-culture/article/56698/1/how-will-the-climate-crisis-affect-our-sex-lives-global-warming"
+    
+    [[params.work.row]]
+    category = "announcements.png"
     img = "osf-community.jpg"
     alt = "Celebrating a Global Open Science Community"
     title = "Celebrating a Global Open Science Community"
@@ -193,13 +201,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "05/2021 - Our lab philosophy has been covered in the University newspaper of Free University, Amsterdam."
     url = "https://www.advalvas.vu.nl/en/verhalen/stop-being-self-satisfied-talk-about-your-mistakes"
 
-    [[params.work.row]]
-    category = "announcements.png"
-    img = "osf.png"
-    alt = "KLI workshop"
-    title = "KLI Exploratory Data Analysis workshop"
-    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis for the Kurt Lewin Institute."
-    url = "https://osf.io/8vapw/"
+#    [[params.work.row]]
+#    category = "announcements.png"
+#    img = "osf.png"
+#    alt = "KLI workshop"
+#    title = "KLI Exploratory Data Analysis workshop"
+#    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis for the Kurt Lewin Institute."
+#    url = "https://osf.io/8vapw/"
 
 #   [[params.work.row]]
 #    category = "announcements.png"
