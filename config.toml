@@ -107,7 +107,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
-    img = "smalleffects.jpg"
+    img = "smalleffects.jpeg"
     alt = "A Reply to Götz et al. (2022)"
     title = "A Reply to Götz et al. (2022)"
     subtitle = "Are Small Effects the Indispensable Foundation for a Cumulative Psychological Science?"
