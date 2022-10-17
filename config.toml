@@ -116,8 +116,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.work.row]]
     category = "announcements.png"
     img = "climatechange.jpg"
-    alt = "The climate crisis's effect on sex life"
-    title = "The climate crisis's effect on sex life"
+    alt = "How will the climate crisis affect our sex lives?"
+    title = "How will the climate crisis affect our sex lives?"
     subtitle = "Global warming is having an impact on every aspect of our lives – including the way we have sex"
     url = "https://www.dazeddigital.com/life-culture/article/56698/1/how-will-the-climate-crisis-affect-our-sex-lives-global-warming"
     
