@@ -111,7 +111,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Adeyemi interviewed for a podcast"
     title = "Adeyemi interviewed for a podcast"
     subtitle = "Adeyemi Adetula was interviewed about the Manylabs Africa Project by bjks podcast"
-    url = https://bjks.buzzsprout.com/1390924/11376718-63-adeyemi-adetula-manylabs-africa-psychology-should-generalise-from-africa-and-multicultural-collaborations
+    url = "https://bjks.buzzsprout.com/1390924/11376718-63-adeyemi-adetula-manylabs-africa-psychology-should-generalise-from-africa-and-multicultural-collaborations"
     
     [[params.work.row]]
     category = "announcements.png"
