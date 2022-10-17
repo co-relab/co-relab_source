@@ -107,6 +107,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
+    img = "smalleffects.jpg"
+    alt = "A Reply to Götz et al. (2022)"
+    title = "A Reply to Götz et al. (2022)"
+    subtitle = "Are Small Effects the Indispensable Foundation for a Cumulative Psychological Science?"
+    url = "https://pubmed.ncbi.nlm.nih.gov/36126652/"
+    
+   [[params.work.row]]
+    category = "announcements.png"
+    img = "bigteam.jpg"
+    alt = "The Benefits, Barriers, and Risks of Big-Team Science"
+    title = "The Benefits, Barriers, and Risks of Big-Team Science"
+    subtitle = "Study published on the challenges that psychology faces and how big team science has the potential to induce great progress in psychology"
+    url = "https://psyarxiv.com/2mdxh/"
+    
+    [[params.work.row]]
+    category = "announcements.png"
     img = "bjkspodcast.jpg"
     alt = "Adeyemi interviewed for a podcast"
     title = "Adeyemi interviewed for a podcast"
@@ -185,21 +201,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "05/2021 - Students of our university replicated and extended the work of Georgiou et al. (2020) on COVID-19-related conspiracy beliefs."
     url = "https://psyarxiv.com/t62s7/"
 
-    [[params.work.row]]
-    category = "announcements.png"
-    img = "nrcnl.png"
-    alt = "nrcnl"
-    title = "Heartwarming featured in NRC"
-    subtitle = "05/2021 - Hans Rocha IJzerman’s book Heartwarming was featured in a recent NRC article!"
-    url = "https://www.nrc.nl/nieuws/2021/05/16/kou-doet-je-denken-aan-je-geliefde-a4043705"
+#   [[params.work.row]]
+#   category = "announcements.png"
+#   img = "nrcnl.png"
+#   alt = "nrcnl"
+#   title = "Heartwarming featured in NRC"
+#   subtitle = "05/2021 - Hans Rocha IJzerman’s book Heartwarming was featured in a recent NRC article!"
+#   url = "https://www.nrc.nl/nieuws/2021/05/16/kou-doet-je-denken-aan-je-geliefde-a4043705"
 
-    [[params.work.row]]
-    category = "announcements.png"
-    img = "radiolab.png"
-    alt = "radiolab"
-    title = "Heartwarming featured in Radiolab"
-    subtitle = "05/2021 - Hans Rocha IJzerman’s book Heartwarming was featured in a recent Radiolab episode!"
-    url = "https://podcasts.apple.com/fr/podcast/radiolab/id152249110?l=en&i=1000520639850"
+#   [[params.work.row]]
+#   category = "announcements.png"
+#   img = "radiolab.png"
+#   alt = "radiolab"
+#   title = "Heartwarming featured in Radiolab"
+#   subtitle = "05/2021 - Hans Rocha IJzerman’s book Heartwarming was featured in a recent Radiolab episode!"
+#   url = "https://podcasts.apple.com/fr/podcast/radiolab/id152249110?l=en&i=1000520639850"
 
 #    [[params.work.row]]
 #    category = "announcements.png"
