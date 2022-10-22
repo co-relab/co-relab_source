@@ -225,13 +225,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #    subtitle = "05/2021 - Our lab philosophy has been covered in the University newspaper of Free University, Amsterdam."
 #    url = "https://www.advalvas.vu.nl/en/verhalen/stop-being-self-satisfied-talk-about-your-mistakes"
 
-     [[params.work.row]]
-     category = "announcements.png"
-     img = "osf.png"
-     alt = "KLI workshop"
-     title = "KLI Exploratory Data Analysis workshop"
-     subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis for the Kurt Lewin Institute."
-     url = "https://osf.io/8vapw/"
+#    [[params.work.row]]
+#    category = "announcements.png"
+#    img = "osf.png"
+#    alt = "KLI workshop"
+#    title = "KLI Exploratory Data Analysis workshop"
+#    subtitle = "05/2021 - Anna & Olivier taught a workshop on Exploratory Data Analysis for the Kurt Lewin Institute."
+#    url = "https://osf.io/8vapw/"
 
 #   [[params.work.row]]
 #    category = "announcements.png"
