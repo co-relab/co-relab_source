@@ -575,8 +575,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-google", "https://scholar.google.com/citations?user=JAA8K7UAAAAJ&hl=en&oi=ao"],
         ["icon-twitter", "https://twitter.com/MetaMethodsPH"]
         ]
- 
-    [[params.about.item]]
+        
+   [[params.about.item]]
+    name = '<a href="">Maria Goncharova</a>'
+    position = "PhD Student"
+    description = "MA in Psychology from the University of Warsaw, Poland joins the lab for her PhD to work on the topics of loneliness, social isolation and psychosis among Ukrainian refugees"
+    img = "maria.jpg"
+    alt = "Maria Goncharova"
+    social = [["icon-globe"]]    
+    
+   [[params.about.item]]
       name = '<a href="">Tetyana Stoianova</a>'
       position = "Visiting Researcher"
       description = "PhD in law; Associate Professor at Odessa Academy of Law. Visiting researcher at the lab. Will work on loneliness and domestic violence."
