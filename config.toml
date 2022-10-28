@@ -535,6 +535,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       alt = "Alessandro"
       social = [
         ["icon-globe", "https://www.researchgate.net/profile/Alessandro_Sparacio"]
+        ["icon-linkedin", "https://www.linkedin.com/in/alessandro-sparacio-451473112/"],
+        ["icon-twitter", "https://twitter.com/Alessan09558632"]
       ]
 
    [[params.about.item]]
