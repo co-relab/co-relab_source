@@ -576,13 +576,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-twitter", "https://twitter.com/MetaMethodsPH"]
         ]
         
-   [[params.about.item]]
-    name = '<a href="">Maria Goncharova</a>'
-    position = "PhD Student"
-    description = "MA in Psychology from the University of Warsaw, Poland joins the lab for her PhD to work on the topics of loneliness, social isolation and psychosis among Ukrainian refugees"
-    img = "maria.jpg"
-    alt = "Maria Goncharova"
-    social = [["icon-globe"]]    
+ #  [[params.about.item]]
+ #   name = '<a href="">Maria Goncharova</a>'
+ #   position = "PhD Student"
+ #   description = "MA in Psychology from the University of Warsaw, Poland joins the lab for her PhD to work on the topics of loneliness, social isolation and psychosis among Ukrainian refugees"
+ #   img = "maria.jpg"
+ #   alt = "Maria Goncharova"
+ #   social = [["icon-globe"]]    
     
    [[params.about.item]]
       name = '<a href="">Tetyana Stoianova</a>'
