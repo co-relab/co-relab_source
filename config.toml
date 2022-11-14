@@ -142,7 +142,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "osf-community.jpg"
     alt = "Celebrating a Global Open Science Community"
     title = "Celebrating a Global Open Science Community"
-    subtitle = "10/2022 - 500,000 Open Science Framework (OSF) Users: Celebrating a Global Open Science Community."
+    subtitle = "10/2022 - 500,000 Open Science Framework Users: Celebrating a Global Open Science Community."
     url = "https://www.youtube.com/watch?v=udcp3Nuat4w"
    
     [[params.work.row]]
