@@ -118,7 +118,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "bigteam.jpg"
     alt = "The Benefits, Barriers, and Risks of Big-Team Science"
     title = "The Benefits, Barriers, and Risks of Big-Team Science"
-    subtitle = "10/2022 - On the challenges that psychology faces and how big team science has the potential to induce great progress in psychology"
+    subtitle = "10/2022 - On the challenges that psychology faces and how big team science has the potential to induce great progress in psychology."
     url = "https://psyarxiv.com/2mdxh/"
     
     [[params.work.row]]
@@ -126,7 +126,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "bjkspodcast.jpg"
     alt = "Adeyemi interviewed for a podcast"
     title = "Adeyemi interviewed for a podcast"
-    subtitle = "10/2022 - Adeyemi Adetula was interviewed about the Manylabs Africa Project by bjks podcast"
+    subtitle = "10/2022 - Adeyemi Adetula was interviewed about the Manylabs Africa Project by bjks podcast."
     url = "https://bjks.buzzsprout.com/1390924/11376718-63-adeyemi-adetula-manylabs-africa-psychology-should-generalise-from-africa-and-multicultural-collaborations"
     
     [[params.work.row]]
@@ -134,7 +134,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "climatechange.jpg"
     alt = "How will the climate crisis affect our sex lives?"
     title = "How will the climate crisis affect our sex lives?"
-    subtitle = "10/2022 - Global warming is having an impact on every aspect of our lives – including the way we have sex"
+    subtitle = "10/2022 - Global warming is having an impact on every aspect of our lives – including the way we have sex."
     url = "https://www.dazeddigital.com/life-culture/article/56698/1/how-will-the-climate-crisis-affect-our-sex-lives-global-warming"
     
     [[params.work.row]]
@@ -142,7 +142,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "osf-community.jpg"
     alt = "Celebrating a Global Open Science Community"
     title = "Celebrating a Global Open Science Community"
-    subtitle = "10/2022 - 500,000 Open Science Framework (OSF) Users: Celebrating a Global Open Science Community"
+    subtitle = "10/2022 - 500,000 Open Science Framework (OSF) Users: Celebrating a Global Open Science Community."
     url = "https://www.youtube.com/watch?v=udcp3Nuat4w"
    
     [[params.work.row]]
