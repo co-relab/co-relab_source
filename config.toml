@@ -614,6 +614,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-folder", "https://osf.io/eb67a/"],
         ["icon-twitter", "https://twitter.com/CemLagap"]
         ]
+        
+  [[params.about.item]]
+    name = '<a href="">Catherine Pinatelle</a>'
+    position = "Intern"
+   description = "BSc student in Psychology from Sorbonne University. Joins the lab as an intern to study relationships."
+   img = "capi.jpg"
+   alt = "Catherine Pinatelle"
+   social = [["icon-globe"]]
 
    [[params.about.item]]
     name = '<a href="">Anthony Dall’agnola-Bombier</a>'
