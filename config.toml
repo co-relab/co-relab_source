@@ -615,6 +615,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-twitter", "https://twitter.com/CemLagap"]
         ]
         
+    [[params.about.item]]
+    name = '<a href="">Ronan Bellemin</a>'
+    position = "MA student"
+    description = "Ba in psychology at UGA. Will study emotions across different relationships via skin body temperature."
+    img = "ronan.png"
+    alt = "Ronan Bellemin"
+    social = [["icon-globe"]]
+        
   [[params.about.item]]
    name = '<a href="">Catherine Pinatelle</a>'
    position = "Intern"
@@ -630,15 +638,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "xuanning.jpg"
     alt = "Xuanning Zhang"
     social = [["icon-globe"]]
-    
-    [[params.about.item]]
-    name = '<a href="">Ronan Bellemin</a>'
-    position = "MA student"
-    description = "Ba in psychology at UGA. Will study emotions across different relationships via skin body temperature."
-    img = "ronan.png"
-    alt = "Ronan Bellemin"
-    social = [["icon-globe"]]
-    
+   
    [[params.about.item]]
     name = '<a href="">Anthony Dall’agnola-Bombier</a>'
     position = "Developer"
