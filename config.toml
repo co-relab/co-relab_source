@@ -107,13 +107,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
+    img = "radiofrance.jpg"
+    alt = "Interview on relationship quality with France Bleu"
+    title = "Interview on relationship quality with France Bleu"
+    subtitle = "02/2023 - Hans Rocha IJzerman was interviewed by France bleu Isère to discuss relationship quality."
+    url = "https://www.francebleu.fr/infos/societe/saint-valentin-qu-est-ce-qu-une-relation-amoureuse-de-qualite-l-universite-de-grenoble-tente-de-repondre-9472456"
+    
+    [[params.work.row]]
+    category = "announcements.png"
     img = "smalleffects.jpeg"
     alt = "A Reply to Götz et al. (2022)"
     title = "A Reply to Götz et al. (2022)"
     subtitle = "10/2022 - Are Small Effects the Indispensable Foundation for a Cumulative Psychological Science?"
     url = "https://pubmed.ncbi.nlm.nih.gov/36126652/"
-    
-   [[params.work.row]]
+     
+    [[params.work.row]]
     category = "announcements.png"
     img = "bigteam.jpg"
     alt = "The Benefits, Barriers, and Risks of Big-Team Science"
@@ -193,13 +201,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "09/2021 - Alessandro Sparacio has just submitted his first paper and preprint: A pre-registered meta-analysis on stress regulation."
     url = "https://psyarxiv.com/zpw28/"
 
-    [[params.work.row]]
-    category = "announcements.png"
-    img = "georgiou.png"
-    alt = "georgiou"
-    title = "Replication of Georgiou et al. (2020)"
-    subtitle = "05/2021 - Students of our university replicated and extended the work of Georgiou et al. (2020) on COVID-19-related conspiracy beliefs."
-    url = "https://psyarxiv.com/t62s7/"
+#   [[params.work.row]]
+#   category = "announcements.png"
+#   img = "georgiou.png"
+#   alt = "georgiou"
+#   title = "Replication of Georgiou et al. (2020)"
+#   subtitle = "05/2021 - Students of our university replicated and extended the work of Georgiou et al. (2020) on COVID-19-related conspiracy beliefs."
+#   url = "https://psyarxiv.com/t62s7/"
 
 #   [[params.work.row]]
 #   category = "announcements.png"
