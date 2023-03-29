@@ -912,8 +912,9 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.8);
 }
 #fh5co-work .fh5co-project-item {
-  display: block;
+  display: inline-block;
   width: 100%;
+  height :420px;
   position: relative;
   top: 0;
   background: #fff;
@@ -935,6 +936,20 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+ /*****new line testing****finally not used, changes realized by fixing the item height*************
+#fh5co-work .fh5co-project-item img1 {
+  max-width: 100%;
+  height: 120px;
+  overflow : hidden;
+  /*height: 140px;*/
+  /*****new line testing*
+  z-index: 8;
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+ ****new line testing*/
 #fh5co-work .fh5co-project-item .fh5co-text {
   padding: 10px 20px;
 }
