@@ -107,6 +107,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
+    img = "ade_spsp.png"
+    alt = "SPSP Member Spotlight: Adeyemi Adetula"
+    title = "SPSP Member Spotlight: Adeyemi Adetula"
+    subtitle = "05/2023 - "Adeyemi Adetula was interviewed by SPSP to discuss his work on increasing the generalizability of psychology with a focus on Africa."
+    url = "https://spsp.org/news/member-spotlights/adeyemi-adetula?_zs=eA7eX&_zl=auUW3"
+
+    [[params.work.row]]
+    category = "announcements.png"
     img = "radiofrance.jpg"
     alt = "Interview on relationship quality with France Bleu"
     title = "Interview on relationship quality with France Bleu"
@@ -193,13 +201,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "11/2021 - Patrick Forscher was shortlisted for the Einstein Early Career Award based on his work at the CORE lab!"
     url = "https://twitter.com/einstein_berlin/status/1462801738419916800?s=21"
 
-    [[params.work.row]]
-    category = "announcements.png"
-    img = "Alessandro_meta_analysis.png"
-    alt = "Sparacio"
-    title = "New meta-analysis on stress regulation!"
-    subtitle = "09/2021 - Alessandro Sparacio has just submitted his first paper and preprint: A pre-registered meta-analysis on stress regulation."
-    url = "https://psyarxiv.com/zpw28/"
+#   [[params.work.row]]
+#   category = "announcements.png"
+#   img = "Alessandro_meta_analysis.png"
+#   alt = "Sparacio"
+#   title = "New meta-analysis on stress regulation!"
+#   subtitle = "09/2021 - Alessandro Sparacio has just submitted his first paper and preprint: A pre-registered meta-analysis on stress regulation."
+#   url = "https://psyarxiv.com/zpw28/"
 
 #   [[params.work.row]]
 #   category = "announcements.png"
