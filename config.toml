@@ -110,7 +110,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img = "ade_spsp.png"
     alt = "SPSP Member Spotlight: Adeyemi Adetula"
     title = "SPSP Member Spotlight: Adeyemi Adetula"
-    subtitle = "05/2023 - "Adeyemi was interviewed by SPSP to discuss his work on increasing the generalizability of psychology with a focus on Africa."
+    subtitle = "05/2023 - Adeyemi Adetula was interviewed by SPSP to discuss his work on increasing the generalizability of psychology with a focus on Africa."
     url = "https://spsp.org/news/member-spotlights/adeyemi-adetula?_zs=eA7eX&_zl=auUW3"
 
     [[params.work.row]]
