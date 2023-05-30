@@ -107,6 +107,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.work.row]]
     category = "announcements.png"
+    img = "elife.jpg"
+    alt = "Point of View: Beware ‘persuasive communication devices’ when writing and reading scientific articles"
+    title = "Point of View: Beware ‘persuasive communication devices’ when writing and reading scientific articles"
+    subtitle = "05/2023 - Hans IJzerman et al. encourage writers, reviewers, and editors to consider the (mis)use of persuasive communication techniques in academic writing in this brief OpenAccess paper published in eLife."
+    url = "https://elifesciences.org/articles/88654"
+    
+    [[params.work.row]]
+    category = "announcements.png"
     img = "ade_spsp.png"
     alt = "SPSP Member Spotlight: Adeyemi Adetula"
     title = "SPSP Member Spotlight: Adeyemi Adetula"
@@ -193,13 +201,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = "11/2021 - Hans IJzerman's book - Heartwarming - was covered in Dutch science magazine Quest. If intereseted, check it out."
     url = "https://www.quest.nl/"
 
-   [[params.work.row]]
-    category = "announcements.png"
-    img = "early_career_award.png"
-    alt = "Forscher"
-    title = "Patrick nominated for his work!"
-    subtitle = "11/2021 - Patrick Forscher was shortlisted for the Einstein Early Career Award based on his work at the CORE lab!"
-    url = "https://twitter.com/einstein_berlin/status/1462801738419916800?s=21"
+#   [[params.work.row]]
+#   category = "announcements.png"
+#   img = "early_career_award.png"
+#   alt = "Forscher"
+#   title = "Patrick nominated for his work!"
+#   subtitle = "11/2021 - Patrick Forscher was shortlisted for the Einstein Early Career Award based on his work at the CORE lab!"
+#   url = "https://twitter.com/einstein_berlin/status/1462801738419916800?s=21"
 
 #   [[params.work.row]]
 #   category = "announcements.png"
